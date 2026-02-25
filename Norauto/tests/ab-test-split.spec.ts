@@ -11,11 +11,10 @@ import * as path from 'path';
 const TOTAL_ITERATIONS = parseInt(process.env.TOTAL_ITERATIONS || '200', 10);
 
 /**
- * URL d'entrée qui déclenche l'A/B test.
+ * URL d'entrée qui déclenche l'A/B test (Google Ads click URL).
  * Le système redirige vers lp.norauto.es ou www.norauto.es.
- * TODO: Remplacer par l'URL fournie par l'équipe métier.
  */
-const TEST_URL = process.env.TEST_URL || 'https://www.norauto.es/';
+const TEST_URL = process.env.TEST_URL || 'https://www.google.com/aclk?sa=L&ai=DChsSEwjal8z2rPSSAxUoGQYAHZlRLGEYACICCAEQEBoCd3M&ae=2&co=1&ase=2&gclid=CjwKCAiA2PrMBhA4EiwAwpHyCyTYypFr6AsJOlWoYvWcV7AlzfuA2ad-5WqAVSubmsEP-_ZzTVXRMRoCnTIQAvD_BwE&cce=2&category=acrcp_v1_71&sig=AOD64_2MJAd4FNF-2Le9cOWevXwPRXVb3A&ctype=5&q=&nis=4&ved=2ahUKEwjuh8T2rPSSAxUPNvsDHQETB5EQ9aACKAB6BAgdEGU&adurl=';
 
 const EXPECTED_LP_PROPORTION = 0.5;
 
