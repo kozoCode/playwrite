@@ -8,6 +8,9 @@ export interface IterationResult {
   loadTime: number;
   hitUrl?: string;
   browser?: string;
+  variant?: 'lp' | 'www' | 'unknown';
+  finalUrl?: string;
+  evar157?: string;
 }
 
 export interface TestResults {
@@ -80,9 +83,9 @@ export class ResultsReporter {
     const filename = `norauto-es-aid-${timestamp}.csv`;
     const filepath = path.join(resultsDir, filename);
 
-    const header = 'iteration,passed,aid,loadTime,browser';
+    const header = 'iteration,passed,aid,loadTime,browser,variant,finalUrl,evar157';
     const rows = stats.results.map(r =>
-      `${r.iteration},${r.passed},${r.aid || ''},${r.loadTime},${r.browser || ''}`
+      `${r.iteration},${r.passed},${r.aid || ''},${r.loadTime},${r.browser || ''},${r.variant || ''},${r.finalUrl || ''},${r.evar157 || ''}`
     );
     const csvContent = [header, ...rows].join('\n');
 

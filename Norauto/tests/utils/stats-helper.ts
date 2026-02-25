@@ -53,6 +53,29 @@ export class StatsHelper {
     return aid !== undefined && aid !== null && aid !== '';
   }
 
+  extractEvar157(hit: StatsHit | undefined): string | undefined {
+    try {
+      return hit?.body?.events?.[0]?.xdm?._experience?.analytics?.customDimensions?.eVars?.eVar157;
+    } catch {
+      return undefined;
+    }
+  }
+
+  extractCustomDimensions(hit: StatsHit | undefined): { eVars?: Record<string, string>; props?: Record<string, string> } {
+    try {
+      const dims = hit?.body?.events?.[0]?.xdm?._experience?.analytics?.customDimensions;
+      return { eVars: dims?.eVars, props: dims?.props };
+    } catch {
+      return { eVars: undefined, props: undefined };
+    }
+  }
+
+  getHitWithDimensions(): StatsHit | undefined {
+    return this.hits.find(
+      (hit) => hit.body?.events?.[0]?.xdm?._experience?.analytics?.customDimensions
+    );
+  }
+
   clearHits(): void {
     this.hits = [];
   }
