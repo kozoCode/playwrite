@@ -1,0 +1,1494 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - link [ref=e7]:
+      - /url: https://www.carter-cash.com/pieces-auto?zac=TROTR149045FR
+      - paragraph [ref=e9]: Dès 99€ d'achats, profitez de la livraison OFFERTE* à domicile ou en point relais >
+    - link "Indépendamment de notre volonté, les délais de livraison peuvent être rallongés en raison des récentes conditions climatiques." [ref=e12]:
+      - /url: https://carter-cashsupport.zendesk.com/hc/fr/
+      - paragraph [ref=e14]: Indépendamment de notre volonté, les délais de livraison peuvent être rallongés en raison des récentes conditions climatiques.
+    - link [ref=e17]:
+      - /url: https://www.carter-cash.com/pieces-auto?zac=TROTR149045FR
+      - paragraph [ref=e19]: Dès 99€ d'achats, profitez de la livraison OFFERTE* à domicile ou en point relais >
+    - link [ref=e22]:
+      - /url: https://carter-cashsupport.zendesk.com/hc/fr/
+      - paragraph [ref=e24]: Indépendamment de notre volonté, les délais de livraison peuvent être rallongés en raison des récentes conditions climatiques.
+    - link [ref=e27]:
+      - /url: https://www.carter-cash.com/pieces-auto?zac=TROTR149045FR
+      - paragraph [ref=e29]: Dès 99€ d'achats, profitez de la livraison OFFERTE* à domicile ou en point relais >
+  - banner [ref=e30]:
+    - generic [ref=e33]:
+      - link "Carter-Cash" [ref=e35]:
+        - /url: /
+        - img "Carter-Cash" [ref=e36]
+      - generic [ref=e37]:
+        - link "Mon magasin" [ref=e39]:
+          - /url: " /magasins/ "
+          - generic [ref=e40]: Mon magasin
+        - button "Ma voiture" [ref=e43] [cursor=pointer]:
+          - generic [ref=e44]: Ma voiture
+        - link "Mon compte" [ref=e45]:
+          - /url: /compte/
+          - generic [ref=e46]: Mon compte
+        - button "Mon panier" [ref=e47] [cursor=pointer]:
+          - generic [ref=e48]: Mon panier
+      - generic [ref=e50]:
+        - textbox "Rechercher un produit, une référence..." [ref=e52] [cursor=pointer]
+        - button [ref=e53] [cursor=pointer]:
+          - generic [ref=e54]: 
+    - list [ref=e58]:
+      - listitem [ref=e59]:
+        - link "PNEUS" [ref=e60]:
+          - /url: /pneus?zac=MENB0177047FR
+      - listitem [ref=e61]:
+        - link "PIECES AUTO" [ref=e62]:
+          - /url: /pieces-auto?zac=MENB0212908FR
+      - listitem [ref=e63]:
+        - link "HUILES" [ref=e64]:
+          - /url: /pieces-auto/c/huiles-lubrifiants/huile-moteur?zac=MENB0307691FR
+      - listitem [ref=e65]:
+        - link "FREINAGE" [ref=e66]:
+          - /url: /pieces-auto/c/freinage?zac=MENB0468669FR
+      - listitem [ref=e67]:
+        - link "BATTERIE" [ref=e68]:
+          - /url: /pieces-auto/c/demarrage-charge/batterie?zac=MENB0565955FR
+      - listitem [ref=e69]:
+        - link "ACCESSOIRES - OUTILLAGE" [ref=e70]:
+          - /url: /accessoires?zac=MENB0627979FR
+      - listitem [ref=e71]:
+        - link "CHAÎNES - CHAUSSETTES NEIGE" [ref=e72]:
+          - /url: https://www.carter-cash.com/accessoires/accessoires-roue-pneu
+      - listitem [ref=e73]:
+        - link "NOS SERVICES" [ref=e74]:
+          - /url: /services-ateliers?zac=MENB0800066FR
+  - generic [ref=e75]:
+    - list [ref=e77]:
+      - listitem [ref=e78]:
+        - link "Accueil" [ref=e79]:
+          - /url: https://www.carter-cash.com/
+      - listitem [ref=e81]:
+        - link "Pièces auto" [ref=e82]:
+          - /url: https://www.carter-cash.com/pieces-auto/
+      - listitem [ref=e84]:
+        - link "Huiles, liquides et lubrifiants" [ref=e85]:
+          - /url: https://www.carter-cash.com/pieces-auto/c/huiles-lubrifiants
+      - listitem [ref=e87]:
+        - generic [ref=e88]: Huile moteur
+    - generic [ref=e89]:
+      - generic [ref=e91]:
+        - heading "Huile moteur" [level=1] [ref=e92]
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - img "tire" [ref=e95]
+            - text: Choisir mon véhicule
+          - generic [ref=e96]:
+            - generic [ref=e97]: Renseignez votre plaque d'immatriculation
+            - generic [ref=e98]:
+              - textbox "Veuillez renseigner ce champ." [ref=e100] [cursor=pointer]:
+                - /placeholder: AB-123-CD
+              - button "Rechercher" [ref=e102] [cursor=pointer]
+            - link "Ou sélectionnez votre véhicule" [ref=e103]:
+              - /url: /pieces-auto/
+          - text: "* * *"
+          - paragraph [ref=e104]:
+            - text: Votre numéro de plaque d'immatriculation est collecté afin d'afficher les produits compatibles avec votre véhicule.
+            - text: Pour ce faire, Carter-Cash transmet ce numéro à son partenaire, Autopass. Pour en savoir plus sur la gestion de vos données et vos droits, cliquez
+            - link "ici" [ref=e105]:
+              - /url: https://www.carter-cash.com/page/donnees-personnelles
+      - generic [ref=e106]:
+        - generic [ref=e107]:
+          - generic [ref=e108]:
+            - generic [ref=e109]:
+              - strong [ref=e110]: "110"
+              - text: résultat(s)
+            - generic [ref=e112]:
+              - generic [ref=e113] [cursor=pointer]: Trier par
+              - combobox "Trier par" [ref=e114]:
+                - option "-- Trier --" [selected]
+                - option "Prix croissants"
+                - option "Prix décroissants"
+          - generic [ref=e115]:
+            - generic [ref=e116]: 
+            - text: Filtrer et trier
+        - generic [ref=e117]:
+          - generic [ref=e118]:
+            - text: 
+            - generic [ref=e119]:
+              - text: 
+              - generic [ref=e121]:
+                - generic [ref=e122]:
+                  - generic [ref=e123] [cursor=pointer]:
+                    - generic [ref=e124]: Vos filtres
+                    - button "Tout effacer" [ref=e126]
+                  - generic:
+                    - generic:
+                      - list
+                - generic [ref=e127]:
+                  - generic [ref=e129] [cursor=pointer]: Budget
+                  - generic [ref=e130]:
+                    - generic [ref=e133]:
+                      - generic [ref=e135]:
+                        - spinbutton [ref=e136] [cursor=pointer]: "5"
+                        - text: €
+                      - generic [ref=e138]:
+                        - spinbutton [ref=e139] [cursor=pointer]: "65"
+                        - text: €
+                    - textbox [ref=e146] [cursor=pointer]: 5;65
+                - generic [ref=e147]:
+                  - generic [ref=e149] [cursor=pointer]: Marque
+                  - generic [ref=e151]:
+                    - generic [ref=e152]:
+                      - generic [ref=e153]: 
+                      - searchbox "Rechercher..." [ref=e154] [cursor=pointer]
+                    - list [ref=e155]:
+                      - listitem [ref=e156]:
+                        - checkbox "Areca (18)" [ref=e157] [cursor=pointer]
+                        - generic [ref=e158] [cursor=pointer]: Areca (18)
+                      - listitem [ref=e159]:
+                        - checkbox "CASTROL (23)" [ref=e160] [cursor=pointer]
+                        - generic [ref=e161] [cursor=pointer]: CASTROL (23)
+                      - listitem [ref=e162]:
+                        - checkbox "Elf (6)" [ref=e163] [cursor=pointer]
+                        - generic [ref=e164] [cursor=pointer]: Elf (6)
+                      - listitem [ref=e165]:
+                        - checkbox "FEBI BILSTEIN (1)" [ref=e166] [cursor=pointer]
+                        - generic [ref=e167] [cursor=pointer]: FEBI BILSTEIN (1)
+                      - listitem [ref=e168]:
+                        - checkbox "FIRST ROAD (2)" [ref=e169] [cursor=pointer]
+                        - generic [ref=e170] [cursor=pointer]: FIRST ROAD (2)
+                      - listitem [ref=e171]:
+                        - checkbox "GREEN CITY (3)" [ref=e172] [cursor=pointer]
+                        - generic [ref=e173] [cursor=pointer]: GREEN CITY (3)
+                      - listitem [ref=e174]:
+                        - checkbox "Mobil (1)" [ref=e175] [cursor=pointer]
+                        - generic [ref=e176] [cursor=pointer]: Mobil (1)
+                      - listitem [ref=e177]:
+                        - checkbox "Motul (29)" [ref=e178] [cursor=pointer]
+                        - generic [ref=e179] [cursor=pointer]: Motul (29)
+                      - listitem [ref=e180]:
+                        - checkbox "PETRONAS (1)" [ref=e181] [cursor=pointer]
+                        - generic [ref=e182] [cursor=pointer]: PETRONAS (1)
+                      - listitem [ref=e183]:
+                        - checkbox "Total (17)" [ref=e184] [cursor=pointer]
+                        - generic [ref=e185] [cursor=pointer]: Total (17)
+                    - button "Voir plus" [ref=e186] [cursor=pointer]
+                - generic [ref=e187]:
+                  - generic [ref=e189] [cursor=pointer]: Disponibilité
+                  - list [ref=e192]:
+                    - listitem [ref=e193]:
+                      - checkbox "Retrait en magasin (81)" [ref=e194] [cursor=pointer]
+                      - generic [ref=e195] [cursor=pointer]: Retrait en magasin (81)
+                    - listitem [ref=e196]:
+                      - checkbox "Livraison (110)" [ref=e197] [cursor=pointer]
+                      - generic [ref=e198] [cursor=pointer]: Livraison (110)
+                - generic [ref=e199]:
+                  - generic [ref=e201] [cursor=pointer]: Notes des clients
+                  - list [ref=e204]:
+                    - listitem [ref=e205]:
+                      - radio "Tout" [checked] [ref=e206] [cursor=pointer]
+                      - generic [ref=e207] [cursor=pointer]: Tout
+                    - listitem [ref=e208]:
+                      - radio "(27)" [ref=e209] [cursor=pointer]
+                      - generic [ref=e214] [cursor=pointer]: (27)
+                    - listitem [ref=e215]:
+                      - radio "(48)" [ref=e216] [cursor=pointer]
+                      - generic [ref=e221] [cursor=pointer]: (48)
+                    - listitem [ref=e222]:
+                      - radio "(2)" [ref=e223] [cursor=pointer]
+                      - generic [ref=e228] [cursor=pointer]: (2)
+                - generic [ref=e229]:
+                  - generic [ref=e230]:
+                    - generic [ref=e232] [cursor=pointer]: Viscosité
+                    - list [ref=e235]:
+                      - listitem [ref=e236]:
+                        - checkbox "5W30 (48)" [ref=e237] [cursor=pointer]
+                        - generic [ref=e238] [cursor=pointer]: 5W30 (48)
+                      - listitem [ref=e239]:
+                        - checkbox "5W40 (20)" [ref=e240] [cursor=pointer]
+                        - generic [ref=e241] [cursor=pointer]: 5W40 (20)
+                      - listitem [ref=e242]:
+                        - checkbox "10W40 (14)" [ref=e243] [cursor=pointer]
+                        - generic [ref=e244] [cursor=pointer]: 10W40 (14)
+                      - listitem [ref=e245]:
+                        - checkbox "0W30 (12)" [ref=e246] [cursor=pointer]
+                        - generic [ref=e247] [cursor=pointer]: 0W30 (12)
+                      - listitem [ref=e248]:
+                        - checkbox "0W20 (8)" [ref=e249] [cursor=pointer]
+                        - generic [ref=e250] [cursor=pointer]: 0W20 (8)
+                      - listitem [ref=e251]:
+                        - checkbox "0W40 (4)" [ref=e252] [cursor=pointer]
+                        - generic [ref=e253] [cursor=pointer]: 0W40 (4)
+                      - listitem [ref=e254]:
+                        - checkbox "15W40 (2)" [ref=e255] [cursor=pointer]
+                        - generic [ref=e256] [cursor=pointer]: 15W40 (2)
+                      - listitem [ref=e257]:
+                        - checkbox "15W50 (1)" [ref=e258] [cursor=pointer]
+                        - generic [ref=e259] [cursor=pointer]: 15W50 (1)
+                      - listitem [ref=e260]:
+                        - checkbox "5W20 (1)" [ref=e261] [cursor=pointer]
+                        - generic [ref=e262] [cursor=pointer]: 5W20 (1)
+                  - generic [ref=e263]:
+                    - generic [ref=e265] [cursor=pointer]: Contenance
+                    - list [ref=e268]:
+                      - listitem [ref=e269]:
+                        - checkbox "5.000 (64)" [ref=e270] [cursor=pointer]
+                        - generic [ref=e271] [cursor=pointer]: 5.000 (64)
+                      - listitem [ref=e272]:
+                        - checkbox "1.000 (36)" [ref=e273] [cursor=pointer]
+                        - generic [ref=e274] [cursor=pointer]: 1.000 (36)
+                      - listitem [ref=e275]:
+                        - checkbox "2.000 (5)" [ref=e276] [cursor=pointer]
+                        - generic [ref=e277] [cursor=pointer]: 2.000 (5)
+                      - listitem [ref=e278]:
+                        - checkbox "6.000 (4)" [ref=e279] [cursor=pointer]
+                        - generic [ref=e280] [cursor=pointer]: 6.000 (4)
+                      - listitem [ref=e281]:
+                        - checkbox "4.000 (1)" [ref=e282] [cursor=pointer]
+                        - generic [ref=e283] [cursor=pointer]: 4.000 (1)
+                  - generic [ref=e284]:
+                    - generic [ref=e286] [cursor=pointer]: FAP
+                    - list [ref=e289]:
+                      - listitem [ref=e290]:
+                        - checkbox "Oui (69)" [ref=e291] [cursor=pointer]
+                        - generic [ref=e292] [cursor=pointer]: Oui (69)
+                      - listitem [ref=e293]:
+                        - checkbox "Non (30)" [ref=e294] [cursor=pointer]
+                        - generic [ref=e295] [cursor=pointer]: Non (30)
+          - generic [ref=e296]:
+            - generic [ref=e297]:
+              - generic [ref=e298]:
+                - generic [ref=e299]:
+                  - generic [ref=e300]:
+                    - generic [ref=e303] [cursor=pointer]:
+                      - link "Huile moteur essence/diesel 5L ARECA 10W40 (S3000)" [ref=e304]:
+                        - /url: https://www.carter-cash.com/pieces-auto/p/10w40-areca-5l-s3000-21013591/1000000092
+                        - heading "Huile moteur essence/diesel 5L ARECA 10W40 (S3000)" [level=2] [ref=e305]
+                      - generic [ref=e306]: "Ref: PF018151"
+                      - button "4.6/5 - 57 avis" [ref=e310]
+                    - button "Afficher les caractéristiques" [ref=e313] [cursor=pointer]
+                    - link "Voir la fiche détaillée" [ref=e314] [cursor=pointer]:
+                      - /url: https://www.carter-cash.com/pieces-auto/p/10w40-areca-5l-s3000-21013591/1000000092
+                  - generic [ref=e315]:
+                    - generic [ref=e318]:
+                      - text: "19"
+                      - generic [ref=e319]:
+                        - text: ",90"
+                        - generic [ref=e320]: €
+                    - generic [ref=e321]:
+                      - generic [ref=e323]:
+                        - generic [ref=e324]: En stock - Retrait gratuit en 1h
+                        - button "Choisir un magasin" [ref=e326] [cursor=pointer]
+                      - generic [ref=e327]:
+                        - generic [ref=e328]: Disponible en livraison
+                        - generic [ref=e329]:
+                          - text: Dès le
+                          - strong [ref=e330]: 20/01/2026
+                    - link "Ajouter au panier" [ref=e332] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e333]
+              - generic [ref=e334]:
+                - generic [ref=e335]:
+                  - generic [ref=e336]:
+                    - generic [ref=e339] [cursor=pointer]:
+                      - link "Huile moteur essence/diesel 5L ARECA 5W40 (FORTAX F4000)" [ref=e340]:
+                        - /url: https://www.carter-cash.com/pieces-auto/p/5w40-areca-5l-fortax-f4000-21013584/1000000091
+                        - heading "Huile moteur essence/diesel 5L ARECA 5W40 (FORTAX F4000)" [level=2] [ref=e341]
+                      - generic [ref=e342]: "Ref: PF018150"
+                      - button "4.7/5 - 46 avis" [ref=e346]
+                    - button "Afficher les caractéristiques" [ref=e349] [cursor=pointer]
+                    - link "Voir la fiche détaillée" [ref=e350] [cursor=pointer]:
+                      - /url: https://www.carter-cash.com/pieces-auto/p/5w40-areca-5l-fortax-f4000-21013584/1000000091
+                  - generic [ref=e351]:
+                    - generic [ref=e354]:
+                      - text: "27"
+                      - generic [ref=e355]:
+                        - text: ",90"
+                        - generic [ref=e356]: €
+                    - generic [ref=e357]:
+                      - generic [ref=e359]:
+                        - generic [ref=e360]: En stock - Retrait gratuit en 1h
+                        - button "Choisir un magasin" [ref=e362] [cursor=pointer]
+                      - generic [ref=e363]:
+                        - generic [ref=e364]: Disponible en livraison
+                        - generic [ref=e365]:
+                          - text: Dès le
+                          - strong [ref=e366]: 20/01/2026
+                    - link "Ajouter au panier" [ref=e368] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e369]
+              - generic [ref=e370]:
+                - generic [ref=e371]:
+                  - generic [ref=e372]:
+                    - generic [ref=e375] [cursor=pointer]:
+                      - link "Huile moteur essence/diesel 5L ARECA 5W40 (C3, FORTAX F6003)" [ref=e376]:
+                        - /url: https://www.carter-cash.com/pieces-auto/p/5w40-areca-5l-c3-fortax-f6003-vw50200-50500-50501-21553721/1000000100
+                        - heading "Huile moteur essence/diesel 5L ARECA 5W40 (C3, FORTAX F6003)" [level=2] [ref=e377]
+                      - generic [ref=e378]: "Ref: PF018147"
+                      - button "4.7/5 - 66 avis" [ref=e382]
+                    - button "Afficher les caractéristiques" [ref=e385] [cursor=pointer]
+                    - link "Voir la fiche détaillée" [ref=e386] [cursor=pointer]:
+                      - /url: https://www.carter-cash.com/pieces-auto/p/5w40-areca-5l-c3-fortax-f6003-vw50200-50500-50501-21553721/1000000100
+                  - generic [ref=e387]:
+                    - generic [ref=e390]:
+                      - text: "30"
+                      - generic [ref=e391]:
+                        - text: ",90"
+                        - generic [ref=e392]: €
+                    - generic [ref=e393]:
+                      - generic [ref=e395]:
+                        - generic [ref=e396]: En stock - Retrait gratuit en 1h
+                        - button "Choisir un magasin" [ref=e398] [cursor=pointer]
+                      - generic [ref=e399]:
+                        - generic [ref=e400]: Disponible en livraison
+                        - generic [ref=e401]:
+                          - text: Dès le
+                          - strong [ref=e402]: 20/01/2026
+                    - link "Ajouter au panier" [ref=e404] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e405]
+              - generic [ref=e406]:
+                - generic [ref=e407]:
+                  - generic [ref=e408]:
+                    - generic [ref=e411] [cursor=pointer]:
+                      - link "Huile moteur essence/diesel 5L ARECA 5W30 (FORD, FAP, FORTAX F5000)" [ref=e412]:
+                        - /url: https://www.carter-cash.com/pieces-auto/p/5w30-areca-5l-ford-m2c913c-mc913d-fap-f5000-22717122/1000000274
+                        - heading "Huile moteur essence/diesel 5L ARECA 5W30 (FORD, FAP, FORTAX F5000)" [level=2] [ref=e413]
+                      - generic [ref=e414]: "Ref: PF018141"
+                      - button "4.7/5 - 34 avis" [ref=e418]
+                    - button "Afficher les caractéristiques" [ref=e421] [cursor=pointer]
+                    - link "Voir la fiche détaillée" [ref=e422] [cursor=pointer]:
+                      - /url: https://www.carter-cash.com/pieces-auto/p/5w30-areca-5l-ford-m2c913c-mc913d-fap-f5000-22717122/1000000274
+                  - generic [ref=e423]:
+                    - generic [ref=e426]:
+                      - text: "37"
+                      - generic [ref=e427]:
+                        - text: ",90"
+                        - generic [ref=e428]: €
+                    - generic [ref=e429]:
+                      - generic [ref=e431]:
+                        - generic [ref=e432]: En stock - Retrait gratuit en 1h
+                        - button "Choisir un magasin" [ref=e434] [cursor=pointer]
+                      - generic [ref=e435]:
+                        - generic [ref=e436]: Disponible en livraison
+                        - generic [ref=e437]:
+                          - text: Dès le
+                          - strong [ref=e438]: 20/01/2026
+                    - link "Ajouter au panier" [ref=e440] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e441]
+              - generic [ref=e442]:
+                - generic [ref=e443]:
+                  - generic [ref=e444]:
+                    - generic [ref=e447] [cursor=pointer]:
+                      - link "Huile moteur essence/diesel 5L ARECA 5W30 (C4, FAP, FORTAX F7004)" [ref=e448]:
+                        - /url: https://www.carter-cash.com/pieces-auto/p/5w30-areca-5l-c4-fap-fortax-f7004-21934483/1000000134
+                        - heading "Huile moteur essence/diesel 5L ARECA 5W30 (C4, FAP, FORTAX F7004)" [level=2] [ref=e449]
+                      - generic [ref=e450]: "Ref: PF018142"
+                      - button "4.7/5 - 52 avis" [ref=e454]
+                    - button "Afficher les caractéristiques" [ref=e457] [cursor=pointer]
+                    - link "Voir la fiche détaillée" [ref=e458] [cursor=pointer]:
+                      - /url: https://www.carter-cash.com/pieces-auto/p/5w30-areca-5l-c4-fap-fortax-f7004-21934483/1000000134
+                  - generic [ref=e459]:
+                    - generic [ref=e462]:
+                      - text: "38"
+                      - generic [ref=e463]:
+                        - text: ",50"
+                        - generic [ref=e464]: €
+                    - generic [ref=e465]:
+                      - generic [ref=e467]:
+                        - generic [ref=e468]: En stock - Retrait gratuit en 1h
+                        - button "Choisir un magasin" [ref=e470] [cursor=pointer]
+                      - generic [ref=e471]:
+                        - generic [ref=e472]: Disponible en livraison
+                        - generic [ref=e473]:
+                          - text: Dès le
+                          - strong [ref=e474]: 20/01/2026
+                    - link "Ajouter au panier" [ref=e476] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e477]
+              - generic [ref=e478]:
+                - generic [ref=e479]:
+                  - generic [ref=e480]:
+                    - generic [ref=e483] [cursor=pointer]:
+                      - link "Huile moteur essence/diesel 5L ARECA 5W30 (C2, FAP, FORTAX F7002)" [ref=e484]:
+                        - /url: https://www.carter-cash.com/pieces-auto/p/5w30-areca-5l-c2-fap-fortax-f7002-21715297/1000000104
+                        - heading "Huile moteur essence/diesel 5L ARECA 5W30 (C2, FAP, FORTAX F7002)" [level=2] [ref=e485]
+                      - generic [ref=e486]: "Ref: PF009814"
+                      - button "4.7/5 - 33 avis" [ref=e490]
+                    - button "Afficher les caractéristiques" [ref=e493] [cursor=pointer]
+                    - link "Voir la fiche détaillée" [ref=e494] [cursor=pointer]:
+                      - /url: https://www.carter-cash.com/pieces-auto/p/5w30-areca-5l-c2-fap-fortax-f7002-21715297/1000000104
+                  - generic [ref=e495]:
+                    - generic [ref=e498]:
+                      - text: "38"
+                      - generic [ref=e499]:
+                        - text: ",90"
+                        - generic [ref=e500]: €
+                    - generic [ref=e503]:
+                      - generic [ref=e504]: Retrait gratuit en magasin
+                      - button "Choisir un magasin pour vérifier la disponibilité" [ref=e506] [cursor=pointer]
+                    - link "Ajouter au panier" [ref=e508] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e509]
+              - generic [ref=e510]:
+                - generic [ref=e511]:
+                  - generic [ref=e512]:
+                    - generic [ref=e515] [cursor=pointer]:
+                      - link "Huile moteur essence/diesel 5L ARECA 5W30 (C2, PSA/RN17 F7217)" [ref=e516]:
+                        - /url: https://www.carter-cash.com/pieces-auto/p/huile-moteur-essence-diesel-5l-areca-5w30-c2-psa-rn17-f7217-28019954/1000030244
+                        - heading "Huile moteur essence/diesel 5L ARECA 5W30 (C2, PSA/RN17 F7217)" [level=2] [ref=e517]
+                      - generic [ref=e518]: "Ref: PF021061"
+                      - button "4.8/5 - 17 avis" [ref=e522]
+                    - button "Afficher les caractéristiques" [ref=e525] [cursor=pointer]
+                    - link "Voir la fiche détaillée" [ref=e526] [cursor=pointer]:
+                      - /url: https://www.carter-cash.com/pieces-auto/p/huile-moteur-essence-diesel-5l-areca-5w30-c2-psa-rn17-f7217-28019954/1000030244
+                  - generic [ref=e527]:
+                    - generic [ref=e530]:
+                      - text: "39"
+                      - generic [ref=e531]:
+                        - text: ",90"
+                        - generic [ref=e532]: €
+                    - generic [ref=e533]:
+                      - generic [ref=e535]:
+                        - generic [ref=e536]: En stock - Retrait gratuit en 1h
+                        - button "Choisir un magasin" [ref=e538] [cursor=pointer]
+                      - generic [ref=e539]:
+                        - generic [ref=e540]: Disponible en livraison
+                        - generic [ref=e541]:
+                          - text: Dès le
+                          - strong [ref=e542]: 20/01/2026
+                    - link "Ajouter au panier" [ref=e544] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e545]
+              - generic [ref=e546]:
+                - generic [ref=e547]:
+                  - generic [ref=e548]:
+                    - generic [ref=e551] [cursor=pointer]:
+                      - link "Huile moteur essence/diesel 5L ARECA 5W30 (C3, FAP, FORTAX F7007)" [ref=e552]:
+                        - /url: https://www.carter-cash.com/pieces-auto/p/5w30-areca-5l-c3-fap-fortax-f7007-22036902/1000000136
+                        - heading "Huile moteur essence/diesel 5L ARECA 5W30 (C3, FAP, FORTAX F7007)" [level=2] [ref=e553]
+                      - generic [ref=e554]: "Ref: PF018144"
+                      - button "4.7/5 - 47 avis" [ref=e558]
+                    - button "Afficher les caractéristiques" [ref=e561] [cursor=pointer]
+                    - link "Voir la fiche détaillée" [ref=e562] [cursor=pointer]:
+                      - /url: https://www.carter-cash.com/pieces-auto/p/5w30-areca-5l-c3-fap-fortax-f7007-22036902/1000000136
+                  - generic [ref=e563]:
+                    - generic [ref=e566]:
+                      - text: "39"
+                      - generic [ref=e567]:
+                        - text: ",90"
+                        - generic [ref=e568]: €
+                    - generic [ref=e569]:
+                      - generic [ref=e571]:
+                        - generic [ref=e572]: En stock - Retrait gratuit en 1h
+                        - button "Choisir un magasin" [ref=e574] [cursor=pointer]
+                      - generic [ref=e575]:
+                        - generic [ref=e576]: Disponible en livraison
+                        - generic [ref=e577]:
+                          - text: Dès le
+                          - strong [ref=e578]: 20/01/2026
+                    - link "Ajouter au panier" [ref=e580] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e581]
+              - generic [ref=e582]:
+                - generic [ref=e583]:
+                  - generic [ref=e584]:
+                    - generic [ref=e587] [cursor=pointer]:
+                      - link "Huile moteur essence/diesel 5L ARECA 0W30 (C2, FORD, FORTAX F9001)" [ref=e588]:
+                        - /url: https://www.carter-cash.com/pieces-auto/p/0w30-areca-c2-ford-5-litres-23225978/1000000340
+                        - heading "Huile moteur essence/diesel 5L ARECA 0W30 (C2, FORD, FORTAX F9001)" [level=2] [ref=e589]
+                      - generic [ref=e590]: "Ref: PF018145"
+                      - button "5/5 - 5 avis" [ref=e594]
+                    - button "Afficher les caractéristiques" [ref=e597] [cursor=pointer]
+                    - link "Voir la fiche détaillée" [ref=e598] [cursor=pointer]:
+                      - /url: https://www.carter-cash.com/pieces-auto/p/0w30-areca-c2-ford-5-litres-23225978/1000000340
+                  - generic [ref=e599]:
+                    - generic [ref=e602]:
+                      - text: "44"
+                      - generic [ref=e603]:
+                        - text: ",90"
+                        - generic [ref=e604]: €
+                    - generic [ref=e605]:
+                      - generic [ref=e607]:
+                        - generic [ref=e608]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e610] [cursor=pointer]
+                      - generic [ref=e611]:
+                        - generic [ref=e612]: Disponible en livraison
+                        - generic [ref=e613]:
+                          - text: Dès le
+                          - strong [ref=e614]: 20/01/2026
+                    - link "Ajouter au panier" [ref=e616] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e617]
+              - generic [ref=e618]:
+                - generic [ref=e619]:
+                  - generic [ref=e620]:
+                    - generic [ref=e623] [cursor=pointer]:
+                      - link "Huile moteur essence/diesel 5L ARECA 5W20 (C5, ECOBOOST, FORTAX F7500)" [ref=e624]:
+                        - /url: https://www.carter-cash.com/pieces-auto/p/5w20-areca-5l-f7500-ecoboost-22188892/1000000157
+                        - heading "Huile moteur essence/diesel 5L ARECA 5W20 (C5, ECOBOOST, FORTAX F7500)" [level=2] [ref=e625]
+                      - generic [ref=e626]: "Ref: PF018152"
+                      - button "4.5/5 - 6 avis" [ref=e630]
+                    - button "Afficher les caractéristiques" [ref=e633] [cursor=pointer]
+                    - link "Voir la fiche détaillée" [ref=e634] [cursor=pointer]:
+                      - /url: https://www.carter-cash.com/pieces-auto/p/5w20-areca-5l-f7500-ecoboost-22188892/1000000157
+                  - generic [ref=e635]:
+                    - generic [ref=e638]:
+                      - text: "44"
+                      - generic [ref=e639]:
+                        - text: ",90"
+                        - generic [ref=e640]: €
+                    - generic [ref=e641]:
+                      - generic [ref=e643]:
+                        - generic [ref=e644]: En stock - Retrait gratuit en 1h
+                        - button "Choisir un magasin" [ref=e646] [cursor=pointer]
+                      - generic [ref=e647]:
+                        - generic [ref=e648]: Disponible en livraison
+                        - generic [ref=e649]:
+                          - text: Dès le
+                          - strong [ref=e650]: 20/01/2026
+                    - link "Ajouter au panier" [ref=e652] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e653]
+              - generic [ref=e654]:
+                - generic [ref=e655]:
+                  - generic [ref=e656]:
+                    - generic [ref=e659] [cursor=pointer]:
+                      - link "Huile moteur 0W30 ARECA (C2, PSA, Fortax F9002) 5 litres" [ref=e660]:
+                        - /url: https://www.carter-cash.com/pieces-auto/p/0w30-areca-c2-psa-5-litres-23199330/1000000338
+                        - heading "Huile moteur 0W30 ARECA (C2, PSA, Fortax F9002) 5 litres" [level=2] [ref=e661]
+                      - generic [ref=e662]: "Ref: PF018140"
+                      - button "4.7/5 - 7 avis" [ref=e666]
+                    - button "Afficher les caractéristiques" [ref=e669] [cursor=pointer]
+                    - link "Voir la fiche détaillée" [ref=e670] [cursor=pointer]:
+                      - /url: https://www.carter-cash.com/pieces-auto/p/0w30-areca-c2-psa-5-litres-23199330/1000000338
+                  - generic [ref=e671]:
+                    - generic [ref=e674]:
+                      - text: "45"
+                      - generic [ref=e675]:
+                        - text: ",90"
+                        - generic [ref=e676]: €
+                    - generic [ref=e677]:
+                      - generic [ref=e679]:
+                        - generic [ref=e680]: En stock - Retrait gratuit en 1h
+                        - button "Choisir un magasin" [ref=e682] [cursor=pointer]
+                      - generic [ref=e683]:
+                        - generic [ref=e684]: Disponible en livraison
+                        - generic [ref=e685]:
+                          - text: Dès le
+                          - strong [ref=e686]: 20/01/2026
+                    - link "Ajouter au panier" [ref=e688] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e689]
+              - generic [ref=e690]:
+                - generic [ref=e691]:
+                  - generic [ref=e692]:
+                    - generic [ref=e695] [cursor=pointer]:
+                      - link "Huile pour moteur essence/diesel ARECA 5 litres 0W20 (VW 508.00 / 509.00)" [ref=e696]:
+                        - /url: https://www.carter-cash.com/pieces-auto/p/huile-pour-moteur-essence-diesel-areca-5-litres-27636404/1000030202
+                        - heading "Huile pour moteur essence/diesel ARECA 5 litres 0W20 (VW 508.00 / 509.00)" [level=2] [ref=e697]
+                      - generic [ref=e698]: "Ref: PF021241"
+                      - button "5/5 - 2 avis" [ref=e702]
+                    - button "Afficher les caractéristiques" [ref=e705] [cursor=pointer]
+                    - link "Voir la fiche détaillée" [ref=e706] [cursor=pointer]:
+                      - /url: https://www.carter-cash.com/pieces-auto/p/huile-pour-moteur-essence-diesel-areca-5-litres-27636404/1000030202
+                  - generic [ref=e707]:
+                    - generic [ref=e710]:
+                      - text: "46"
+                      - generic [ref=e711]:
+                        - text: ",50"
+                        - generic [ref=e712]: €
+                    - generic [ref=e713]:
+                      - generic [ref=e715]:
+                        - generic [ref=e716]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e718] [cursor=pointer]
+                      - generic [ref=e719]:
+                        - generic [ref=e720]: Disponible en livraison
+                        - generic [ref=e721]:
+                          - text: Dès le
+                          - strong [ref=e722]: 20/01/2026
+                    - link "Ajouter au panier" [ref=e724] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e725]
+              - generic [ref=e726]:
+                - generic [ref=e727]:
+                  - generic [ref=e728]:
+                    - generic [ref=e731] [cursor=pointer]:
+                      - link "TotalEnergies Quartz 7000 10W-40, Huile moteur essence et Diesel, 5 Litres" [ref=e732]:
+                        - /url: https://www.carter-cash.com/pieces-auto/p/10w40-total-5l-quartz-7000-energy-a3-b3-50000-50500-e-d-21896682/1000000111
+                        - heading "TotalEnergies Quartz 7000 10W-40, Huile moteur essence et Diesel, 5 Litres" [level=2] [ref=e733]
+                      - generic [ref=e734]: "Ref: 214165"
+                      - button "4.7/5 - 53 avis" [ref=e738]
+                    - button "Afficher les caractéristiques" [ref=e741] [cursor=pointer]
+                    - link "Voir la fiche détaillée" [ref=e742] [cursor=pointer]:
+                      - /url: https://www.carter-cash.com/pieces-auto/p/10w40-total-5l-quartz-7000-energy-a3-b3-50000-50500-e-d-21896682/1000000111
+                  - generic [ref=e743]:
+                    - generic [ref=e746]:
+                      - text: "26"
+                      - generic [ref=e747]:
+                        - text: ",90"
+                        - generic [ref=e748]: €
+                    - generic [ref=e749]:
+                      - generic [ref=e751]:
+                        - generic [ref=e752]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e754] [cursor=pointer]
+                      - generic [ref=e755]:
+                        - generic [ref=e756]: Disponible en livraison
+                        - generic [ref=e757]:
+                          - text: Dès le
+                          - strong [ref=e758]: 20/01/2026
+                    - link "Ajouter au panier" [ref=e760] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e761]
+              - generic [ref=e762]:
+                - generic [ref=e763]:
+                  - generic [ref=e764]:
+                    - generic [ref=e767] [cursor=pointer]:
+                      - link "TotalEnergies Quartz EV3R 10W-40, Huile moteur essence et Diesel, 5 Litres" [ref=e768]:
+                        - /url: https://www.carter-cash.com/pieces-auto/p/huile-moteur-essence-diesel-5l-total-10w40-a3-b3-quartz-ev3r-28546214/1000031386
+                        - heading "TotalEnergies Quartz EV3R 10W-40, Huile moteur essence et Diesel, 5 Litres" [level=2] [ref=e769]
+                      - generic [ref=e770]: "Ref: 231878"
+                    - button "Afficher les caractéristiques" [ref=e773] [cursor=pointer]
+                    - link "Voir la fiche détaillée" [ref=e774] [cursor=pointer]:
+                      - /url: https://www.carter-cash.com/pieces-auto/p/huile-moteur-essence-diesel-5l-total-10w40-a3-b3-quartz-ev3r-28546214/1000031386
+                  - generic [ref=e775]:
+                    - generic [ref=e778]:
+                      - text: "27"
+                      - generic [ref=e779]:
+                        - text: ",90"
+                        - generic [ref=e780]: €
+                    - generic [ref=e783]:
+                      - generic [ref=e784]: Retrait gratuit en magasin
+                      - button "Choisir un magasin pour vérifier la disponibilité" [ref=e786] [cursor=pointer]
+                    - link "Ajouter au panier" [ref=e788] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e789]
+              - generic [ref=e790]:
+                - generic [ref=e791]:
+                  - generic [ref=e792]:
+                    - generic [ref=e795] [cursor=pointer]:
+                      - link "TotalEnergies Quartz 9000 5W-40, Huile moteur essence et Diesel, 5 Litres" [ref=e796]:
+                        - /url: https://www.carter-cash.com/pieces-auto/p/5w40-total-5l-quartz-9000-energy-a3-b4-50200-50500-e-d-21896675/1000000110
+                        - heading "TotalEnergies Quartz 9000 5W-40, Huile moteur essence et Diesel, 5 Litres" [level=2] [ref=e797]
+                      - generic [ref=e798]: "Ref: 229722"
+                      - button "4.5/5 - 38 avis" [ref=e802]
+                    - button "Afficher les caractéristiques" [ref=e805] [cursor=pointer]
+                    - link "Voir la fiche détaillée" [ref=e806] [cursor=pointer]:
+                      - /url: https://www.carter-cash.com/pieces-auto/p/5w40-total-5l-quartz-9000-energy-a3-b4-50200-50500-e-d-21896675/1000000110
+                  - generic [ref=e807]:
+                    - generic [ref=e810]:
+                      - text: "39"
+                      - generic [ref=e811]:
+                        - text: ",90"
+                        - generic [ref=e812]: €
+                    - generic [ref=e813]:
+                      - generic [ref=e815]:
+                        - generic [ref=e816]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e818] [cursor=pointer]
+                      - generic [ref=e819]:
+                        - generic [ref=e820]: Disponible en livraison
+                        - generic [ref=e821]:
+                          - text: Dès le
+                          - strong [ref=e822]: 20/01/2026
+                    - link "Ajouter au panier" [ref=e824] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e825]
+              - generic [ref=e826]:
+                - generic [ref=e827]:
+                  - generic [ref=e828]:
+                    - generic [ref=e831] [cursor=pointer]:
+                      - link "Huile moteur essence/diesel 5L TOTAL 0W20 (C5, QUARTZ INEO)" [ref=e832]:
+                        - /url: https://www.carter-cash.com/pieces-auto/p/huile-moteur-total-0w20-5-litres-23092433/1000000318
+                        - heading "Huile moteur essence/diesel 5L TOTAL 0W20 (C5, QUARTZ INEO)" [level=2] [ref=e833]
+                      - generic [ref=e834]: "Ref: 226020"
+                      - button "5/5 - 2 avis" [ref=e838]
+                    - button "Afficher les caractéristiques" [ref=e841] [cursor=pointer]
+                    - link "Voir la fiche détaillée" [ref=e842] [cursor=pointer]:
+                      - /url: https://www.carter-cash.com/pieces-auto/p/huile-moteur-total-0w20-5-litres-23092433/1000000318
+                  - generic [ref=e843]:
+                    - generic [ref=e846]:
+                      - text: "49"
+                      - generic [ref=e847]:
+                        - text: ",90"
+                        - generic [ref=e848]: €
+                    - generic [ref=e851]:
+                      - generic [ref=e852]: Retrait gratuit en magasin
+                      - button "Choisir un magasin pour vérifier la disponibilité" [ref=e854] [cursor=pointer]
+                    - link "Ajouter au panier" [ref=e856] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e857]
+              - generic [ref=e858]:
+                - generic [ref=e859]:
+                  - generic [ref=e860]:
+                    - generic [ref=e863] [cursor=pointer]:
+                      - link "TotalEnergies Quartz Ineo ECS 5W-30, Huile moteur essence et Diesel, 5 Litres" [ref=e864]:
+                        - /url: https://www.carter-cash.com/pieces-auto/p/5w30-total-5l-c2-activa-ineo-ecs-psa-toyota-22225894/1000000172
+                        - heading "TotalEnergies Quartz Ineo ECS 5W-30, Huile moteur essence et Diesel, 5 Litres" [level=2] [ref=e865]
+                      - generic [ref=e866]: "Ref: 213771"
+                      - button "4.8/5 - 33 avis" [ref=e870]
+                    - button "Afficher les caractéristiques" [ref=e873] [cursor=pointer]
+                    - link "Voir la fiche détaillée" [ref=e874] [cursor=pointer]:
+                      - /url: https://www.carter-cash.com/pieces-auto/p/5w30-total-5l-c2-activa-ineo-ecs-psa-toyota-22225894/1000000172
+                  - generic [ref=e875]:
+                    - generic [ref=e878]:
+                      - text: "50"
+                      - generic [ref=e879]:
+                        - text: ",90"
+                        - generic [ref=e880]: €
+                    - generic [ref=e881]:
+                      - generic [ref=e883]:
+                        - generic [ref=e884]: En stock - Retrait gratuit en 1h
+                        - button "Choisir un magasin" [ref=e886] [cursor=pointer]
+                      - generic [ref=e887]:
+                        - generic [ref=e888]: Disponible en livraison
+                        - generic [ref=e889]:
+                          - text: Dès le
+                          - strong [ref=e890]: 20/01/2026
+                    - link "Ajouter au panier" [ref=e892] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e893]
+              - generic [ref=e894]:
+                - generic [ref=e895]:
+                  - generic [ref=e896]:
+                    - generic [ref=e899] [cursor=pointer]:
+                      - link "TotalEnergies Quartz Ineo First 0W-30, Huile moteur essence et Diesel, 5 Litres" [ref=e900]:
+                        - /url: https://www.carter-cash.com/pieces-auto/p/0w30-total-5l-c2-quartz-ineo-first-22561008/1000000250
+                        - heading "TotalEnergies Quartz Ineo First 0W-30, Huile moteur essence et Diesel, 5 Litres" [level=2] [ref=e901]
+                      - generic [ref=e902]: "Ref: 214178"
+                      - button "4.9/5 - 41 avis" [ref=e906]
+                    - button "Afficher les caractéristiques" [ref=e909] [cursor=pointer]
+                    - link "Voir la fiche détaillée" [ref=e910] [cursor=pointer]:
+                      - /url: https://www.carter-cash.com/pieces-auto/p/0w30-total-5l-c2-quartz-ineo-first-22561008/1000000250
+                  - generic [ref=e911]:
+                    - generic [ref=e914]:
+                      - text: "51"
+                      - generic [ref=e915]:
+                        - text: ",90"
+                        - generic [ref=e916]: €
+                    - generic [ref=e917]:
+                      - generic [ref=e919]:
+                        - generic [ref=e920]: En stock - Retrait gratuit en 1h
+                        - button "Choisir un magasin" [ref=e922] [cursor=pointer]
+                      - generic [ref=e923]:
+                        - generic [ref=e924]: Disponible en livraison
+                        - generic [ref=e925]:
+                          - text: Dès le
+                          - strong [ref=e926]: 20/01/2026
+                    - link "Ajouter au panier" [ref=e928] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e929]
+              - generic [ref=e930]:
+                - generic [ref=e931]:
+                  - generic [ref=e932]:
+                    - generic [ref=e935] [cursor=pointer]:
+                      - link "TotalEnergies Quartz Ineo MC3 5W-30, Huile moteur essence et Diesel, 5 Litres" [ref=e936]:
+                        - /url: https://www.carter-cash.com/pieces-auto/p/5w30-total-5l-c3-quartz-ineo-mc3-502-504--21902949/1000000121
+                        - heading "TotalEnergies Quartz Ineo MC3 5W-30, Huile moteur essence et Diesel, 5 Litres" [level=2] [ref=e937]
+                      - generic [ref=e938]: "Ref: 214070"
+                      - button "4.8/5 - 21 avis" [ref=e942]
+                    - button "Afficher les caractéristiques" [ref=e945] [cursor=pointer]
+                    - link "Voir la fiche détaillée" [ref=e946] [cursor=pointer]:
+                      - /url: https://www.carter-cash.com/pieces-auto/p/5w30-total-5l-c3-quartz-ineo-mc3-502-504--21902949/1000000121
+                  - generic [ref=e947]:
+                    - generic [ref=e950]:
+                      - text: "51"
+                      - generic [ref=e951]:
+                        - text: ",90"
+                        - generic [ref=e952]: €
+                    - generic [ref=e953]:
+                      - generic [ref=e955]:
+                        - generic [ref=e956]: En stock - Retrait gratuit en 1h
+                        - button "Choisir un magasin" [ref=e958] [cursor=pointer]
+                      - generic [ref=e959]:
+                        - generic [ref=e960]: Disponible en livraison
+                        - generic [ref=e961]:
+                          - text: Dès le
+                          - strong [ref=e962]: 20/01/2026
+                    - link "Ajouter au panier" [ref=e964] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e965]
+              - generic [ref=e966]:
+                - generic [ref=e967]:
+                  - generic [ref=e968]:
+                    - generic [ref=e971] [cursor=pointer]:
+                      - link "TotalEnergies Quartz Ineo Xtra EC6 0W-20, Huile moteur essence et Diesel, 5 Litres" [ref=e972]:
+                        - /url: https://www.carter-cash.com/pieces-auto/p/huile-moteur-essence-diesel-5l-total-0w20-c6-quartz-ineo-28546221/1000031387
+                        - heading "TotalEnergies Quartz Ineo Xtra EC6 0W-20, Huile moteur essence et Diesel, 5 Litres" [level=2] [ref=e973]
+                      - generic [ref=e974]: "Ref: 231021"
+                    - button "Afficher les caractéristiques" [ref=e977] [cursor=pointer]
+                    - link "Voir la fiche détaillée" [ref=e978] [cursor=pointer]:
+                      - /url: https://www.carter-cash.com/pieces-auto/p/huile-moteur-essence-diesel-5l-total-0w20-c6-quartz-ineo-28546221/1000031387
+                  - generic [ref=e979]:
+                    - generic [ref=e982]:
+                      - text: "52"
+                      - generic [ref=e983]:
+                        - text: ",90"
+                        - generic [ref=e984]: €
+                    - generic [ref=e985]:
+                      - generic [ref=e987]:
+                        - generic [ref=e988]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e990] [cursor=pointer]
+                      - generic [ref=e991]:
+                        - generic [ref=e992]: Disponible en livraison
+                        - generic [ref=e993]:
+                          - text: Dès le
+                          - strong [ref=e994]: 20/01/2026
+                    - link "Ajouter au panier" [ref=e996] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e997]
+              - generic [ref=e998]:
+                - generic [ref=e999]:
+                  - generic [ref=e1000]:
+                    - generic [ref=e1003] [cursor=pointer]:
+                      - link "TotalEnergies Quartz Ineo FDE 0W-30, Huile moteur essence et Diesel, 5 Litres" [ref=e1004]:
+                        - /url: https://www.carter-cash.com/pieces-auto/p/huile-moteur-total-0w30-5-litres-23092440/1000000319
+                        - heading "TotalEnergies Quartz Ineo FDE 0W-30, Huile moteur essence et Diesel, 5 Litres" [level=2] [ref=e1005]
+                      - generic [ref=e1006]: "Ref: 214193"
+                      - button "5/5 - 11 avis" [ref=e1010]
+                    - button "Afficher les caractéristiques" [ref=e1013] [cursor=pointer]
+                    - link "Voir la fiche détaillée" [ref=e1014] [cursor=pointer]:
+                      - /url: https://www.carter-cash.com/pieces-auto/p/huile-moteur-total-0w30-5-litres-23092440/1000000319
+                  - generic [ref=e1015]:
+                    - generic [ref=e1018]:
+                      - text: "53"
+                      - generic [ref=e1019]:
+                        - text: ",90"
+                        - generic [ref=e1020]: €
+                    - generic [ref=e1021]:
+                      - generic [ref=e1023]:
+                        - generic [ref=e1024]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e1026] [cursor=pointer]
+                      - generic [ref=e1027]:
+                        - generic [ref=e1028]: Disponible en livraison
+                        - generic [ref=e1029]:
+                          - text: Dès le
+                          - strong [ref=e1030]: 20/01/2026
+                    - link "Ajouter au panier" [ref=e1032] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e1033]
+              - generic [ref=e1034]:
+                - generic [ref=e1035]:
+                  - generic [ref=e1036]:
+                    - generic [ref=e1039] [cursor=pointer]:
+                      - link "TotalEnergies Quartz Ineo RCP 5W-30, Huile moteur essence et Diesel, 5 Litres" [ref=e1040]:
+                        - /url: https://www.carter-cash.com/pieces-auto/p/huile-moteur-essence-diesel-5l-total-5w30-rcp-28413677/1000030311
+                        - heading "TotalEnergies Quartz Ineo RCP 5W-30, Huile moteur essence et Diesel, 5 Litres" [level=2] [ref=e1041]
+                      - generic [ref=e1042]: "Ref: 231106"
+                      - button "4.9/5 - 29 avis" [ref=e1046]
+                    - button "Afficher les caractéristiques" [ref=e1049] [cursor=pointer]
+                    - link "Voir la fiche détaillée" [ref=e1050] [cursor=pointer]:
+                      - /url: https://www.carter-cash.com/pieces-auto/p/huile-moteur-essence-diesel-5l-total-5w30-rcp-28413677/1000030311
+                  - generic [ref=e1051]:
+                    - generic [ref=e1054]:
+                      - text: "58"
+                      - generic [ref=e1055]:
+                        - text: ",90"
+                        - generic [ref=e1056]: €
+                    - generic [ref=e1057]:
+                      - generic [ref=e1059]:
+                        - generic [ref=e1060]: En stock - Retrait gratuit en 1h
+                        - button "Choisir un magasin" [ref=e1062] [cursor=pointer]
+                      - generic [ref=e1063]:
+                        - generic [ref=e1064]: Disponible en livraison
+                        - generic [ref=e1065]:
+                          - text: Dès le
+                          - strong [ref=e1066]: 20/01/2026
+                    - link "Ajouter au panier" [ref=e1068] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e1069]
+              - generic [ref=e1070]:
+                - generic [ref=e1071]:
+                  - generic [ref=e1072]:
+                    - generic [ref=e1075] [cursor=pointer]:
+                      - link "TotalEnergies Quartz Ineo Xtra First 0W-20, Huile moteur essence et Diesel, 5 litres" [ref=e1076]:
+                        - /url: https://www.carter-cash.com/pieces-auto/p/huile-moteur-essence-diesel-5l-total-0w20-quartz-ineo-xfirst-28039822/1000030249
+                        - heading "TotalEnergies Quartz Ineo Xtra First 0W-20, Huile moteur essence et Diesel, 5 litres" [level=2] [ref=e1077]
+                      - generic [ref=e1078]: "Ref: 229480"
+                      - button "5/5 - 4 avis" [ref=e1082]
+                    - button "Afficher les caractéristiques" [ref=e1085] [cursor=pointer]
+                    - link "Voir la fiche détaillée" [ref=e1086] [cursor=pointer]:
+                      - /url: https://www.carter-cash.com/pieces-auto/p/huile-moteur-essence-diesel-5l-total-0w20-quartz-ineo-xfirst-28039822/1000030249
+                  - generic [ref=e1087]:
+                    - generic [ref=e1090]:
+                      - text: "63"
+                      - generic [ref=e1091]:
+                        - text: ",90"
+                        - generic [ref=e1092]: €
+                    - generic [ref=e1093]:
+                      - generic [ref=e1095]:
+                        - generic [ref=e1096]: En stock - Retrait gratuit en 1h
+                        - button "Choisir un magasin" [ref=e1098] [cursor=pointer]
+                      - generic [ref=e1099]:
+                        - generic [ref=e1100]: Disponible en livraison
+                        - generic [ref=e1101]:
+                          - text: Dès le
+                          - strong [ref=e1102]: 20/01/2026
+                    - link "Ajouter au panier" [ref=e1104] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e1105]
+              - generic [ref=e1106]:
+                - generic [ref=e1107]:
+                  - generic [ref=e1108]:
+                    - generic [ref=e1111] [cursor=pointer]:
+                      - link "Huile moteur essence/diesel 5L CASTROL 10W40 (A/B, GTX ULTRACLEAN)" [ref=e1112]:
+                        - /url: https://www.carter-cash.com/pieces-auto/p/huile-moteur-essence-diesel-5l-castrol-10w40-a-b-gtx-ultraclean-27622964/1000030193
+                        - heading "Huile moteur essence/diesel 5L CASTROL 10W40 (A/B, GTX ULTRACLEAN)" [level=2] [ref=e1113]
+                      - generic [ref=e1114]: "Ref: 155023"
+                    - button "Afficher les caractéristiques" [ref=e1117] [cursor=pointer]
+                    - link "Voir la fiche détaillée" [ref=e1118] [cursor=pointer]:
+                      - /url: https://www.carter-cash.com/pieces-auto/p/huile-moteur-essence-diesel-5l-castrol-10w40-a-b-gtx-ultraclean-27622964/1000030193
+                  - generic [ref=e1119]:
+                    - generic [ref=e1122]:
+                      - text: "29"
+                      - generic [ref=e1123]:
+                        - text: ",90"
+                        - generic [ref=e1124]: €
+                    - generic [ref=e1125]:
+                      - generic [ref=e1127]:
+                        - generic [ref=e1128]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e1130] [cursor=pointer]
+                      - generic [ref=e1131]:
+                        - generic [ref=e1132]: Disponible en livraison
+                        - generic [ref=e1133]:
+                          - text: Dès le
+                          - strong [ref=e1134]: 20/01/2026
+                    - link "Ajouter au panier" [ref=e1136] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e1137]
+            - generic [ref=e1138]:
+              - combobox [ref=e1139] [cursor=pointer]:
+                - option "1 sur 5" [selected]
+                - option "2 sur 5"
+                - option "3 sur 5"
+                - option "4 sur 5"
+                - option "5 sur 5"
+              - link [ref=e1140] [cursor=pointer]:
+                - /url: "#"
+        - heading "Autres pièces auto Huiles, liquides et lubrifiants" [level=4] [ref=e1142]
+        - generic [ref=e1144]:
+          - link "Huile pour boîte Huile pour boîte" [ref=e1146]:
+            - /url: /pieces-auto/c/huiles-lubrifiants/huile-pour-boite
+            - img "Huile pour boîte" [ref=e1147]
+            - heading "Huile pour boîte" [level=2] [ref=e1148]
+          - link "Liquide de frein Liquide de frein" [ref=e1150]:
+            - /url: /pieces-auto/c/huiles-lubrifiants/liquide-de-frein
+            - img "Liquide de frein" [ref=e1151]
+            - heading "Liquide de frein" [level=2] [ref=e1152]
+          - link "Liquide de refroidissement Liquide de refroidissement" [ref=e1154]:
+            - /url: /pieces-auto/c/huiles-lubrifiants/liquide-refroidissement
+            - img "Liquide de refroidissement" [ref=e1155]
+            - heading "Liquide de refroidissement" [level=2] [ref=e1156]
+        - generic [ref=e1157]:
+          - heading "Les marques de véhicules" [level=2] [ref=e1158]
+          - list [ref=e1159]:
+            - listitem [ref=e1160]:
+              - link "ALFA ROMEO" [ref=e1161]:
+                - /url: /pieces-auto/c/huiles-lubrifiants/huile-moteur/m/alfa-romeo
+            - listitem [ref=e1162]:
+              - link "AUDI" [ref=e1163]:
+                - /url: /pieces-auto/c/huiles-lubrifiants/huile-moteur/m/audi
+            - listitem [ref=e1164]:
+              - link "BMW" [ref=e1165]:
+                - /url: /pieces-auto/c/huiles-lubrifiants/huile-moteur/m/bmw
+            - listitem [ref=e1166]:
+              - link "CHEVROLET" [ref=e1167]:
+                - /url: /pieces-auto/c/huiles-lubrifiants/huile-moteur/m/chevrolet
+            - listitem [ref=e1168]:
+              - link "CHRYSLER" [ref=e1169]:
+                - /url: /pieces-auto/c/huiles-lubrifiants/huile-moteur/m/chrysler
+            - listitem [ref=e1170]:
+              - link "CITROËN" [ref=e1171]:
+                - /url: /pieces-auto/c/huiles-lubrifiants/huile-moteur/m/citroen
+            - listitem [ref=e1172]:
+              - link "DACIA" [ref=e1173]:
+                - /url: /pieces-auto/c/huiles-lubrifiants/huile-moteur/m/dacia
+            - listitem [ref=e1174]:
+              - link "FIAT" [ref=e1175]:
+                - /url: /pieces-auto/c/huiles-lubrifiants/huile-moteur/m/fiat
+            - listitem [ref=e1176]:
+              - link "FORD" [ref=e1177]:
+                - /url: /pieces-auto/c/huiles-lubrifiants/huile-moteur/m/ford
+            - listitem [ref=e1178]:
+              - link "HYUNDAI" [ref=e1179]:
+                - /url: /pieces-auto/c/huiles-lubrifiants/huile-moteur/m/hyundai
+            - listitem [ref=e1180]:
+              - link "KIA" [ref=e1181]:
+                - /url: /pieces-auto/c/huiles-lubrifiants/huile-moteur/m/kia
+            - listitem [ref=e1182]:
+              - link "LADA" [ref=e1183]:
+                - /url: /pieces-auto/c/huiles-lubrifiants/huile-moteur/m/lada
+          - link "Voir toutes les marques" [ref=e1184]:
+            - /url: "#"
+    - generic [ref=e1185]:
+      - generic [ref=e1187]:
+        - heading "Quel est le rôle de l’huile moteur ?" [level=2] [ref=e1188]
+        - paragraph [ref=e1189]:
+          - text: Le rôle de l’huile moteur est essentiel pour le bon fonctionnement de votre véhicule. C'est pourquoi il est recommandé de consulter le
+          - link "guide pour bien choisir son huile moteur" [ref=e1190]:
+            - /url: https://www.carter-cash.com/blog/c/conseils-huile-moteur/
+          - text: . En effet, cette dernière va se montrer utile sur quatre grands facteurs. Elle aidera à protéger de la corrosion. Le carburant lorsqu’il brûle forme des déchets qui facilitent la présence d’acide dans le moteur. Ces acides détériorent les pièces métalliques et accélèrent leur corrosion. L’huile moteur ralentit cette formation de corrosion. L’huile moteur sert également à lubrifier les pièces du moteur pour éviter une usure prématurée des pièces mécaniques. Elle sera utile pour refroidir et nettoyer le moteur.
+        - heading "Quand changer votre huile moteur ?" [level=2] [ref=e1191]
+        - paragraph [ref=e1192]:
+          - text: L'huile moteur est l'un des éléments qu'il est nécessaire de remplacer fréquemment pour entretenir un véhicule. Suivant le moteur de votre véhicule, il faudra changer votre huile moteur 1 à 2 fois par an. Normalement, les fabricants préconisent d’effectuer une vidange suivant une fréquence indicative, et de changer votre huile moteur tous les 10 000, 15 000 ou 30 000 kilomètres en fonction des modèles de véhicule, du moteur et de l’huile moteur utilisée. L’huile moteur est là pour assurer le bon fonctionnement de votre voiture.
+          - link "Changer votre huile moteur" [ref=e1193]:
+            - /url: https://www.carter-cash.com/blog/tuto-changer-huile-moteur-dune-voiture/
+          - text: vous permettra d’éviter des réparations coûteuses à cause d’un moteur qui ne fonctionne plus.
+        - heading "Pourquoi changer son huile moteur ?" [level=2] [ref=e1194]
+        - paragraph [ref=e1195]: En effet avec le temps et à force de lubrifier les pièces des moteurs des véhicules, l'huile perd de sa viscosité et donc de son efficacité. En effet si la viscosité de l'huile moteur diminue, la lubrification des composants du moteur ne se fera pas aussi efficacement qu'avec une huile moteur neuve. Une friction entre les composants du moteur sans une huile propre risque d'endommager les pièces et de mener à la panne voir à la casse du moteur.
+        - heading "Combien de litres d'huile faut-il mettre dans son moteur ?" [level=2] [ref=e1196]
+        - paragraph [ref=e1197]: "Selon le modèle de voiture mais aussi la motorisation, le nombre de litres d'huile moteur nécessaire au fonctionnement du véhicule varie. Vous pouvez trouver ces informations dans le manuel de votre véhicule mais vous ne l'avez sûrement pas lu. Et c'est bien compréhensible. Cependant il est utile d'être informé du nombre de litres d'huile moteur dont votre voiture à besoin. Attention à ne pas mettre trop d'huile dans votre moteur car cela pourrait l'endommager. Nous vous proposons donc quelques exemple de rapports entre moteur et litres d'huile nécessaires à son fonctionnement :"
+        - table [ref=e1198]:
+          - rowgroup [ref=e1199]:
+            - row "Type de moteur Quantité d'huile requise" [ref=e1200]:
+              - cell "Type de moteur" [ref=e1201]:
+                - generic [ref=e1205]: Type de moteur
+              - cell "Quantité d'huile requise" [ref=e1206]:
+                - generic [ref=e1210]: Quantité d'huile requise
+            - row "Moteur monocylindre 3 à 3,5 litres d'huile moteur" [ref=e1211]:
+              - cell "Moteur monocylindre" [ref=e1212]:
+                - generic [ref=e1216]: Moteur monocylindre
+              - cell "3 à 3,5 litres d'huile moteur" [ref=e1217]:
+                - generic [ref=e1221]: 3 à 3,5 litres d'huile moteur
+            - row "Moteur bicylindre 3,5 à 4 litres d'huile moteur" [ref=e1222]:
+              - cell "Moteur bicylindre" [ref=e1223]:
+                - generic [ref=e1227]: Moteur bicylindre
+              - cell "3,5 à 4 litres d'huile moteur" [ref=e1228]:
+                - generic [ref=e1232]: 3,5 à 4 litres d'huile moteur
+            - row "Moteur trois cylindres 3.5 à 4.0 litres d'huile moteur 3,5 à 4 litres d'huile moteur" [ref=e1233]:
+              - cell "Moteur trois cylindres 3.5 à 4.0 litres d'huile moteur" [ref=e1234]:
+                - generic [ref=e1238]: Moteur trois cylindres 3.5 à 4.0 litres d'huile moteur
+              - cell "3,5 à 4 litres d'huile moteur" [ref=e1239]:
+                - generic [ref=e1243]: 3,5 à 4 litres d'huile moteur
+            - row "Moteur quatre cylindres 3,5 à 4,5 litres d'huile moteur" [ref=e1244]:
+              - cell "Moteur quatre cylindres" [ref=e1245]:
+                - generic [ref=e1249]: Moteur quatre cylindres
+              - cell "3,5 à 4,5 litres d'huile moteur" [ref=e1250]:
+                - generic [ref=e1254]: 3,5 à 4,5 litres d'huile moteur
+            - row "Moteur 6 cylindres 4.5 à 5.5 litres d'huile moteur 4,5 à 5,5 litres d'huile moteur" [ref=e1255]:
+              - cell "Moteur 6 cylindres 4.5 à 5.5 litres d'huile moteur" [ref=e1256]:
+                - generic [ref=e1260]: Moteur 6 cylindres 4.5 à 5.5 litres d'huile moteur
+              - cell "4,5 à 5,5 litres d'huile moteur" [ref=e1261]:
+                - generic [ref=e1265]: 4,5 à 5,5 litres d'huile moteur
+            - row "Moteur 8 cylindres 5.5 à 7.5 litres d'huile moteu 5,5 à 7,5 litres d'huile moteur" [ref=e1266]:
+              - cell "Moteur 8 cylindres 5.5 à 7.5 litres d'huile moteu" [ref=e1267]:
+                - generic [ref=e1271]: Moteur 8 cylindres 5.5 à 7.5 litres d'huile moteu
+              - cell "5,5 à 7,5 litres d'huile moteur" [ref=e1272]:
+                - generic [ref=e1276]: 5,5 à 7,5 litres d'huile moteur
+        - heading [level=2] [ref=e1277]
+        - heading "Comment choisir son huile moteur ?" [level=2] [ref=e1278]
+        - paragraph [ref=e1279]:
+          - text: "Pour choisir votre type huile moteur pour véhicules diesel ou essence, il y a différents points à connaître :"
+          - link "l’indice de viscosité" [ref=e1280]:
+            - /url: https://www.carter-cash.com/blog/tableau-des-huiles-moteur/
+          - text: "(5W30, 5W40, 10W40, 15W40...), des normes diverses dont vous trouverez les informations dans le manuel d’utilisateur de votre auto, les marques. Vous trouverez sur notre site et dans nos magasins différentes marques d’huile diesel : Total, Elf, Areca, Valco… pour moteur avec FAP ou pas. Vous êtes un peu perdu ? Entrez votre plaque d’immatriculation sur notre site ou sur une tablette en magasin, vous saurez les huiles compatibles avec votre véhicule."
+        - heading "Vous cherchez de l'huile moteur pour votre véhicule ?" [level=2] [ref=e1281]
+        - paragraph [ref=e1282]: Choisir la bonne huile est indispensable pour le bon fonctionnement de votre moteur et réussir votre vidange. Retrouvez dans nos magasins des huiles diesel ou essence de marques ou à petits prix répondant aux préconisations constructeurs, que votre auto soit équipée d’un filtre à particules ou non.
+        - heading "Commander votre huile moteur pas chère chez Carter-Cash" [level=2] [ref=e1283]:
+          - text: Commander votre huile moteur pas chère chez
+          - emphasis [ref=e1284]:
+            - strong [ref=e1285]: Carter-Cash
+        - paragraph [ref=e1286]: Roulez en toute sérénité et confortablement ! Nous vous proposons pour votre auto de l’huile moteur, vos additifs FAP et autres lubrifiants pas chers. Pas de promo, nos produits pour bien faire démarrer votre voiture sont à petits prix garantis toute l’année. Aussi, nous vous proposons une garantie de deux ans sur l'ensemble de nos produits.
+        - heading "Faire la vidange de l'huile moteur sans rendez-vous dans nos ateliers" [level=2] [ref=e1287]
+        - paragraph [ref=e1288]:
+          - text: Nos équipes sont disponibles en atelier pour réaliser votre vidange d'huile moteur. Cette prestation est sans rendez-vous. Parce que notre engagement pour l'environnement est quotidien, lors de la
+          - link "prestation de vidange" [ref=e1289]:
+            - /url: https://www.carter-cash.com/services-ateliers/forfait-vidange
+          - text: dans nos ateliers, sont récupérés les huiles usagées, les bidons d’huile ainsi que les filtres à huile. Pour chacun de ces produits, un collecteur agréé est chargé du ramassage des déchets dans le but de les recycler dans leurs centres dédiés. L’huile usagée est valorisée dans 100% des cas en huile moteur ou en combustible.
+        - heading "Réserver et retirer votre huile moteur ou vos pièces en magasin" [level=2] [ref=e1290]
+        - paragraph [ref=e1291]: En indiquant votre plaque d’immatriculation sur notre site ou sur nos tablettes en magasin, vous retrouverez les pièces nécessaires au bon fonctionnement de votre voiture. Nous vous affichons les références les mieux adaptées à votre véhicule grâce à son immense base de données. Si votre huile de moteur, vos additifs FAP ou autres lubrifiants sont disponibles en réservation sur stock magasin, vous pourrez effectuer un retrait sous 1h. Si votre pièce est indisponible, vous pourrez passer commande et venir la retirer dans un de nos magasins dès sa réception. Réserver ou commander en ligne votre huile moteur, additifs FAP et autres lubrifiants est 100% sécurisé.
+        - heading "Faire sa vidange sois-même, découvrez nos tutos !" [level=2] [ref=e1292]
+        - paragraph [ref=e1293]: Vous souhaitez réaliser votre vidange vous même ? Découvrez sur notre blog auto, une large sélection d'articles et tutos vidange. Selon votre modèle de voiture, nous vous expliquerons comment effectuer, étape par étape, la vidange simple de votre véhicule. Vous y trouverez aussi nos tableaux récapitulant les pièces pour vidange nécessaire à la réalisation de cet entretien auto.
+      - generic [ref=e1294]:
+        - heading "Les avis de nos clients" [level=2] [ref=e1295]
+        - paragraph [ref=e1296]
+        - generic [ref=e1297]:
+          - generic [ref=e1298]:
+            - generic [ref=e1299]: 4.3 / 5
+            - generic [ref=e1301]:
+              - img [ref=e1303]
+              - img [ref=e1306]
+              - img [ref=e1309]
+              - img [ref=e1312]
+              - img [ref=e1315]
+            - generic [ref=e1317]:
+              - link "Avis Vérifiés" [ref=e1318] [cursor=pointer]:
+                - /url: https://www.avis-verifies.com/avis-clients/carter-cash.com
+                - img "Avis Vérifiés" [ref=e1319]
+              - generic [ref=e1320]:
+                - paragraph [ref=e1321]: Basé sur 105 635 avis soumis à un contrôle
+                - button "Plus d’informations sur ces avis" [ref=e1322] [cursor=pointer]
+              - link "Voir tous les avis sur ce site" [ref=e1323] [cursor=pointer]:
+                - /url: https://www.avis-verifies.com/avis-clients/carter-cash.com
+          - region "Avis Vérifiés" [ref=e1324]:
+            - generic [ref=e1325]:
+              - button "Avis précédents" [ref=e1326] [cursor=pointer]: ‹
+              - generic [ref=e1328]:
+                - group [ref=e1329]:
+                  - generic [ref=e1331]:
+                    - generic [ref=e1334]:
+                      - generic [ref=e1335]:
+                        - img [ref=e1337]
+                        - img [ref=e1340]
+                        - img [ref=e1343]
+                        - img [ref=e1346]
+                        - img [ref=e1349]
+                      - generic [ref=e1351]: 5 / 5
+                    - generic [ref=e1352]:
+                      - paragraph [ref=e1353]:
+                        - generic [ref=e1354]: j'ai passe commande par téléphone très bien commande disponible p
+                      - paragraph [ref=e1355]: Avis du 15/01/2026, suite à une expérience du 06/01/2026 par FERNANDO R
+                - group [ref=e1356]:
+                  - generic [ref=e1358]:
+                    - generic [ref=e1361]:
+                      - generic [ref=e1362]:
+                        - img [ref=e1364]
+                        - img [ref=e1367]
+                        - img [ref=e1370]
+                        - img [ref=e1373]
+                        - img [ref=e1376]
+                      - generic [ref=e1378]: 5 / 5
+                    - generic [ref=e1379]:
+                      - paragraph [ref=e1380]:
+                        - generic [ref=e1381]: Commande facile à passer et produit dispo le lendemain sur place
+                      - paragraph [ref=e1382]: Avis du 15/01/2026, suite à une expérience du 04/01/2026 par FRÉDÉRIC O
+                - group [ref=e1383]:
+                  - generic [ref=e1385]:
+                    - generic [ref=e1388]:
+                      - generic [ref=e1389]:
+                        - img [ref=e1391]
+                        - img [ref=e1394]
+                        - img [ref=e1397]
+                        - img [ref=e1400]
+                        - img [ref=e1403]
+                      - generic [ref=e1405]: 5 / 5
+                    - generic [ref=e1406]:
+                      - paragraph [ref=e1407]:
+                        - generic [ref=e1408]: Équipe montage pneu sérieuse. Un peu moins pour le magasin……
+                      - paragraph [ref=e1409]: Avis du 15/01/2026, suite à une expérience du 22/12/2025 par FRANK B
+                - group [ref=e1410]:
+                  - generic [ref=e1412]:
+                    - generic [ref=e1415]:
+                      - generic [ref=e1416]:
+                        - img [ref=e1418]
+                        - img [ref=e1421]
+                        - img [ref=e1424]
+                        - img [ref=e1427]
+                        - img [ref=e1430]
+                      - generic [ref=e1432]: 5 / 5
+                    - generic [ref=e1433]:
+                      - paragraph [ref=e1434]:
+                        - generic [ref=e1435]: Ce produit est bien
+                      - paragraph [ref=e1436]: Avis du 15/01/2026, suite à une expérience du 06/01/2026 par chantal S
+                - group [ref=e1437]:
+                  - generic [ref=e1439]:
+                    - generic [ref=e1442]:
+                      - generic [ref=e1443]:
+                        - img [ref=e1445]
+                        - img [ref=e1448]
+                        - img [ref=e1451]
+                        - img [ref=e1454]
+                        - img [ref=e1457]
+                      - generic [ref=e1459]: 5 / 5
+                    - generic [ref=e1460]:
+                      - paragraph [ref=e1461]:
+                        - generic [ref=e1462]: Très bien et rapide
+                      - paragraph [ref=e1463]: Avis du 15/01/2026, suite à une expérience du 04/01/2026 par Vincent J
+                - group [ref=e1464]:
+                  - generic [ref=e1466]:
+                    - generic [ref=e1469]:
+                      - generic [ref=e1470]:
+                        - img [ref=e1472]
+                        - img [ref=e1475]
+                        - img [ref=e1478]
+                        - img [ref=e1481]
+                        - img [ref=e1484]
+                      - generic [ref=e1486]: 5 / 5
+                    - generic [ref=e1487]:
+                      - paragraph [ref=e1488]:
+                        - generic [ref=e1489]: Pas de problème particulier.
+                      - paragraph [ref=e1490]: Avis du 15/01/2026, suite à une expérience du 05/01/2026 par Joel C
+                - group [ref=e1491]:
+                  - generic [ref=e1493]:
+                    - generic [ref=e1496]:
+                      - generic [ref=e1497]:
+                        - img [ref=e1499]
+                        - img [ref=e1502]
+                        - img [ref=e1505]
+                        - img [ref=e1508]
+                        - img [ref=e1511]
+                      - generic [ref=e1513]: 5 / 5
+                    - generic [ref=e1514]:
+                      - paragraph [ref=e1515]:
+                        - generic [ref=e1516]: Bon rapport Qualité/Prix
+                      - paragraph [ref=e1517]: Avis du 15/01/2026, suite à une expérience du 05/01/2026 par David L
+                - group [ref=e1518]:
+                  - generic [ref=e1520]:
+                    - generic [ref=e1523]:
+                      - generic [ref=e1524]:
+                        - img [ref=e1526]
+                        - img [ref=e1529]
+                        - img [ref=e1532]
+                        - img [ref=e1535]
+                        - img [ref=e1538]
+                      - generic [ref=e1540]: 5 / 5
+                    - generic [ref=e1541]:
+                      - paragraph [ref=e1542]:
+                        - generic [ref=e1543]: Rien a signaler
+                      - paragraph [ref=e1544]: Avis du 15/01/2026, suite à une expérience du 03/01/2026 par JACQUES N
+                - group [ref=e1545]:
+                  - generic [ref=e1547]:
+                    - generic [ref=e1550]:
+                      - generic [ref=e1551]:
+                        - img [ref=e1553]
+                        - img [ref=e1556]
+                        - img [ref=e1559]
+                        - img [ref=e1562]
+                        - img [ref=e1565]
+                      - generic [ref=e1567]: 2 / 5
+                    - generic [ref=e1568]:
+                      - paragraph [ref=e1569]:
+                        - generic [ref=e1570]: Le site de carter cash a de nombreux problèmes, surtout lorsqu'on
+                      - paragraph [ref=e1571]: Avis du 15/01/2026, suite à une expérience du 05/01/2026 par Marine P
+                - group [ref=e1572]:
+                  - generic [ref=e1574]:
+                    - generic [ref=e1577]:
+                      - generic [ref=e1578]:
+                        - img [ref=e1580]
+                        - img [ref=e1583]
+                        - img [ref=e1586]
+                        - img [ref=e1589]
+                        - img [ref=e1592]
+                      - generic [ref=e1594]: 5 / 5
+                    - generic [ref=e1595]:
+                      - paragraph [ref=e1596]:
+                        - generic [ref=e1597]: Mécanicien top et de bons conseils
+                      - paragraph [ref=e1598]: Avis du 15/01/2026, suite à une expérience du 06/01/2026 par LOIC A
+                - group [ref=e1599]:
+                  - generic [ref=e1601]:
+                    - generic [ref=e1604]:
+                      - generic [ref=e1605]:
+                        - img [ref=e1607]
+                        - img [ref=e1610]
+                        - img [ref=e1613]
+                        - img [ref=e1616]
+                        - img [ref=e1619]
+                      - generic [ref=e1621]: 5 / 5
+                    - generic [ref=e1622]:
+                      - paragraph [ref=e1623]:
+                        - generic [ref=e1624]: j'ai passe commande par téléphone très bien commande disponible p
+                      - paragraph [ref=e1625]: Avis du 15/01/2026, suite à une expérience du 06/01/2026 par FERNANDO R
+                - group [ref=e1626]:
+                  - generic [ref=e1628]:
+                    - generic [ref=e1631]:
+                      - generic [ref=e1632]:
+                        - img [ref=e1634]
+                        - img [ref=e1637]
+                        - img [ref=e1640]
+                        - img [ref=e1643]
+                        - img [ref=e1646]
+                      - generic [ref=e1648]: 5 / 5
+                    - generic [ref=e1649]:
+                      - paragraph [ref=e1650]:
+                        - generic [ref=e1651]: Commande facile à passer et produit dispo le lendemain sur place
+                      - paragraph [ref=e1652]: Avis du 15/01/2026, suite à une expérience du 04/01/2026 par FRÉDÉRIC O
+                - group [ref=e1653]:
+                  - generic [ref=e1655]:
+                    - generic [ref=e1658]:
+                      - generic [ref=e1659]:
+                        - img [ref=e1661]
+                        - img [ref=e1664]
+                        - img [ref=e1667]
+                        - img [ref=e1670]
+                        - img [ref=e1673]
+                      - generic [ref=e1675]: 5 / 5
+                    - generic [ref=e1676]:
+                      - paragraph [ref=e1677]:
+                        - generic [ref=e1678]: Équipe montage pneu sérieuse. Un peu moins pour le magasin……
+                      - paragraph [ref=e1679]: Avis du 15/01/2026, suite à une expérience du 22/12/2025 par FRANK B
+                - group [ref=e1680]:
+                  - generic [ref=e1682]:
+                    - generic [ref=e1685]:
+                      - generic [ref=e1686]:
+                        - img [ref=e1688]
+                        - img [ref=e1691]
+                        - img [ref=e1694]
+                        - img [ref=e1697]
+                        - img [ref=e1700]
+                      - generic [ref=e1702]: 5 / 5
+                    - generic [ref=e1703]:
+                      - paragraph [ref=e1704]:
+                        - generic [ref=e1705]: Ce produit est bien
+                      - paragraph [ref=e1706]: Avis du 15/01/2026, suite à une expérience du 06/01/2026 par chantal S
+              - button "Avis suivants" [ref=e1707] [cursor=pointer]: ›
+            - list [ref=e1708]:
+              - listitem [ref=e1709] [cursor=pointer]:
+                - button "Avis 1" [ref=e1710]
+              - listitem [ref=e1711] [cursor=pointer]:
+                - button "Avis 2" [ref=e1712]
+              - listitem [ref=e1713] [cursor=pointer]:
+                - button "Avis 3" [ref=e1714]
+              - listitem [ref=e1715] [cursor=pointer]:
+                - button "Avis 4" [ref=e1716]
+              - listitem [ref=e1717] [cursor=pointer]:
+                - button "Avis 5" [ref=e1718]
+        - paragraph [ref=e1719]
+  - contentinfo [ref=e1720]:
+    - generic [ref=e1723]:
+      - generic [ref=e1725]:
+        - generic [ref=e1726]:
+          - paragraph [ref=e1727]:
+            - strong [ref=e1728]:
+              - text: 01 80 88 42 42
+              - text: (prix d'un appel local)
+              - text: Lun-Ven 9h-19h00
+              - text: Samedi 9h-17h
+          - list [ref=e1729]:
+            - listitem [ref=e1730]:
+              - link "Suivi de commande" [ref=e1731]:
+                - /url: /page/suivi-commande
+            - listitem [ref=e1732]:
+              - link "Livraison" [ref=e1733]:
+                - /url: /page/livraison
+            - listitem [ref=e1734]:
+              - link "Modes de paiement" [ref=e1735]:
+                - /url: /page/modes-de-paiement
+            - listitem [ref=e1736]:
+              - link "Retour commande" [ref=e1737]:
+                - /url: /page/retour-commande
+            - listitem [ref=e1738]:
+              - link "Retrait Magasin" [ref=e1739]:
+                - /url: /page/retrait-magasin
+            - listitem [ref=e1740]:
+              - link "FAQ" [ref=e1741]:
+                - /url: https://carter-cashsupport.zendesk.com/hc/fr/
+          - paragraph [ref=e1742]:
+            - 'link "Accessibilité : non conforme" [ref=e1744]':
+              - /url: /page/accessibilite
+          - paragraph [ref=e1745]:
+            - button "FACIL'iti" [ref=e1746] [cursor=pointer]:
+              - img "Gérer les options d’affichage" [ref=e1747]
+          - paragraph [ref=e1748]
+        - generic [ref=e1749]:
+          - heading "La newsletter" [level=4] [ref=e1750]
+          - text: Recevez nos actualités et bon plans.
+          - button "S'abonner" [ref=e1751] [cursor=pointer]
+          - paragraph [ref=e1752]:
+            - text: Votre adresse de messagerie est recueillie par CARTER-CASH pour vous envoyer ses actualités, offres et nouveautés. Vous pouvez à tout moment utiliser le lien de désabonnement intégré dans la Newsletter. Pour en savoir plus sur la gestion de vos données et vos droits, cliquez
+            - link "ici" [ref=e1753]:
+              - /url: https://www.carter-cash.com/page/donnees-personnelles
+          - generic [ref=e1754]:
+            - text: Ce site est protégé par reCAPTCHA. Les
+            - link "règles de confidentialité" [ref=e1755]:
+              - /url: https://policies.google.com/privacy
+            - text: et
+            - link "conditions d'utilisation" [ref=e1756]:
+              - /url: https://policies.google.com/terms
+            - text: de Google s'appliquent.
+      - generic [ref=e1757]:
+        - list [ref=e1758]:
+          - listitem [ref=e1759]:
+            - link "Contactez-nous" [ref=e1760]:
+              - /url: https://carter-cashsupport.zendesk.com/hc/fr
+          - listitem [ref=e1761]:
+            - link "CGV Carter-Cash.com" [ref=e1762]:
+              - /url: /page/conditions-generales-de-ventes
+          - listitem [ref=e1763]:
+            - link "CGU Carter-Cash.com" [ref=e1764]:
+              - /url: /page/cgu
+          - listitem [ref=e1765]:
+            - link "CG Magasins" [ref=e1766]:
+              - /url: /page/conditions-generales-de-ventes-magasin
+          - listitem [ref=e1767]:
+            - link "Mentions légales" [ref=e1768]:
+              - /url: /page/mentions-legales
+          - listitem [ref=e1769]:
+            - link "Cookies" [ref=e1770]:
+              - /url: /page/cookies
+          - listitem [ref=e1771]:
+            - link "Paramétrer mes cookies" [ref=e1772]:
+              - /url: "#"
+          - listitem [ref=e1773]:
+            - link "Notifications Push" [ref=e1774]:
+              - /url: /page/charte-notifications-push
+          - listitem [ref=e1775]:
+            - link "Données Personnelles" [ref=e1776]:
+              - /url: /page/donnees-personnelles
+          - listitem [ref=e1777]:
+            - link "Offres emplois" [ref=e1778]:
+              - /url: https://recrutement.carter-cash.com/
+          - listitem [ref=e1779]:
+            - link "Postulez sans CV !" [ref=e1780]:
+              - /url: https://www.carter-cash.com/emplois/candidature-sans-cv
+        - list [ref=e1781]:
+          - listitem [ref=e1782]:
+            - link [ref=e1783]:
+              - /url: https://www.carter-cash.es
+              - img [ref=e1784]
+          - listitem [ref=e1785]:
+            - link [ref=e1786]:
+              - /url: https://www.carter-cash.it
+              - img [ref=e1787]
+      - generic [ref=e1788]:
+        - list [ref=e1789]:
+          - listitem [ref=e1790]:
+            - link "Catalogue" [ref=e1791]:
+              - /url: https://view.publitas.com/cartercash/catalogue-hiver-2025/page/1
+          - listitem [ref=e1792]:
+            - link "Blog Auto" [ref=e1793]:
+              - /url: https://www.carter-cash.com/blog/
+          - listitem [ref=e1794]:
+            - link "Pneus pas chers" [ref=e1795]:
+              - /url: https://www.carter-cash.com/pneus
+          - listitem [ref=e1796]:
+            - link "Dimensions pneus" [ref=e1797]:
+              - /url: https://www.carter-cash.com/pneus/dimensions-de-pneus
+          - listitem [ref=e1798]:
+            - link "Pneus constructeurs" [ref=e1799]:
+              - /url: /pneus/tops-pneus-voiture
+          - listitem [ref=e1800]:
+            - link "Pneus marques" [ref=e1801]:
+              - /url: /pneus/tops-pneus-marques
+          - listitem [ref=e1802]:
+            - link "Pneus autour de moi" [ref=e1803]:
+              - /url: " /page/pneus-autour-de-moi"
+          - listitem [ref=e1804]:
+            - link "Tops pneus" [ref=e1805]:
+              - /url: https://www.carter-cash.com/pneus/top-pneus
+          - listitem [ref=e1806]:
+            - link "Les marques" [ref=e1807]:
+              - /url: https://www.carter-cash.com/page/marque
+          - listitem [ref=e1808]:
+            - link "Opération MICHELIN" [ref=e1809]:
+              - /url: https://www.carter-cash.com/page/operation-michelin
+          - listitem [ref=e1810]:
+            - link "Règlements jeux" [ref=e1811]:
+              - /url: /page/reglements
+          - listitem [ref=e1812]:
+            - link "Rouler durable" [ref=e1813]:
+              - /url: /page/rouler-durable
+        - list [ref=e1814]:
+          - listitem [ref=e1815]:
+            - link [ref=e1816]:
+              - /url: https://www.facebook.com/CarterCashAuto/
+              - img [ref=e1817]
+          - listitem [ref=e1818]:
+            - link [ref=e1819]:
+              - /url: https://www.instagram.com/cartercashauto/
+              - img [ref=e1820]
+          - listitem [ref=e1821]:
+            - link [ref=e1822]:
+              - /url: https://www.youtube.com/c/cartercash
+              - img [ref=e1823]
+  - dialog [ref=e1824]:
+    - generic [ref=e1829]:
+      - generic [ref=e1830]: Bienvenue sur Carter-Cash.com !
+      - paragraph [ref=e1831]: Lors de votre visite sur notre site Carter-Cash, des cookies (petits fichiers texte) sont déposés sur votre appareil. Ils permettent d'assurer le bon fonctionnement du site et une navigation sécurisée, de vous proposer des communications et publicités personnalisées, ainsi que d’analyser les visites dans le but d'améliorer le site.
+      - paragraph [ref=e1832]: A l’exception des cookies strictement nécessaires, vous pouvez choisir d’accepter et de continuer, de continuer sans accepter ou de paramétrer les cookies en cliquant sur l’un des boutons ci-dessous.
+      - paragraph [ref=e1833]: Vous pourrez mettre à jour votre choix à tout moment en cliquant sur "Paramétrez mes cookies" en bas de notre site.
+    - list [ref=e1834]:
+      - listitem "Paramétrer les cookies" [ref=e1835] [cursor=pointer]
+      - listitem "Continuer sans accepter" [ref=e1836] [cursor=pointer]
+      - listitem "Accepter et continuer" [ref=e1837] [cursor=pointer]
+```

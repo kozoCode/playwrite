@@ -1,0 +1,890 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - link [ref=e7] [cursor=pointer]:
+      - /url: https://www.carter-cash.com/pieces-auto?zac=TROTR149045FR
+      - paragraph [ref=e9]: Dès 99€ d'achats, profitez de la livraison OFFERTE* à domicile ou en point relais >
+    - link "Indépendamment de notre volonté, les délais de livraison peuvent être rallongés en raison des récentes conditions climatiques." [ref=e12] [cursor=pointer]:
+      - /url: https://carter-cashsupport.zendesk.com/hc/fr/
+      - paragraph [ref=e14]: Indépendamment de notre volonté, les délais de livraison peuvent être rallongés en raison des récentes conditions climatiques.
+    - link [ref=e17] [cursor=pointer]:
+      - /url: https://www.carter-cash.com/pieces-auto?zac=TROTR149045FR
+      - paragraph [ref=e19]: Dès 99€ d'achats, profitez de la livraison OFFERTE* à domicile ou en point relais >
+    - link [ref=e22] [cursor=pointer]:
+      - /url: https://carter-cashsupport.zendesk.com/hc/fr/
+      - paragraph [ref=e24]: Indépendamment de notre volonté, les délais de livraison peuvent être rallongés en raison des récentes conditions climatiques.
+    - link [ref=e27] [cursor=pointer]:
+      - /url: https://www.carter-cash.com/pieces-auto?zac=TROTR149045FR
+      - paragraph [ref=e29]: Dès 99€ d'achats, profitez de la livraison OFFERTE* à domicile ou en point relais >
+  - banner [ref=e30]:
+    - generic [ref=e33]:
+      - link "Carter-Cash" [ref=e35] [cursor=pointer]:
+        - /url: /
+        - img "Carter-Cash" [ref=e36]
+      - generic [ref=e37]:
+        - link "Mon magasin" [ref=e39] [cursor=pointer]:
+          - /url: " /magasins/ "
+          - generic [ref=e40]: Mon magasin
+        - button "Ma voiture" [ref=e43] [cursor=pointer]:
+          - generic [ref=e44]: Ma voiture
+        - link "Mon compte" [ref=e45] [cursor=pointer]:
+          - /url: /compte/
+          - generic [ref=e46]: Mon compte
+        - button "Mon panier" [ref=e47] [cursor=pointer]:
+          - generic [ref=e48]: Mon panier
+      - generic [ref=e50]:
+        - textbox "Rechercher un produit, une référence..." [ref=e52] [cursor=pointer]
+        - button [ref=e53] [cursor=pointer]:
+          - generic [ref=e54]: 
+    - list [ref=e58]:
+      - listitem [ref=e59]:
+        - link "PNEUS" [ref=e60] [cursor=pointer]:
+          - /url: /pneus?zac=MENB0177047FR
+      - listitem [ref=e61]:
+        - link "PIECES AUTO" [ref=e62] [cursor=pointer]:
+          - /url: /pieces-auto?zac=MENB0212908FR
+      - listitem [ref=e63]:
+        - link "HUILES" [ref=e64] [cursor=pointer]:
+          - /url: /pieces-auto/c/huiles-lubrifiants/huile-moteur?zac=MENB0307691FR
+      - listitem [ref=e65]:
+        - link "FREINAGE" [ref=e66] [cursor=pointer]:
+          - /url: /pieces-auto/c/freinage?zac=MENB0468669FR
+      - listitem [ref=e67]:
+        - link "BATTERIE" [ref=e68] [cursor=pointer]:
+          - /url: /pieces-auto/c/demarrage-charge/batterie?zac=MENB0565955FR
+      - listitem [ref=e69]:
+        - link "ACCESSOIRES - OUTILLAGE" [ref=e70] [cursor=pointer]:
+          - /url: /accessoires?zac=MENB0627979FR
+      - listitem [ref=e71]:
+        - link "CHAÎNES - CHAUSSETTES NEIGE" [ref=e72] [cursor=pointer]:
+          - /url: https://www.carter-cash.com/accessoires/accessoires-roue-pneu
+      - listitem [ref=e73]:
+        - link "NOS SERVICES" [ref=e74] [cursor=pointer]:
+          - /url: /services-ateliers?zac=MENB0800066FR
+  - generic [ref=e75]:
+    - list [ref=e77]:
+      - listitem [ref=e78]:
+        - link "Accueil" [ref=e79] [cursor=pointer]:
+          - /url: https://www.carter-cash.com/
+      - listitem [ref=e81]:
+        - link "Accessoires" [ref=e82] [cursor=pointer]:
+          - /url: https://www.carter-cash.com/accessoires/
+      - listitem [ref=e84]:
+        - link "Accessoires intérieur pour voiture" [ref=e85] [cursor=pointer]:
+          - /url: https://www.carter-cash.com/accessoires/interieur
+      - listitem [ref=e87]:
+        - generic [ref=e88]: Housse universelle voiture
+    - generic [ref=e90]:
+      - heading "Housse universelle voiture" [level=1] [ref=e91]: Housse universelle voiture
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - strong [ref=e95]: "19"
+            - text: résultat(s)
+          - generic [ref=e97]:
+            - generic [ref=e98] [cursor=pointer]: Trier par
+            - combobox "Trier par" [ref=e99]:
+              - option "-- Trier --" [selected]
+              - option "Prix croissants"
+              - option "Prix décroissants"
+        - generic [ref=e100]:
+          - generic [ref=e101]: 
+          - text: Filtrer et trier
+      - generic [ref=e102]:
+        - generic [ref=e103]:
+          - text: 
+          - generic [ref=e104]:
+            - text: 
+            - generic [ref=e106]:
+              - generic [ref=e107]:
+                - generic [ref=e108] [cursor=pointer]:
+                  - generic [ref=e109]: Vos filtres
+                  - button "Tout effacer" [ref=e111]
+                - generic:
+                  - generic:
+                    - list
+              - generic [ref=e112]:
+                - generic [ref=e114] [cursor=pointer]: Budget
+                - generic [ref=e115]:
+                  - generic [ref=e118]:
+                    - generic [ref=e120]:
+                      - spinbutton [ref=e121] [cursor=pointer]: "6"
+                      - text: €
+                    - generic [ref=e123]:
+                      - spinbutton [ref=e124] [cursor=pointer]: "25"
+                      - text: €
+                  - textbox [ref=e131] [cursor=pointer]: 6;25
+              - generic [ref=e132]:
+                - generic [ref=e134] [cursor=pointer]: Marque
+                - generic [ref=e136]:
+                  - generic [ref=e137]:
+                    - generic [ref=e138]: 
+                    - searchbox "Rechercher..." [ref=e139] [cursor=pointer]
+                  - list [ref=e140]:
+                    - listitem [ref=e141]:
+                      - checkbox "GTI SODIFAC (1)" [ref=e142] [cursor=pointer]
+                      - generic [ref=e143] [cursor=pointer]: GTI SODIFAC (1)
+                    - listitem [ref=e144]:
+                      - checkbox "Nachos (1)" [ref=e145] [cursor=pointer]
+                      - generic [ref=e146] [cursor=pointer]: Nachos (1)
+                    - listitem [ref=e147]:
+                      - checkbox "SANS MARQUE (16)" [ref=e148] [cursor=pointer]
+                      - generic [ref=e149] [cursor=pointer]: SANS MARQUE (16)
+                    - listitem [ref=e150]:
+                      - checkbox "SODIFAC (1)" [ref=e151] [cursor=pointer]
+                      - generic [ref=e152] [cursor=pointer]: SODIFAC (1)
+              - generic [ref=e153]:
+                - generic [ref=e155] [cursor=pointer]: Disponibilité
+                - list [ref=e158]:
+                  - listitem [ref=e159]:
+                    - checkbox "Retrait en magasin (19)" [ref=e160] [cursor=pointer]
+                    - generic [ref=e161] [cursor=pointer]: Retrait en magasin (19)
+                  - listitem [ref=e162]:
+                    - checkbox "Livraison (19)" [ref=e163] [cursor=pointer]
+                    - generic [ref=e164] [cursor=pointer]: Livraison (19)
+              - generic [ref=e165]:
+                - generic [ref=e167] [cursor=pointer]: Notes des clients
+                - list [ref=e170]:
+                  - listitem [ref=e171]:
+                    - radio "Tout" [checked] [ref=e172] [cursor=pointer]
+                    - generic [ref=e173] [cursor=pointer]: Tout
+                  - listitem [ref=e174]:
+                    - radio "(1)" [ref=e175] [cursor=pointer]
+                    - generic [ref=e180] [cursor=pointer]: (1)
+                  - listitem [ref=e181]:
+                    - radio "(1)" [ref=e182] [cursor=pointer]
+                    - generic [ref=e187] [cursor=pointer]: (1)
+                  - listitem [ref=e188]:
+                    - radio "(1)" [ref=e189] [cursor=pointer]
+                    - generic [ref=e194] [cursor=pointer]: (1)
+        - generic [ref=e195]:
+          - generic [ref=e196]:
+            - generic [ref=e197]:
+              - generic [ref=e198]:
+                - link "Housse noire unitaire" [ref=e203] [cursor=pointer]:
+                  - /url: https://www.carter-cash.com/accessoires/p/housse-noire-unitaire-28868538
+                  - heading "Housse noire unitaire" [level=2] [ref=e204]
+                - generic [ref=e205]:
+                  - generic [ref=e208]:
+                    - text: "6"
+                    - generic [ref=e209]:
+                      - text: ",90"
+                      - generic [ref=e210]: €
+                  - generic [ref=e211]:
+                    - generic [ref=e213]:
+                      - generic [ref=e214]: Retrait gratuit en magasin
+                      - button "Choisir un magasin pour vérifier la disponibilité" [ref=e216] [cursor=pointer]
+                    - generic [ref=e217]:
+                      - generic [ref=e218]: Disponible en livraison
+                      - generic [ref=e219]:
+                        - text: Dès le
+                        - strong [ref=e220]: 20/01/2026
+                  - link "Ajouter au panier" [ref=e222] [cursor=pointer]:
+                    - /url: "#"
+              - separator [ref=e223]
+            - generic [ref=e224]:
+              - generic [ref=e225]:
+                - generic [ref=e229] [cursor=pointer]:
+                  - link "Jeu de 2 housses avant LOOPS (Tissus et coloris assortis)" [ref=e230]:
+                    - /url: https://www.carter-cash.com/accessoires/p/jeu-de-2-housses-avant-loops-tissus-et-coloris-assortis-28351825
+                    - heading "Jeu de 2 housses avant LOOPS (Tissus et coloris assortis)" [level=2] [ref=e231]
+                  - button "5/5 - 1 avis" [ref=e235]
+                - generic [ref=e236]:
+                  - generic [ref=e239]:
+                    - text: "6"
+                    - generic [ref=e240]:
+                      - text: ",90"
+                      - generic [ref=e241]: €
+                  - generic [ref=e242]:
+                    - generic [ref=e244]:
+                      - generic [ref=e245]: Retrait gratuit en magasin
+                      - button "Choisir un magasin pour vérifier la disponibilité" [ref=e247] [cursor=pointer]
+                    - generic [ref=e248]:
+                      - generic [ref=e249]: Disponible en livraison
+                      - generic [ref=e250]:
+                        - text: Dès le
+                        - strong [ref=e251]: 20/01/2026
+                  - link "Ajouter au panier" [ref=e253] [cursor=pointer]:
+                    - /url: "#"
+              - separator [ref=e254]
+            - generic [ref=e255]:
+              - generic [ref=e256]:
+                - link "Housse MALO noir/bleu sièges avant" [ref=e261] [cursor=pointer]:
+                  - /url: https://www.carter-cash.com/accessoires/p/housse-malo-noir-bleu-sieges-avant-en-une-partie-2-appuis-tete-dos-des-sieges-recouvert-maille-29003556
+                  - heading "Housse MALO noir/bleu sièges avant" [level=2] [ref=e262]
+                - generic [ref=e263]:
+                  - generic [ref=e266]:
+                    - text: "9"
+                    - generic [ref=e267]:
+                      - text: ",90"
+                      - generic [ref=e268]: €
+                  - generic [ref=e269]:
+                    - generic [ref=e271]:
+                      - generic [ref=e272]: Retrait gratuit en magasin
+                      - button "Choisir un magasin pour vérifier la disponibilité" [ref=e274] [cursor=pointer]
+                    - generic [ref=e275]:
+                      - generic [ref=e276]: Disponible en livraison
+                      - generic [ref=e277]:
+                        - text: Dès le
+                        - strong [ref=e278]: 20/01/2026
+                  - link "Ajouter au panier" [ref=e280] [cursor=pointer]:
+                    - /url: "#"
+              - separator [ref=e281]
+            - generic [ref=e282]:
+              - generic [ref=e283]:
+                - link "Housse TIM noir/gris sièges avant" [ref=e288] [cursor=pointer]:
+                  - /url: https://www.carter-cash.com/accessoires/p/housse-tim-noir-gris-sieges-avant-en-une-parti-2-appuis-tete-dos-des-sieges-recouvert-maille-29003549
+                  - heading "Housse TIM noir/gris sièges avant" [level=2] [ref=e289]
+                - generic [ref=e290]:
+                  - generic [ref=e293]:
+                    - text: "9"
+                    - generic [ref=e294]:
+                      - text: ",90"
+                      - generic [ref=e295]: €
+                  - generic [ref=e296]:
+                    - generic [ref=e298]:
+                      - generic [ref=e299]: Retrait gratuit en magasin
+                      - button "Choisir un magasin pour vérifier la disponibilité" [ref=e301] [cursor=pointer]
+                    - generic [ref=e302]:
+                      - generic [ref=e303]: Disponible en livraison
+                      - generic [ref=e304]:
+                        - text: Dès le
+                        - strong [ref=e305]: 20/01/2026
+                  - link "Ajouter au panier" [ref=e307] [cursor=pointer]:
+                    - /url: "#"
+              - separator [ref=e308]
+            - generic [ref=e309]:
+              - generic [ref=e310]:
+                - link "Housse noir sièges avant" [ref=e315] [cursor=pointer]:
+                  - /url: https://www.carter-cash.com/accessoires/p/housse-noir-sieges-avant-28868521
+                  - heading "Housse noir sièges avant" [level=2] [ref=e316]
+                - generic [ref=e317]:
+                  - generic [ref=e320]:
+                    - text: "9"
+                    - generic [ref=e321]:
+                      - text: ",90"
+                      - generic [ref=e322]: €
+                  - generic [ref=e323]:
+                    - generic [ref=e325]:
+                      - generic [ref=e326]: Retrait gratuit en magasin
+                      - button "Choisir un magasin pour vérifier la disponibilité" [ref=e328] [cursor=pointer]
+                    - generic [ref=e329]:
+                      - generic [ref=e330]: Disponible en livraison
+                      - generic [ref=e331]:
+                        - text: Dès le
+                        - strong [ref=e332]: 20/01/2026
+                  - link "Ajouter au panier" [ref=e334] [cursor=pointer]:
+                    - /url: "#"
+              - separator [ref=e335]
+            - generic [ref=e336]:
+              - generic [ref=e337]:
+                - link "Couvre siege racing SODIFAC (coloris assortis)" [ref=e342] [cursor=pointer]:
+                  - /url: https://www.carter-cash.com/accessoires/p/couvre-siege-racing-panache-sodifac-28677796
+                  - heading "Couvre siege racing SODIFAC (coloris assortis)" [level=2] [ref=e343]
+                - generic [ref=e344]:
+                  - generic [ref=e347]:
+                    - text: "12"
+                    - generic [ref=e348]:
+                      - text: ",90"
+                      - generic [ref=e349]: €
+                  - generic [ref=e350]:
+                    - generic [ref=e352]:
+                      - generic [ref=e353]: Retrait gratuit en magasin
+                      - button "Choisir un magasin pour vérifier la disponibilité" [ref=e355] [cursor=pointer]
+                    - generic [ref=e356]:
+                      - generic [ref=e357]: Disponible en livraison
+                      - generic [ref=e358]:
+                        - text: Dès le
+                        - strong [ref=e359]: 20/01/2026
+                  - link "Ajouter au panier" [ref=e361] [cursor=pointer]:
+                    - /url: "#"
+              - separator [ref=e362]
+            - generic [ref=e363]:
+              - generic [ref=e364]:
+                - generic [ref=e368] [cursor=pointer]:
+                  - link "Housse CLEA noire et bleu (jeu complet)" [ref=e369]:
+                    - /url: https://www.carter-cash.com/accessoires/p/housse-clea-noire-et-bleu-jeu-complet-28544616
+                    - heading "Housse CLEA noire et bleu (jeu complet)" [level=2] [ref=e370]
+                  - button "2.5/5 - 2 avis" [ref=e374]
+                - generic [ref=e375]:
+                  - generic [ref=e378]:
+                    - text: "14"
+                    - generic [ref=e379]:
+                      - text: ",90"
+                      - generic [ref=e380]: €
+                  - generic [ref=e381]:
+                    - generic [ref=e383]:
+                      - generic [ref=e384]: Retrait gratuit en magasin
+                      - button "Choisir un magasin pour vérifier la disponibilité" [ref=e386] [cursor=pointer]
+                    - generic [ref=e387]:
+                      - generic [ref=e388]: Disponible en livraison
+                      - generic [ref=e389]:
+                        - text: Dès le
+                        - strong [ref=e390]: 20/01/2026
+                  - link "Ajouter au panier" [ref=e392] [cursor=pointer]:
+                    - /url: "#"
+              - separator [ref=e393]
+            - generic [ref=e394]:
+              - generic [ref=e395]:
+                - link "Housse CLEA noire et rouge (jeu complet)" [ref=e400] [cursor=pointer]:
+                  - /url: https://www.carter-cash.com/accessoires/p/housse-clea-noire-et-rouge-jeu-complet-28544609
+                  - heading "Housse CLEA noire et rouge (jeu complet)" [level=2] [ref=e401]
+                - generic [ref=e402]:
+                  - generic [ref=e405]:
+                    - text: "14"
+                    - generic [ref=e406]:
+                      - text: ",90"
+                      - generic [ref=e407]: €
+                  - generic [ref=e408]:
+                    - generic [ref=e410]:
+                      - generic [ref=e411]: Retrait gratuit en magasin
+                      - button "Choisir un magasin pour vérifier la disponibilité" [ref=e413] [cursor=pointer]
+                    - generic [ref=e414]:
+                      - generic [ref=e415]: Disponible en livraison
+                      - generic [ref=e416]:
+                        - text: Dès le
+                        - strong [ref=e417]: 20/01/2026
+                  - link "Ajouter au panier" [ref=e419] [cursor=pointer]:
+                    - /url: "#"
+              - separator [ref=e420]
+            - generic [ref=e421]:
+              - generic [ref=e422]:
+                - link "Housse CLEA noire et grise (jeu complet)" [ref=e427] [cursor=pointer]:
+                  - /url: https://www.carter-cash.com/accessoires/p/housse-clea-noire-et-grise-jeu-complet-28544579
+                  - heading "Housse CLEA noire et grise (jeu complet)" [level=2] [ref=e428]
+                - generic [ref=e429]:
+                  - generic [ref=e432]:
+                    - text: "14"
+                    - generic [ref=e433]:
+                      - text: ",90"
+                      - generic [ref=e434]: €
+                  - generic [ref=e435]:
+                    - generic [ref=e437]:
+                      - generic [ref=e438]: Retrait gratuit en magasin
+                      - button "Choisir un magasin pour vérifier la disponibilité" [ref=e440] [cursor=pointer]
+                    - generic [ref=e441]:
+                      - generic [ref=e442]: Disponible en livraison
+                      - generic [ref=e443]:
+                        - text: Dès le
+                        - strong [ref=e444]: 20/01/2026
+                  - link "Ajouter au panier" [ref=e446] [cursor=pointer]:
+                    - /url: "#"
+              - separator [ref=e447]
+            - generic [ref=e448]:
+              - generic [ref=e449]:
+                - generic [ref=e453] [cursor=pointer]:
+                  - link "Jeu complet de housses Nachos (dos couvert)" [ref=e454]:
+                    - /url: https://www.carter-cash.com/accessoires/p/housse-panachee-nachos-22611673
+                    - heading "Jeu complet de housses Nachos (dos couvert)" [level=2] [ref=e455]
+                  - button "1.5/5 - 2 avis" [ref=e459]
+                - generic [ref=e460]:
+                  - generic [ref=e463]:
+                    - text: "14"
+                    - generic [ref=e464]:
+                      - text: ",90"
+                      - generic [ref=e465]: €
+                  - generic [ref=e466]:
+                    - generic [ref=e468]:
+                      - generic [ref=e469]: Retrait gratuit en magasin
+                      - button "Choisir un magasin pour vérifier la disponibilité" [ref=e471] [cursor=pointer]
+                    - generic [ref=e472]:
+                      - generic [ref=e473]: Disponible en livraison
+                      - generic [ref=e474]:
+                        - text: Dès le
+                        - strong [ref=e475]: 20/01/2026
+                  - link "Ajouter au panier" [ref=e477] [cursor=pointer]:
+                    - /url: "#"
+              - separator [ref=e478]
+            - generic [ref=e479]:
+              - generic [ref=e480]:
+                - link "Housse ELIO noir 2/3-1/3 (Jeu complet)" [ref=e485] [cursor=pointer]:
+                  - /url: https://www.carter-cash.com/accessoires/p/housse-elio-noir-2-3-1-3-jeu-complet-5-appuis-tete-dos-sieges-avant-recouvert-maille-29003600
+                  - heading "Housse ELIO noir 2/3-1/3 (Jeu complet)" [level=2] [ref=e486]
+                - generic [ref=e487]:
+                  - generic [ref=e490]:
+                    - text: "16"
+                    - generic [ref=e491]:
+                      - text: ",90"
+                      - generic [ref=e492]: €
+                  - generic [ref=e493]:
+                    - generic [ref=e495]:
+                      - generic [ref=e496]: Retrait gratuit en magasin
+                      - button "Choisir un magasin pour vérifier la disponibilité" [ref=e498] [cursor=pointer]
+                    - generic [ref=e499]:
+                      - generic [ref=e500]: Disponible en livraison
+                      - generic [ref=e501]:
+                        - text: Dès le
+                        - strong [ref=e502]: 20/01/2026
+                  - link "Ajouter au panier" [ref=e504] [cursor=pointer]:
+                    - /url: "#"
+              - separator [ref=e505]
+            - generic [ref=e506]:
+              - generic [ref=e507]:
+                - link "Housse SAM noir 2/3-1/3 (Jeu complet)" [ref=e512] [cursor=pointer]:
+                  - /url: https://www.carter-cash.com/accessoires/p/housse-sam-noir-2-3-1-3-jeu-complet-5-appuis-tete-dos-sieges-avant-recouvert-maille-29003594
+                  - heading "Housse SAM noir 2/3-1/3 (Jeu complet)" [level=2] [ref=e513]
+                - generic [ref=e514]:
+                  - generic [ref=e517]:
+                    - text: "16"
+                    - generic [ref=e518]:
+                      - text: ",90"
+                      - generic [ref=e519]: €
+                  - generic [ref=e520]:
+                    - generic [ref=e522]:
+                      - generic [ref=e523]: Retrait gratuit en magasin
+                      - button "Choisir un magasin pour vérifier la disponibilité" [ref=e525] [cursor=pointer]
+                    - generic [ref=e526]:
+                      - generic [ref=e527]: Disponible en livraison
+                      - generic [ref=e528]:
+                        - text: Dès le
+                        - strong [ref=e529]: 20/01/2026
+                  - link "Ajouter au panier" [ref=e531] [cursor=pointer]:
+                    - /url: "#"
+              - separator [ref=e532]
+            - generic [ref=e533]:
+              - generic [ref=e534]:
+                - link "Housse CLOE noir/bleu 2/3-1/3 (Jeu complet)" [ref=e539] [cursor=pointer]:
+                  - /url: https://www.carter-cash.com/accessoires/p/housse-cloe-noir-bleu-2-3-1-3-jeu-complet-5-appuis-tete-dos-sieges-avant-recouvert-maille-29003587
+                  - heading "Housse CLOE noir/bleu 2/3-1/3 (Jeu complet)" [level=2] [ref=e540]
+                - generic [ref=e541]:
+                  - generic [ref=e544]:
+                    - text: "16"
+                    - generic [ref=e545]:
+                      - text: ",90"
+                      - generic [ref=e546]: €
+                  - generic [ref=e547]:
+                    - generic [ref=e549]:
+                      - generic [ref=e550]: Retrait gratuit en magasin
+                      - button "Choisir un magasin pour vérifier la disponibilité" [ref=e552] [cursor=pointer]
+                    - generic [ref=e553]:
+                      - generic [ref=e554]: Disponible en livraison
+                      - generic [ref=e555]:
+                        - text: Dès le
+                        - strong [ref=e556]: 20/01/2026
+                  - link "Ajouter au panier" [ref=e558] [cursor=pointer]:
+                    - /url: "#"
+              - separator [ref=e559]
+            - generic [ref=e560]:
+              - generic [ref=e561]:
+                - link "Housse CLOE noir/rouge 2/3-1/3 (Jeu complet)" [ref=e566] [cursor=pointer]:
+                  - /url: https://www.carter-cash.com/accessoires/p/housse-cloe-noir-rouge-2-3-1-3-jeu-complet-appuis-tete-dos-sieges-avant-recouvert-maille-29003570
+                  - heading "Housse CLOE noir/rouge 2/3-1/3 (Jeu complet)" [level=2] [ref=e567]
+                - generic [ref=e568]:
+                  - generic [ref=e571]:
+                    - text: "16"
+                    - generic [ref=e572]:
+                      - text: ",90"
+                      - generic [ref=e573]: €
+                  - generic [ref=e574]:
+                    - generic [ref=e576]:
+                      - generic [ref=e577]: Retrait gratuit en magasin
+                      - button "Choisir un magasin pour vérifier la disponibilité" [ref=e579] [cursor=pointer]
+                    - generic [ref=e580]:
+                      - generic [ref=e581]: Disponible en livraison
+                      - generic [ref=e582]:
+                        - text: Dès le
+                        - strong [ref=e583]: 20/01/2026
+                  - link "Ajouter au panier" [ref=e585] [cursor=pointer]:
+                    - /url: "#"
+              - separator [ref=e586]
+            - generic [ref=e587]:
+              - generic [ref=e588]:
+                - link "Housse CLOE noir/gris 2/3-1/3 (Jeu complet)" [ref=e593] [cursor=pointer]:
+                  - /url: https://www.carter-cash.com/accessoires/p/housse-cloe-noir-gris-2-3-1-3-jeu-complet-5-appuis-tete-dos-sieges-avant-recouvert-maille-29003563
+                  - heading "Housse CLOE noir/gris 2/3-1/3 (Jeu complet)" [level=2] [ref=e594]
+                - generic [ref=e595]:
+                  - generic [ref=e598]:
+                    - text: "16"
+                    - generic [ref=e599]:
+                      - text: ",90"
+                      - generic [ref=e600]: €
+                  - generic [ref=e601]:
+                    - generic [ref=e603]:
+                      - generic [ref=e604]: Retrait gratuit en magasin
+                      - button "Choisir un magasin pour vérifier la disponibilité" [ref=e606] [cursor=pointer]
+                    - generic [ref=e607]:
+                      - generic [ref=e608]: Disponible en livraison
+                      - generic [ref=e609]:
+                        - text: Dès le
+                        - strong [ref=e610]: 20/01/2026
+                  - link "Ajouter au panier" [ref=e612] [cursor=pointer]:
+                    - /url: "#"
+              - separator [ref=e613]
+            - generic [ref=e614]:
+              - generic [ref=e615]:
+                - link "Housse noire 2/3-1/3 Jeu complet" [ref=e620] [cursor=pointer]:
+                  - /url: https://www.carter-cash.com/accessoires/p/housse-noire-2-3-1-3-jeu-complet-28868484
+                  - heading "Housse noire 2/3-1/3 Jeu complet" [level=2] [ref=e621]
+                - generic [ref=e622]:
+                  - generic [ref=e625]:
+                    - text: "16"
+                    - generic [ref=e626]:
+                      - text: ",90"
+                      - generic [ref=e627]: €
+                  - generic [ref=e628]:
+                    - generic [ref=e630]:
+                      - generic [ref=e631]: Retrait gratuit en magasin
+                      - button "Choisir un magasin pour vérifier la disponibilité" [ref=e633] [cursor=pointer]
+                    - generic [ref=e634]:
+                      - generic [ref=e635]: Disponible en livraison
+                      - generic [ref=e636]:
+                        - text: Dès le
+                        - strong [ref=e637]: 20/01/2026
+                  - link "Ajouter au panier" [ref=e639] [cursor=pointer]:
+                    - /url: "#"
+              - separator [ref=e640]
+            - generic [ref=e641]:
+              - generic [ref=e642]:
+                - link "Housse CLARK pour utilitaire (jeu complet)" [ref=e647] [cursor=pointer]:
+                  - /url: https://www.carter-cash.com/accessoires/p/housse-clark-pour-utilitaire-jeu-complet-28544623
+                  - heading "Housse CLARK pour utilitaire (jeu complet)" [level=2] [ref=e648]
+                - generic [ref=e649]:
+                  - generic [ref=e652]:
+                    - text: "16"
+                    - generic [ref=e653]:
+                      - text: ",90"
+                      - generic [ref=e654]: €
+                  - generic [ref=e655]:
+                    - generic [ref=e657]:
+                      - generic [ref=e658]: Retrait gratuit en magasin
+                      - button "Choisir un magasin pour vérifier la disponibilité" [ref=e660] [cursor=pointer]
+                    - generic [ref=e661]:
+                      - generic [ref=e662]: Disponible en livraison
+                      - generic [ref=e663]:
+                        - text: Dès le
+                        - strong [ref=e664]: 20/01/2026
+                  - link "Ajouter au panier" [ref=e666] [cursor=pointer]:
+                    - /url: "#"
+              - separator [ref=e667]
+            - generic [ref=e668]:
+              - generic [ref=e669]:
+                - link "Housse KARL noire taille unique pour monospace" [ref=e674] [cursor=pointer]:
+                  - /url: https://www.carter-cash.com/accessoires/p/housse-karl-noire-taille-unique-pour-monospace-28544661
+                  - heading "Housse KARL noire taille unique pour monospace" [level=2] [ref=e675]
+                - generic [ref=e676]:
+                  - generic [ref=e679]:
+                    - text: "19"
+                    - generic [ref=e680]:
+                      - text: ",90"
+                      - generic [ref=e681]: €
+                  - generic [ref=e682]:
+                    - generic [ref=e684]:
+                      - generic [ref=e685]: Retrait gratuit en magasin
+                      - button "Choisir un magasin pour vérifier la disponibilité" [ref=e687] [cursor=pointer]
+                    - generic [ref=e688]:
+                      - generic [ref=e689]: Disponible en livraison
+                      - generic [ref=e690]:
+                        - text: Dès le
+                        - strong [ref=e691]: 20/01/2026
+                  - link "Ajouter au panier" [ref=e693] [cursor=pointer]:
+                    - /url: "#"
+              - separator [ref=e694]
+            - generic [ref=e695]:
+              - generic [ref=e696]:
+                - link "Housse monospace" [ref=e701] [cursor=pointer]:
+                  - /url: https://www.carter-cash.com/accessoires/p/housse-karl-monospace-28868545
+                  - heading "Housse monospace" [level=2] [ref=e702]
+                - generic [ref=e703]:
+                  - generic [ref=e706]:
+                    - text: "24"
+                    - generic [ref=e707]:
+                      - text: ",90"
+                      - generic [ref=e708]: €
+                  - generic [ref=e709]:
+                    - generic [ref=e711]:
+                      - generic [ref=e712]: Retrait gratuit en magasin
+                      - button "Choisir un magasin pour vérifier la disponibilité" [ref=e714] [cursor=pointer]
+                    - generic [ref=e715]:
+                      - generic [ref=e716]: Disponible en livraison
+                      - generic [ref=e717]:
+                        - text: Dès le
+                        - strong [ref=e718]: 20/01/2026
+                  - link "Ajouter au panier" [ref=e720] [cursor=pointer]:
+                    - /url: "#"
+              - separator [ref=e721]
+          - combobox [ref=e723] [cursor=pointer]:
+            - option "1 sur 1" [selected]
+    - generic [ref=e724]:
+      - generic [ref=e725]:
+        - heading "Comment protéger les sièges de voiture ?" [level=2] [ref=e726]
+        - paragraph [ref=e727]:
+          - text: Pour protéger efficacement vos sièges de voiture, l'utilisation de housses de protection universelles est vivement recommandée.
+          - link "Ces accessoires intérieur" [ref=e728] [cursor=pointer]:
+            - /url: https://www.carter-cash.com/accessoires/interieur
+          - text: ", disponibles en plusieurs matières et designs, offrent une protection optimale contre l'usure, les salissures et autres dommages potentiels."
+        - list [ref=e729]:
+          - listitem [ref=e730]: "Optez pour une housse universelle : Ces housses sont conçues pour s'adapter à la plupart des sièges de voiture. Elles sont généralement faciles à installer et à retirer, ce qui facilite le lavage et l'entretien."
+        - list [ref=e731]:
+          - listitem [ref=e732]: "Privilégiez les housses antidérapantes et absorbantes : Ces modèles offrent une protection supplémentaire en empêchant les liquides de s'infiltrer dans les sièges et en évitant que les housses ne glissent sur le siège."
+        - list [ref=e733]:
+          - listitem [ref=e734]: "N'oubliez pas l'esthétique : Les housses de siège sont aussi un excellent moyen de personnaliser l'intérieur de votre voiture. Faites votre choix parmi une large gamme de couleurs et de motifs pour donner un look unique à votre véhicule."
+        - paragraph [ref=e735]
+        - paragraph [ref=e736]: En résumé, pour protéger vos sièges de voiture, optez pour des housses universelles, choisissez la matière adéquate, privilégiez les modèles antidérapants et absorbants, et n'oubliez pas l'esthétique pour personnaliser votre intérieur.
+        - heading "Comment mettre une housse de siège intérieur voiture ?" [level=2] [ref=e737]
+        - paragraph [ref=e738]:
+          - text: Installer une housse de siège pour votre véhicule n'est pas très compliqué. Tout d'abord, assurez-vous que vos sièges sont propres. Enlevez tous les débris, la poussière et la saleté qui pourraient se trouver sur le revêtement d'origine de votre voiture avec un
+          - link "aspirateur adapté" [ref=e739] [cursor=pointer]:
+            - /url: https://www.carter-cash.com/accessoires/produits-accessoires-nettoyage-voiture/aspirateur
+          - text: . Ensuite, commencez par l'arrière du siège.
+        - paragraph [ref=e740]: "Pour une installation optimale, suivez ces étapes :"
+        - list [ref=e741]:
+          - listitem [ref=e742]: "Positionnez la housse sur le siège : Assurez-vous qu'elle est bien alignée avec la forme de votre siège."
+          - listitem [ref=e743]: "Fixez la housse : Utilisez les crochets ou les élastiques fournis avec la housse pour la fixer."
+          - listitem [ref=e744]: "Ajustez la housse : Tirez légèrement sur la housse pour qu'elle épouse parfaitement la forme du siège."
+        - paragraph [ref=e745]: N'oubliez pas d'ajuster correctement l'appui-tête également. En général, la housse doit être tirée vers le bas et l'élastique ou les crochets doivent être fixés sous le siège.
+        - heading "Comment laver une housse de voiture universelle ?" [level=2] [ref=e746]
+        - paragraph [ref=e747]: "Pour un entretien optimal, certains points sont à respecter :"
+        - list [ref=e748]:
+          - listitem [ref=e749]: "Retirer la housse de voiture : Avant de commencer le nettoyage, il est important de retirer la housse du siège de la voiture. Cela permet d'accéder à toutes les parties de la housse et d'assurer un nettoyage complet."
+        - list [ref=e750]:
+          - listitem [ref=e751]: "Déloger les salissures importantes : Si la housse est très sale, il peut être utile de la brosser délicatement avec une brosse à poils doux pour enlever les grosses salissures."
+        - list [ref=e752]:
+          - listitem [ref=e753]: "Vérifier les instructions de lavage : Certaines housses peuvent être endommagées par un lavage en machine. Vérifiez toujours les instructions du fabricant avant de laver votre housse."
+        - list [ref=e754]:
+          - listitem [ref=e755]: "Nettoyer les sangles ou harnais : Si votre housse de siège a des sangles ou des harnais, il est recommandé de les retirer avant le lavage. Ils pourraient être endommagés dans la machine à laver."
+        - paragraph [ref=e756]
+        - heading "Quel tissu pour housse de protection de voiture ?" [level=2] [ref=e757]
+        - paragraph [ref=e758]: "Le choix du tissu pour vos housses de protection voiture est crucial pour garantir leur durabilité et votre confort. Plusieurs options s'offrent à vous :"
+        - list [ref=e759]:
+          - listitem [ref=e760]: "Polyester : Ce matériau synthétique est réputé pour sa résistance à l'usure et sa facilité d'entretien. Il est également peu coûteux, ce qui en fait un choix populaire."
+        - list [ref=e761]:
+          - listitem [ref=e762]: "Nylon : Comme le polyester, le nylon est un tissu synthétique résistant et durable. Cependant, il est généralement plus doux au toucher, ce qui peut augmenter le confort."
+        - list [ref=e763]:
+          - listitem [ref=e764]: "Tissus synthétiques : D'autres types de tissus synthétiques, comme le polyéther, l'acétal ou l'élasthanne, peuvent également être utilisés. Ils offrent de bonnes capacités absorbantes et ne conservent pas l'humidité."
+        - list [ref=e765]:
+          - listitem [ref=e766]: "Éponge : Ce type de tissu est particulièrement adapté si vous recherchez une housse de siège de voiture douce et confortable."
+        - paragraph [ref=e767]
+        - heading "Vous cherchez des housses pour votre voiture ?" [level=2] [ref=e768]
+        - paragraph [ref=e769]:
+          - text: Une voiture avec un beau design, ça a de l’allure. Mais l’important, c’est votre confort intérieur ! Rien de tel qu’un jeu de housse pour préserver vos sièges de voiture des poils du chien et des traces du goûter des enfants. Car il est parfois difficile de venir à bout de certains dégâts sur les sièges... Chez
+          - emphasis [ref=e770]:
+            - strong [ref=e771]: Carter-Cash
+          - text: ", on vous propose un large choix de housses adaptées à la plupart des voitures et pour tous les goûts. Les housses universelles s'adaptent sur tous les sièges auto. Souvent fixées par des systèmes de lanière, les housses de siège auto universelles vous permettent de redonner un p'tit coup de jeune à votre intérieur à moindre coût."
+        - heading "Besoin de changer ses housses de siège auto ?" [level=2] [ref=e772]
+        - paragraph [ref=e773]:
+          - text: Garder l’intérieur de votre voiture propre est l’utilité première du jeu de housses. Mais ça peut être aussi l’occasion de donner un peu de peps à un intérieur parfois trop gris ou trop terne tout en gardant un confort optimal. Il existe des jeux de housses colorés, avec ou sans motifs. Un peu comme votre maison, c’est l’occasion de revoir la déco intérieure de temps en temps et selon vos envies ! Quelle que soit la marque de votre voiture, les protections de siège sont toujours à prix bas chez
+          - emphasis [ref=e774]:
+            - strong [ref=e775]: Carter-Cash
+          - text: .
+        - heading "Comment bien choisir votre housse de siège automobile ?" [level=2] [ref=e776]
+        - paragraph [ref=e777]: Pour choisir la housse de siège adaptée à votre voiture, il est dans un premier temps essentiel de vous renseigner sur les housses compatibles avec votre voiture et ses sièges. Le reste est surtout purement subjectif. Il existe trois grandes catégories de housses de siège auto. Les housses de siège en tissu, en cuir et celles sur-mesure. Le modèle le moins cher reste celui en tissu, il ne protège pas moins bien pour autant ! Disponible en plusieurs couleurs et textiles, vous pourrez facilement trouver votre bonheur. Les housses en cuir sont un peu plus chères mais apporte une élégance inégalable à votre voiture !
+        - heading "Acheter des housses de siège à prix bas en France" [level=2] [ref=e778]
+        - paragraph [ref=e779]:
+          - text: Roulez en toute sérénité et confortablement ! Chez
+          - emphasis [ref=e780]:
+            - strong [ref=e781]: Carter-Cash
+          - text: ", nous vous proposons toute l'année une large gamme de produits, accessoires indispensables au bon entretien de votre voiture. Pas de promo chez"
+          - emphasis [ref=e782]:
+            - strong [ref=e783]: Carter-Cash
+          - text: ", nos produits pour voyager dans une voiture confortable sont à petits prix garantis toute l’année. Si vos housses de siège, vos"
+          - link "tapis" [ref=e784] [cursor=pointer]:
+            - /url: https://www.carter-cash.com/accessoires/tapis-voiture
+          - text: ou vos
+          - link "couvre-sièges" [ref=e785] [cursor=pointer]:
+            - /url: https://www.carter-cash.com/accessoires/interieur/couvresiege-voiture
+          - text: sont disponibles en réservation sur stock magasin, vous pourrez effectuer un retrait sous 1h. Si vos accessoires sont indisponibles, vous pourrez passer commande et venir la retirer dans un de nos magasins dès sa réception. Vous pouvez également opter pour le service de livraison rapide à domicile. Les expéditions sont rapides et les colis sont emballés soigneusement.
+      - generic [ref=e786]:
+        - generic [ref=e787]: "Autres accessoires du rayon « Housse universelle voiture » :"
+        - list [ref=e788]:
+          - listitem [ref=e789]:
+            - link "Désodorisant voiture" [ref=e790] [cursor=pointer]:
+              - /url: /accessoires/interieur/gadgets-deco-desodorisants
+          - listitem [ref=e791]:
+            - link "Rideaux, pare-soleil voiture" [ref=e792] [cursor=pointer]:
+              - /url: /accessoires/interieur/saisonnier-ete
+          - listitem [ref=e793]:
+            - link "Coussin et tour de cou" [ref=e794] [cursor=pointer]:
+              - /url: /accessoires/interieur/coussin-tour-cou
+          - listitem [ref=e795]:
+            - link "Ventilateur" [ref=e796] [cursor=pointer]:
+              - /url: /accessoires/interieur/ventilateur
+          - listitem [ref=e797]:
+            - link "Plaid" [ref=e798] [cursor=pointer]:
+              - /url: /accessoires/interieur/plaid
+          - listitem [ref=e799]:
+            - link "Couvre-volant" [ref=e800] [cursor=pointer]:
+              - /url: /accessoires/interieur/couvre-volant
+          - listitem [ref=e801]:
+            - link "Protège-siège et dossier voiture" [ref=e802] [cursor=pointer]:
+              - /url: /accessoires/interieur/protege-siege-dossier-voiture
+          - listitem [ref=e803]:
+            - link "Couvre-siège voiture" [ref=e804] [cursor=pointer]:
+              - /url: /accessoires/interieur/couvresiege-voiture
+          - listitem [ref=e805]:
+            - link "Accessoires" [ref=e806] [cursor=pointer]:
+              - /url: /accessoires/interieur/accessoires-interieur
+          - listitem [ref=e807]:
+            - link "Accessoires tunning" [ref=e808] [cursor=pointer]:
+              - /url: /accessoires/interieur/volants-pommeaux-p%C3%A9daliers
+          - listitem [ref=e809]:
+            - link "Divers accessoires de confort" [ref=e810] [cursor=pointer]:
+              - /url: /accessoires/interieur/divers-accessoires-confort
+          - listitem [ref=e811]:
+            - link "Film solaire teinté pour voiture" [ref=e812] [cursor=pointer]:
+              - /url: /accessoires/interieur/film-solaire
+          - listitem [ref=e813]:
+            - link "Rangement voiture" [ref=e814] [cursor=pointer]:
+              - /url: /accessoires/interieur/rangement-voiture
+          - listitem [ref=e815]:
+            - link "Glacière voiture" [ref=e816] [cursor=pointer]:
+              - /url: /accessoires/interieur/glaciere-sac
+  - contentinfo [ref=e817]:
+    - generic [ref=e820]:
+      - generic [ref=e822]:
+        - generic [ref=e823]:
+          - paragraph [ref=e824]:
+            - strong [ref=e825]:
+              - text: 01 80 88 42 42
+              - text: (prix d'un appel local)
+              - text: Lun-Ven 9h-19h00
+              - text: Samedi 9h-17h
+          - list [ref=e826]:
+            - listitem [ref=e827]:
+              - link "Suivi de commande" [ref=e828] [cursor=pointer]:
+                - /url: /page/suivi-commande
+            - listitem [ref=e829]:
+              - link "Livraison" [ref=e830] [cursor=pointer]:
+                - /url: /page/livraison
+            - listitem [ref=e831]:
+              - link "Modes de paiement" [ref=e832] [cursor=pointer]:
+                - /url: /page/modes-de-paiement
+            - listitem [ref=e833]:
+              - link "Retour commande" [ref=e834] [cursor=pointer]:
+                - /url: /page/retour-commande
+            - listitem [ref=e835]:
+              - link "Retrait Magasin" [ref=e836] [cursor=pointer]:
+                - /url: /page/retrait-magasin
+            - listitem [ref=e837]:
+              - link "FAQ" [ref=e838] [cursor=pointer]:
+                - /url: https://carter-cashsupport.zendesk.com/hc/fr/
+          - paragraph [ref=e839]:
+            - 'link "Accessibilité : non conforme" [ref=e841] [cursor=pointer]':
+              - /url: /page/accessibilite
+          - paragraph [ref=e842]:
+            - button "FACIL'iti" [ref=e843] [cursor=pointer]:
+              - img "Gérer les options d’affichage" [ref=e844]
+          - paragraph [ref=e845]
+        - generic [ref=e846]:
+          - heading "La newsletter" [level=4] [ref=e847]
+          - text: Recevez nos actualités et bon plans.
+          - button "S'abonner" [ref=e848] [cursor=pointer]
+          - paragraph [ref=e849]:
+            - text: Votre adresse de messagerie est recueillie par CARTER-CASH pour vous envoyer ses actualités, offres et nouveautés. Vous pouvez à tout moment utiliser le lien de désabonnement intégré dans la Newsletter. Pour en savoir plus sur la gestion de vos données et vos droits, cliquez
+            - link "ici" [ref=e850] [cursor=pointer]:
+              - /url: https://www.carter-cash.com/page/donnees-personnelles
+          - generic [ref=e851]:
+            - text: Ce site est protégé par reCAPTCHA. Les
+            - link "règles de confidentialité" [ref=e852] [cursor=pointer]:
+              - /url: https://policies.google.com/privacy
+            - text: et
+            - link "conditions d'utilisation" [ref=e853] [cursor=pointer]:
+              - /url: https://policies.google.com/terms
+            - text: de Google s'appliquent.
+      - generic [ref=e854]:
+        - list [ref=e855]:
+          - listitem [ref=e856]:
+            - link "Contactez-nous" [ref=e857] [cursor=pointer]:
+              - /url: https://carter-cashsupport.zendesk.com/hc/fr
+          - listitem [ref=e858]:
+            - link "CGV Carter-Cash.com" [ref=e859] [cursor=pointer]:
+              - /url: /page/conditions-generales-de-ventes
+          - listitem [ref=e860]:
+            - link "CGU Carter-Cash.com" [ref=e861] [cursor=pointer]:
+              - /url: /page/cgu
+          - listitem [ref=e862]:
+            - link "CG Magasins" [ref=e863] [cursor=pointer]:
+              - /url: /page/conditions-generales-de-ventes-magasin
+          - listitem [ref=e864]:
+            - link "Mentions légales" [ref=e865] [cursor=pointer]:
+              - /url: /page/mentions-legales
+          - listitem [ref=e866]:
+            - link "Cookies" [ref=e867] [cursor=pointer]:
+              - /url: /page/cookies
+          - listitem [ref=e868]:
+            - link "Paramétrer mes cookies" [ref=e869] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e870]:
+            - link "Notifications Push" [ref=e871] [cursor=pointer]:
+              - /url: /page/charte-notifications-push
+          - listitem [ref=e872]:
+            - link "Données Personnelles" [ref=e873] [cursor=pointer]:
+              - /url: /page/donnees-personnelles
+          - listitem [ref=e874]:
+            - link "Offres emplois" [ref=e875] [cursor=pointer]:
+              - /url: https://recrutement.carter-cash.com/
+          - listitem [ref=e876]:
+            - link "Postulez sans CV !" [ref=e877] [cursor=pointer]:
+              - /url: https://www.carter-cash.com/emplois/candidature-sans-cv
+        - list [ref=e878]:
+          - listitem [ref=e879]:
+            - link [ref=e880] [cursor=pointer]:
+              - /url: https://www.carter-cash.es
+              - img [ref=e881]
+          - listitem [ref=e882]:
+            - link [ref=e883] [cursor=pointer]:
+              - /url: https://www.carter-cash.it
+              - img [ref=e884]
+      - generic [ref=e885]:
+        - list [ref=e886]:
+          - listitem [ref=e887]:
+            - link "Catalogue" [ref=e888] [cursor=pointer]:
+              - /url: https://view.publitas.com/cartercash/catalogue-hiver-2025/page/1
+          - listitem [ref=e889]:
+            - link "Blog Auto" [ref=e890] [cursor=pointer]:
+              - /url: https://www.carter-cash.com/blog/
+          - listitem [ref=e891]:
+            - link "Pneus pas chers" [ref=e892] [cursor=pointer]:
+              - /url: https://www.carter-cash.com/pneus
+          - listitem [ref=e893]:
+            - link "Dimensions pneus" [ref=e894] [cursor=pointer]:
+              - /url: https://www.carter-cash.com/pneus/dimensions-de-pneus
+          - listitem [ref=e895]:
+            - link "Pneus constructeurs" [ref=e896] [cursor=pointer]:
+              - /url: /pneus/tops-pneus-voiture
+          - listitem [ref=e897]:
+            - link "Pneus marques" [ref=e898] [cursor=pointer]:
+              - /url: /pneus/tops-pneus-marques
+          - listitem [ref=e899]:
+            - link "Pneus autour de moi" [ref=e900] [cursor=pointer]:
+              - /url: " /page/pneus-autour-de-moi"
+          - listitem [ref=e901]:
+            - link "Tops pneus" [ref=e902] [cursor=pointer]:
+              - /url: https://www.carter-cash.com/pneus/top-pneus
+          - listitem [ref=e903]:
+            - link "Les marques" [ref=e904] [cursor=pointer]:
+              - /url: https://www.carter-cash.com/page/marque
+          - listitem [ref=e905]:
+            - link "Opération MICHELIN" [ref=e906] [cursor=pointer]:
+              - /url: https://www.carter-cash.com/page/operation-michelin
+          - listitem [ref=e907]:
+            - link "Règlements jeux" [ref=e908] [cursor=pointer]:
+              - /url: /page/reglements
+          - listitem [ref=e909]:
+            - link "Rouler durable" [ref=e910] [cursor=pointer]:
+              - /url: /page/rouler-durable
+        - list [ref=e911]:
+          - listitem [ref=e912]:
+            - link [ref=e913] [cursor=pointer]:
+              - /url: https://www.facebook.com/CarterCashAuto/
+              - img [ref=e914]
+          - listitem [ref=e915]:
+            - link [ref=e916] [cursor=pointer]:
+              - /url: https://www.instagram.com/cartercashauto/
+              - img [ref=e917]
+          - listitem [ref=e918]:
+            - link [ref=e919] [cursor=pointer]:
+              - /url: https://www.youtube.com/c/cartercash
+              - img [ref=e920]
+  - dialog [ref=e921]:
+    - generic [ref=e926]:
+      - generic [ref=e927]: Bienvenue sur Carter-Cash.com !
+      - paragraph [ref=e928]: Lors de votre visite sur notre site Carter-Cash, des cookies (petits fichiers texte) sont déposés sur votre appareil. Ils permettent d'assurer le bon fonctionnement du site et une navigation sécurisée, de vous proposer des communications et publicités personnalisées, ainsi que d’analyser les visites dans le but d'améliorer le site.
+      - paragraph [ref=e929]: A l’exception des cookies strictement nécessaires, vous pouvez choisir d’accepter et de continuer, de continuer sans accepter ou de paramétrer les cookies en cliquant sur l’un des boutons ci-dessous.
+      - paragraph [ref=e930]: Vous pourrez mettre à jour votre choix à tout moment en cliquant sur "Paramétrez mes cookies" en bas de notre site.
+    - list [ref=e931]:
+      - listitem "Paramétrer les cookies" [ref=e932] [cursor=pointer]
+      - listitem "Continuer sans accepter" [ref=e933] [cursor=pointer]
+      - listitem "Accepter et continuer" [ref=e934] [cursor=pointer]
+```

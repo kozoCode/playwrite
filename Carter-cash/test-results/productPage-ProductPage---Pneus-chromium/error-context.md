@@ -1,0 +1,654 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - link [ref=e7] [cursor=pointer]:
+      - /url: https://www.carter-cash.com/pieces-auto?zac=TROTR149045FR
+      - paragraph [ref=e9]: Dès 99€ d'achats, profitez de la livraison OFFERTE* à domicile ou en point relais >
+    - link "Indépendamment de notre volonté, les délais de livraison peuvent être rallongés en raison des récentes conditions climatiques." [ref=e12] [cursor=pointer]:
+      - /url: https://carter-cashsupport.zendesk.com/hc/fr/
+      - paragraph [ref=e14]: Indépendamment de notre volonté, les délais de livraison peuvent être rallongés en raison des récentes conditions climatiques.
+    - link [ref=e17] [cursor=pointer]:
+      - /url: https://www.carter-cash.com/pieces-auto?zac=TROTR149045FR
+      - paragraph [ref=e19]: Dès 99€ d'achats, profitez de la livraison OFFERTE* à domicile ou en point relais >
+    - link [ref=e22] [cursor=pointer]:
+      - /url: https://carter-cashsupport.zendesk.com/hc/fr/
+      - paragraph [ref=e24]: Indépendamment de notre volonté, les délais de livraison peuvent être rallongés en raison des récentes conditions climatiques.
+    - link [ref=e27] [cursor=pointer]:
+      - /url: https://www.carter-cash.com/pieces-auto?zac=TROTR149045FR
+      - paragraph [ref=e29]: Dès 99€ d'achats, profitez de la livraison OFFERTE* à domicile ou en point relais >
+  - banner [ref=e30]:
+    - generic [ref=e33]:
+      - link "Carter-Cash" [ref=e35] [cursor=pointer]:
+        - /url: /
+        - img "Carter-Cash" [ref=e36]
+      - generic [ref=e37]:
+        - link "Mon magasin" [ref=e39] [cursor=pointer]:
+          - /url: " /magasins/ "
+          - generic [ref=e40]: Mon magasin
+        - button "Ma voiture" [ref=e43] [cursor=pointer]:
+          - generic [ref=e44]: Ma voiture
+        - link "Mon compte" [ref=e45] [cursor=pointer]:
+          - /url: /compte/
+          - generic [ref=e46]: Mon compte
+        - button "Mon panier" [ref=e47] [cursor=pointer]:
+          - generic [ref=e48]: Mon panier
+      - generic [ref=e50]:
+        - textbox "Rechercher un produit, une référence..." [ref=e52] [cursor=pointer]
+        - button [ref=e53] [cursor=pointer]:
+          - generic [ref=e54]: 
+    - list [ref=e58]:
+      - listitem [ref=e59]:
+        - link "PNEUS" [ref=e60] [cursor=pointer]:
+          - /url: /pneus?zac=MENB0177047FR
+      - listitem [ref=e61]:
+        - link "PIECES AUTO" [ref=e62] [cursor=pointer]:
+          - /url: /pieces-auto?zac=MENB0212908FR
+      - listitem [ref=e63]:
+        - link "HUILES" [ref=e64] [cursor=pointer]:
+          - /url: /pieces-auto/c/huiles-lubrifiants/huile-moteur?zac=MENB0307691FR
+      - listitem [ref=e65]:
+        - link "FREINAGE" [ref=e66] [cursor=pointer]:
+          - /url: /pieces-auto/c/freinage?zac=MENB0468669FR
+      - listitem [ref=e67]:
+        - link "BATTERIE" [ref=e68] [cursor=pointer]:
+          - /url: /pieces-auto/c/demarrage-charge/batterie?zac=MENB0565955FR
+      - listitem [ref=e69]:
+        - link "ACCESSOIRES - OUTILLAGE" [ref=e70] [cursor=pointer]:
+          - /url: /accessoires?zac=MENB0627979FR
+      - listitem [ref=e71]:
+        - link "CHAÎNES - CHAUSSETTES NEIGE" [ref=e72] [cursor=pointer]:
+          - /url: https://www.carter-cash.com/accessoires/accessoires-roue-pneu
+      - listitem [ref=e73]:
+        - link "NOS SERVICES" [ref=e74] [cursor=pointer]:
+          - /url: /services-ateliers?zac=MENB0800066FR
+  - generic [ref=e75]:
+    - list [ref=e77]:
+      - listitem [ref=e78]:
+        - link "Accueil" [ref=e79] [cursor=pointer]:
+          - /url: https://www.carter-cash.com/
+      - listitem [ref=e81]:
+        - link "Pneus" [ref=e82] [cursor=pointer]:
+          - /url: https://www.carter-cash.com/pneus/
+      - listitem [ref=e84]:
+        - link "APLUS" [ref=e85] [cursor=pointer]:
+          - /url: https://www.carter-cash.com/pneus/aplus
+      - listitem [ref=e87]:
+        - generic [ref=e88]: APLUS A609 - 145/70 R13 71T
+    - generic [ref=e90]:
+      - generic [ref=e95]:
+        - button "Dimensions de vos pneus Pneus Aplus Été Tourisme 145 70 R13 71 T Modifier" [ref=e97] [cursor=pointer]:
+          - generic [ref=e98]:
+            - generic [ref=e99]: Dimensions de vos pneus
+            - generic [ref=e100]: Pneus Aplus Été Tourisme 145 70 R13 71 T
+          - generic [ref=e101]: Modifier
+        - text: "!"
+      - generic [ref=e102]:
+        - generic [ref=e103]:
+          - heading "Pneu APLUS A609 145/70 R13 71T Pneu été Véhicule tourisme" [level=1] [ref=e104]:
+            - text: Pneu APLUS A609
+            - generic [ref=e105]:
+              - text: 145/70 R13 71T
+              - img "Pneu été" [ref=e106]
+              - img "Véhicule tourisme" [ref=e107]
+          - link "4.5 / 5 - 89 avis" [ref=e110] [cursor=pointer]:
+            - /url: "#skeepers_product_widget"
+            - generic [ref=e111]:
+              - img [ref=e113]
+              - img [ref=e116]
+              - img [ref=e119]
+              - img [ref=e122]
+              - img [ref=e125]
+            - generic [ref=e127]: 4.5 / 5 - 89 avis
+        - img "Pneu APLUS" [ref=e129]
+      - generic [ref=e130]:
+        - generic [ref=e131]:
+          - generic [ref=e132]:
+            - generic [ref=e135]:
+              - link "Pneu APLUS A609" [ref=e138] [cursor=pointer]:
+                - /url: /images/tire/A609.jpg
+                - img "Pneu APLUS A609"
+              - link "Pneu APLUS A609" [ref=e141] [cursor=pointer]:
+                - /url: /images/tire/label/Label_455438.png
+                - img "Pneu APLUS A609"
+            - link [ref=e143] [cursor=pointer]:
+              - /url: /images/tire/A609.jpg
+              - figure [ref=e144]:
+                - img "Pneu APLUS A609" [ref=e145]
+                - generic:
+                  - img "Pneu APLUS A609"
+                - generic:
+                  - img "Pneu APLUS A609"
+          - generic [ref=e146]:
+            - generic [ref=e147]:
+              - list:
+                - listitem
+            - generic [ref=e148]:
+              - generic [ref=e150]: Pneu été
+              - generic [ref=e152]: Véhicule tourisme
+        - generic [ref=e154]:
+          - generic [ref=e156]:
+            - generic [ref=e157]:
+              - generic [ref=e161]:
+                - text: "29"
+                - generic [ref=e162]:
+                  - text: ",90"
+                  - generic [ref=e163]: €
+              - text: Prix unitaire dont eco participation incluse
+              - generic [ref=e165]:
+                - checkbox "Montage/équilibrage/valvage sans rdv 9.90 € (par pneu)" [ref=e166] [cursor=pointer]
+                - generic [ref=e167] [cursor=pointer]:
+                  - text: Montage/équilibrage/valvage sans rdv
+                  - text: 9.90 € (par pneu)
+              - generic [ref=e168]:
+                - combobox [ref=e170]:
+                  - option "1"
+                  - option "2" [selected]
+                  - option "3"
+                  - option "4"
+                  - option "5"
+                  - option "6"
+                  - option "7"
+                  - option "8"
+                  - option "9"
+                  - option "10"
+                - button "Ajouter au panier" [ref=e171] [cursor=pointer]
+            - generic [ref=e172]:
+              - generic [ref=e174]:
+                - strong [ref=e176]: Retrait gratuit en magasin
+                - button "Choisir un magasin pour vérifier la disponibilité" [ref=e178] [cursor=pointer]
+              - generic [ref=e179]:
+                - generic [ref=e180]: Disponible en livraison
+                - generic [ref=e181]:
+                  - text: Dès le
+                  - strong [ref=e182]: 19/01/2026
+          - generic [ref=e183]:
+            - link "Besoin d'aide ?" [ref=e187] [cursor=pointer]:
+              - /url: https://carter-cashsupport.zendesk.com/hc/fr/requests/new
+              - text: Besoin
+              - text: d'aide ?
+            - generic [ref=e188]: Garantie 2 ans
+          - generic [ref=e189]: Nous assurons la collecte de vos pneus usagés destinés à une filière de recyclage spécialisée.
+    - generic [ref=e192]:
+      - heading "Caractéristiques" [level=2] [ref=e193]
+      - list [ref=e194]:
+        - listitem [ref=e195]:
+          - generic [ref=e196]: Saisonalité
+          - generic [ref=e197]: Été
+        - listitem [ref=e198]:
+          - generic [ref=e199]: Véhicule
+          - generic [ref=e200]: Tourisme
+        - listitem [ref=e201]:
+          - generic [ref=e202]: Consommation
+          - generic [ref=e203]: D
+        - listitem [ref=e204]:
+          - generic [ref=e205]: Indice Pluie
+          - generic [ref=e206]: C
+        - listitem [ref=e207]:
+          - generic [ref=e208]: Bruit
+          - generic [ref=e209]: 70 db
+        - listitem [ref=e210]:
+          - generic [ref=e211]: Largeur
+          - generic [ref=e212]: "145"
+        - listitem [ref=e213]:
+          - generic [ref=e214]: Hauteur
+          - generic [ref=e215]: "70"
+        - listitem [ref=e216]:
+          - generic [ref=e217]: Diamètre
+          - generic [ref=e218]: "13"
+        - listitem [ref=e219]:
+          - generic [ref=e220]: Charge
+          - generic [ref=e221]: "71"
+        - listitem [ref=e222]:
+          - generic [ref=e223]: Vitesse
+          - generic [ref=e224]: T
+        - listitem [ref=e225]:
+          - generic [ref=e226]: Runflat
+          - generic [ref=e227]: Non
+    - generic [ref=e229]:
+      - generic [ref=e230]:
+        - heading "Avis" [level=2] [ref=e231]
+        - link "4.5 / 5 - 89 avis" [ref=e234] [cursor=pointer]:
+          - /url: "#skeepers_product_widget"
+          - generic [ref=e235]:
+            - img [ref=e237]
+            - img [ref=e240]
+            - img [ref=e243]
+            - img [ref=e246]
+            - img [ref=e249]
+          - generic [ref=e251]: 4.5 / 5 - 89 avis
+      - tablist [ref=e256]:
+        - list [ref=e257]:
+          - tab "avis (89)" [selected] [ref=e258] [cursor=pointer]
+          - tab "Questions (0)" [ref=e259] [cursor=pointer]
+        - tabpanel "avis (89)" [ref=e260]:
+          - generic [ref=e262]:
+            - generic [ref=e263]:
+              - generic [ref=e264]:
+                - generic [ref=e265]: 4.5 / 5
+                - generic [ref=e267]:
+                  - img [ref=e269]
+                  - img [ref=e272]
+                  - img [ref=e275]
+                  - img [ref=e278]
+                  - img [ref=e281]
+              - generic [ref=e283]:
+                - link "Avis Vérifiés" [ref=e284] [cursor=pointer]:
+                  - /url: https://www.avis-verifies.com/avis-clients/carter-cash.com
+                  - img "Avis Vérifiés" [ref=e285]: data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjc5IiBoZWlnaHQ9Ijk0IiB2aWV3Qm94PSIwIDAgMjc5IDk0IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMTE2LjI5OCAzMy45MjM1SDEyOS45MTlMMTMyLjkzMSA0Mi44ODVIMTM5Ljk0NkwxMjcuMTU5IDYuNTk5MTlIMTE5LjA3NUwxMDYuMjY1IDQyLjg4NUgxMTMuMzAzTDExNi4zMDEgMzMuOTIzNUgxMTYuMjk4Wk0xMjIuOTQ2IDE0LjA1MzFIMTIzLjIzOEwxMjguMTUgMjguNjYzOEgxMTguMDU4TDEyMi45NDYgMTQuMDUzMVoiIGZpbGw9IiMwMzAzMEEiLz4KPHBhdGggZD0iTTE1Mi44MDYgNDIuODg1TDE2Mi41IDE1LjY2MTVIMTU1LjcyOUwxNDkuNDY5IDM1Ljg5NjNIMTQ5LjE3N0wxNDIuODY5IDE1LjY2MTVIMTM2LjAyNUwxNDUuNjkzIDQyLjg4NUgxNTIuODA2WiIgZmlsbD0iIzAzMDMwQSIvPgo8cGF0aCBkPSJNMTcxLjQ2MyAxNS42NjE1SDE2NS4wNTdWNDIuODg3OEgxNzEuNDYzVjE1LjY2MTVaIiBmaWxsPSIjMDMwMzBBIi8+CjxwYXRoIGQ9Ik0xNjguMjcxIDExLjgzNjVDMTY5LjI3OSAxMS44MzY1IDE3MC4xNDcgMTEuNDk0NiAxNzAuODc3IDEwLjgxMzdDMTcxLjYwNiAxMC4xMzI4IDE3MS45NzEgOS4zMDMzMiAxNzEuOTcxIDguMzI4MTVDMTcxLjk3MSA3LjM1Mjk5IDE3MS42MDYgNi41NTE1NiAxNzAuODc3IDUuODY3ODJDMTcwLjE0NyA1LjE4Njg4IDE2OS4yNzYgNC44NDUwMSAxNjguMjcxIDQuODQ1MDFDMTY3LjI2NiA0Ljg0NTAxIDE2Ni4zNzEgNS4xODY4OCAxNjUuNjQxIDUuODY3ODJDMTY0LjkxMSA2LjU0ODc1IDE2NC41NDYgNy4zNzgyMSAxNjQuNTQ2IDguMzUwNTdDMTY0LjU0NiA5LjMyMjk0IDE2NC45MTEgMTAuMTI3MiAxNjUuNjQxIDEwLjgxMDlDMTY2LjM3MSAxMS40OTE4IDE2Ny4yNSAxMS44MzM3IDE2OC4yNzEgMTEuODMzN1YxMS44MzY1WiIgZmlsbD0iIzAzMDMwQSIvPgo8cGF0aCBkPSJNMTk2Ljc2NSAzOS4yNTg5QzE5Ny43NTYgMzcuOTQ0NyAxOTguMjUgMzYuNDM0MyAxOTguMjUgMzQuNzMwNUMxOTguMjUgMzIuNzk5OCAxOTcuNjE1IDMxLjIyNSAxOTYuMzQ5IDMwLjAwNkMxOTUuMDgzIDI4Ljc4NzEgMTkzLjE3NCAyNy45MTI4IDE5MC42MjUgMjcuMzc3NUwxODUuOTc0IDI2LjQwMjRDMTg0LjU5MyAyNi4wOTQxIDE4My42MDcgMjUuNjg1IDE4My4wMTUgMjUuMTcyMkMxODIuNDIzIDI0LjY2MjIgMTgyLjEyNSAyNC4wMDY1IDE4Mi4xMjUgMjMuMjEwN0MxODIuMTI1IDIyLjMwMjggMTgyLjU3NCAyMS41NTQ2IDE4My40NzggMjAuOTcxN0MxODQuMzc5IDIwLjM4NiAxODUuNDk3IDIwLjA5NDYgMTg2LjgyNyAyMC4wOTQ2QzE4OC4zMDQgMjAuMDk0NiAxODkuNDQ5IDIwLjQzOTMgMTkwLjI2IDIxLjEyODZDMTkxLjA3MiAyMS44MTggMTkxLjYgMjIuNjExIDE5MS44NDQgMjMuNTAyMUwxOTcuNjY2IDIyLjg5NEMxOTcuMjI4IDIwLjU4NzggMTk2LjA5NCAxOC43NDk2IDE5NC4yNjkgMTcuMzc5M0MxOTIuNDQyIDE2LjAwOSAxODkuOTI5IDE1LjMyMjUgMTg2LjczMiAxNS4zMjI1QzE4NC41NTYgMTUuMzIyNSAxODIuNjM5IDE1LjY2NDMgMTgwLjk4MyAxNi4zNDUzQzE3OS4zMjYgMTcuMDI2MiAxNzguMDM1IDE3Ljk4NDYgMTc3LjExMSAxOS4yMjAzQzE3Ni4xODUgMjAuNDUzMyAxNzUuNzI1IDIxLjkxNjEgMTc1LjcyNSAyMy42MDNDMTc1LjcyNSAyNS41ODQxIDE3Ni4zNTEgMjcuMjEyMiAxNzcuNiAyOC40ODcyQzE3OC44NDkgMjkuNzYyMiAxODAuNzgzIDMwLjY4NDIgMTgzLjM5NyAzMS4yNTAyTDE4OC4wNDggMzIuMjI1NEMxOTAuNDg1IDMyLjc3NzQgMTkxLjcwMSAzMy44MTcgMTkxLjcwMSAzNS4zNDE0QzE5MS43MDEgMzYuMjUyMSAxOTEuMjM3IDM3LjAxNzEgMTkwLjMxNCAzNy42NDJDMTg5LjM4NyAzOC4yNjY5IDE4OC4xNjEgMzguNTgwOCAxODYuNjM2IDM4LjU4MDhDMTg1LjExMiAzOC41ODA4IDE4My45NzggMzguMjY5NyAxODMuMDQzIDM3LjY0MkMxODIuMTA4IDM3LjAxNzEgMTgxLjUwNSAzNi4wOTUyIDE4MS4yMyAzNC44NzkxTDE3NC45NjkgMzUuNDY0N0MxNzUuMzc3IDM3Ljk2NDMgMTc2LjU4OSAzOS45MTc0IDE3OC42MSA0MS4zMjEzQzE4MC42MzIgNDIuNzI1MiAxODMuMzA3IDQzLjQyODYgMTg2LjYzNiA0My40Mjg2QzE4OC45MSA0My40Mjg2IDE5MC45MTcgNDMuMDY0MyAxOTIuNjYzIDQyLjMzMjlDMTk0LjQxIDQxLjYwMTUgMTk1Ljc3NyA0MC41Nzg3IDE5Ni43NjggMzkuMjY0NUwxOTYuNzY1IDM5LjI1ODlaIiBmaWxsPSIjMDMwMzBBIi8+CjxwYXRoIGQ9Ik0xMzIuNzM1IDUwLjYyMThMMTIzLjMxMSA3OS4xNjIzSDEyMi45MkwxMTMuNDk3IDUwLjYyMThIMTA2LjI2MkwxMTkuMDcyIDg2LjkwNDhIMTI3LjE1OUwxMzkuOTQ2IDUwLjYyMThIMTMyLjczNVoiIGZpbGw9IiMwMzAzMEEiLz4KPHBhdGggZD0iTTE0Ny42OTIgNTYuMjk2M0gxNTIuMzQzTDE1Ny4yNjEgNDkuMTExNUgxNTEuMDc3TDE0Ny42OTIgNTYuMjk2M1oiIGZpbGw9IiMwMzAzMEEiLz4KPHBhdGggZD0iTTE1OS4wNzggNjIuNjI2NUMxNTcuOTE2IDYxLjUwNTYgMTU2LjU4NSA2MC42NzkgMTU1LjA4MyA2MC4xNDM3QzE1My41ODEgNTkuNjA4NSAxNTEuOTk1IDU5LjMzOTUgMTUwLjMyMiA1OS4zMzk1QzE0Ny43MjIgNTkuMzM5NSAxNDUuNDY4IDU5LjkzMzYgMTQzLjU1MSA2MS4xMTYxQzE0MS42MzQgNjIuMzAxNCAxNDAuMTQ5IDYzLjk1NDcgMTM5LjA5MyA2Ni4wNzMyQzEzOC4wMzcgNjguMTkxNyAxMzcuNTEgNzAuNjU0OCAxMzcuNTEgNzMuNDY1NEMxMzcuNTEgNzYuMjc2IDEzOC4wNCA3OC43NzI4IDEzOS4xMDQgODAuODY4OUMxNDAuMTY4IDgyLjk2NDkgMTQxLjY5IDg0LjU4MTggMTQzLjY3MiA4NS43Mjc5QzE0NS42NTQgODYuODcxMiAxNDguMDA2IDg3LjQ0NTYgMTUwLjczNSA4Ny40NDU2QzE1Mi44NDYgODcuNDQ1NiAxNTQuNzE1IDg3LjEyNjIgMTU2LjM0OSA4Ni40ODQ1QzE1Ny45OCA4NS44NDI4IDE1OS4zMTkgODQuOTM0OSAxNjAuMzY2IDgzLjc1NzlDMTYxLjQxMyA4Mi41ODEgMTYyLjEzMiA4MS4yMDUxIDE2Mi41MjIgNzkuNjMwM0wxNTYuNTMyIDc4LjkyNDFDMTU2LjI0IDc5LjcwMzEgMTU1LjgyMSA4MC4zNTg5IDE1NS4yNzcgODAuODg1N0MxNTQuNzMyIDgxLjQxMjUgMTU0LjA4NCA4MS44MDc2IDE1My4zMjggODIuMDY1NEMxNTIuNTczIDgyLjMyNiAxNTEuNzQyIDgyLjQ1NDkgMTUwLjgzMyA4Mi40NTQ5QzE0OS40MzUgODIuNDU0OSAxNDguMjE0IDgyLjE0NjcgMTQ3LjE2NyA4MS41MzAyQzE0Ni4xMTkgODAuOTEzNyAxNDUuMzA4IDgwLjAxNyAxNDQuNzMgNzguODQwMUMxNDQuMjExIDc3Ljc4MDggMTQzLjkyNyA3Ni41MjU0IDE0My44NzcgNzUuMDc2N0gxNjIuODE0VjczLjA3ODdDMTYyLjgxNCA3MC42OTEyIDE2Mi40OCA2OC42MzQ0IDE2MS44MTUgNjYuOTA1NUMxNjEuMTQ5IDY1LjE3NjUgMTYwLjIzNCA2My43NTMgMTU5LjA3NSA2Mi42MzIxTDE1OS4wNzggNjIuNjI2NVpNMTQ2LjgzOCA2NS4zMDU0QzE0Ny44MTIgNjQuNjU1MyAxNDguOTg5IDY0LjMzMDIgMTUwLjM3IDY0LjMzMDJDMTUxLjc1MSA2NC4zMzAyIDE1Mi45MDIgNjQuNjU1MyAxNTMuODI4IDY1LjMwNTRDMTU0Ljc1NSA2NS45NTU1IDE1NS40NTEgNjYuODUyMiAxNTUuOTIyIDY3Ljk5NTVDMTU2LjI1OSA2OC44MTM4IDE1Ni40NzMgNjkuNzM1NyAxNTYuNTY4IDcwLjc1ODVIMTQzLjkwMkMxNDMuOTg2IDY5LjczNTcgMTQ0LjIyMiA2OC43ODg1IDE0NC42MiA2Ny45MjI3QzE0NS4xMjMgNjYuODI3IDE0NS44NjQgNjUuOTU1NSAxNDYuODM4IDY1LjMwNTRaIiBmaWxsPSIjMDMwMzBBIi8+CjxwYXRoIGQ9Ik0xNzkuNDk4IDU5LjMxNDNDMTc3Ljk0IDU5LjMxNDMgMTc2LjU1IDU5Ljc0MDIgMTc1LjMzMiA2MC41OTIxQzE3NC4xMTMgNjEuNDQ0IDE3My4yNjMgNjIuNjY1NyAxNzIuNzc0IDY0LjI1NzRIMTcyLjQ4MlY1OS42Nzg2SDE2Ni4yNzNWODYuOTA0OEgxNzIuNjc5VjcwLjkyOTRDMTcyLjY3OSA2OS43NjA5IDE3Mi45NDMgNjguNzM4MSAxNzMuNDcgNjcuODYxQzE3My45OTggNjYuOTgzOSAxNzQuNzI1IDY2LjI5NDYgMTc1LjY1MiA2NS43OTAyQzE3Ni41NzggNjUuMjg4NiAxNzcuNjM0IDY1LjAzNjQgMTc4LjgxOCA2NS4wMzY0QzE3OS4zNTQgNjUuMDM2NCAxNzkuOTEzIDY1LjA3IDE4MC41IDY1LjEzNDVDMTgxLjA4NCA2NS4xOTg5IDE4MS41MTMgNjUuMjgwMiAxODEuNzkxIDY1LjM3ODNWNTkuNDg1MkMxODEuNDk5IDU5LjQzNzYgMTgxLjEyOSA1OS4zOTU2IDE4MC42ODIgNTkuMzY0N0MxODAuMjM2IDU5LjMzMzkgMTc5Ljg0MyA1OS4zMTcxIDE3OS41IDU5LjMxNzFMMTc5LjQ5OCA1OS4zMTQzWiIgZmlsbD0iIzAzMDMwQSIvPgo8cGF0aCBkPSJNMTg3LjQxNCA0OC44Njc3QzE4Ni4zOTIgNDguODY3NyAxODUuNTEzIDQ5LjIwOTUgMTg0Ljc4NCA0OS44OTA1QzE4NC4wNTQgNTAuNTcxNCAxODMuNjg5IDUxLjQwMDkgMTgzLjY4OSA1Mi4zNzMyQzE4My42ODkgNTMuMzQ1NiAxODQuMDU0IDU0LjE0OTggMTg0Ljc4NCA1NC44MzM2QzE4NS41MTMgNTUuNTE0NSAxODYuMzkyIDU1Ljg1NjQgMTg3LjQxNCA1NS44NTY0QzE4OC40MzYgNTUuODU2NCAxODkuMjg5IDU1LjUxNDUgMTkwLjAxOSA1NC44MzM2QzE5MC43NDkgNTQuMTUyNiAxOTEuMTE0IDUzLjMyMzIgMTkxLjExNCA1Mi4zNDhDMTkxLjExNCA1MS4zNzI4IDE5MC43NDkgNTAuNTcxNCAxOTAuMDE5IDQ5Ljg4NzdDMTg5LjI4OSA0OS4yMDY3IDE4OC40MTkgNDguODY0OSAxODcuNDE0IDQ4Ljg2NDlWNDguODY3N1oiIGZpbGw9IiMwMzAzMEEiLz4KPHBhdGggZD0iTTE5MC42MDYgNTkuNjgxNEgxODQuMlY4Ni45MDc2SDE5MC42MDZWNTkuNjgxNFoiIGZpbGw9IiMwMzAzMEEiLz4KPHBhdGggZD0iTTIwNS42MDggNDguOTE1M0MyMDQuMDUgNDguOTE1MyAyMDIuNjI0IDQ5LjIxNTEgMjAxLjMzMiA0OS44MTc2QzIwMC4wNDEgNTAuNDE3MyAxOTkuMDEzIDUxLjMyOCAxOTguMjUgNTIuNTQ0MkMxOTcuNDg2IDUzLjc2MzEgMTk3LjEwNCA1NS4yODc1IDE5Ny4xMDQgNTcuMTIzVjU5LjY4MTRIMTkzLjExVjY0LjY0OTdIMTk3LjEwNFY4Ni45MDc2SDIwMy40ODVWNjQuNjQ5N0gyMDkuMTYyVjU5LjY4MTRIMjAzLjQ4NVY1Ny41ODUzQzIwMy40ODUgNTYuNTE0OSAyMDMuNzQxIDU1LjY4NTQgMjA0LjI1MiA1NS4xMDI2QzIwNC43NjMgNTQuNTE2OSAyMDUuNjEgNTQuMjI1NSAyMDYuNzk4IDU0LjIyNTVDMjA3LjMxNyA1NC4yMjU1IDIwNy43OCA1NC4yNzAzIDIwOC4xODcgNTQuMzZDMjA4LjU5NSA1NC40NDk3IDIwOC45MjYgNTQuNTQyMSAyMDkuMTg3IDU0LjY0MDJMMjEwLjUwMSA0OS42NzE5QzIxMC4wOTQgNDkuNTI2MiAyMDkuNDU2IDQ5LjM2MzcgMjA4LjU4OSA0OS4xODQzQzIwNy43MjEgNDkuMDA1IDIwNi43MjUgNDguOTE1MyAyMDUuNjA1IDQ4LjkxNTNIMjA1LjYwOFoiIGZpbGw9IiMwMzAzMEEiLz4KPHBhdGggZD0iTTIxOC43NiA1OS42ODE0SDIxMi4zNTNWODYuOTA3NkgyMTguNzZWNTkuNjgxNFoiIGZpbGw9IiMwMzAzMEEiLz4KPHBhdGggZD0iTTIxNS41NjggNDguODY3N0MyMTQuNTQ2IDQ4Ljg2NzcgMjEzLjY2NyA0OS4yMDk1IDIxMi45MzcgNDkuODkwNUMyMTIuMjA3IDUwLjU3MTQgMjExLjg0MyA1MS40MDA5IDIxMS44NDMgNTIuMzczMkMyMTEuODQzIDUzLjM0NTYgMjEyLjIwNyA1NC4xNDk4IDIxMi45MzcgNTQuODMzNkMyMTMuNjY3IDU1LjUxNDUgMjE0LjU0NiA1NS44NTY0IDIxNS41NjggNTUuODU2NEMyMTYuNTkgNTUuODU2NCAyMTcuNDQzIDU1LjUxNDUgMjE4LjE3MyA1NC44MzM2QzIxOC45MDMgNTQuMTUyNiAyMTkuMjY4IDUzLjMyMzIgMjE5LjI2OCA1Mi4zNDhDMjE5LjI2OCA1MS4zNzI4IDIxOC45MDMgNTAuNTcxNCAyMTguMTczIDQ5Ljg4NzdDMjE3LjQ0MyA0OS4yMDY3IDIxNi41NzMgNDguODY0OSAyMTUuNTY4IDQ4Ljg2NDlWNDguODY3N1oiIGZpbGw9IiMwMzAzMEEiLz4KPHBhdGggZD0iTTI0Mi4wNjUgNDkuMTExNUgyMzUuODgxTDIzMi40OTUgNTYuMjk2M0gyMzcuMTQ3TDI0Mi4wNjUgNDkuMTExNVoiIGZpbGw9IiMwMzAzMEEiLz4KPHBhdGggZD0iTTI0My44ODEgNjIuNjI2NUMyNDIuNzE5IDYxLjUwNTYgMjQxLjM4OSA2MC42NzkgMjM5Ljg4NyA2MC4xNDM3QzIzOC4zODUgNTkuNjA4NSAyMzYuNzk5IDU5LjMzOTUgMjM1LjEyNiA1OS4zMzk1QzIzMi41MjYgNTkuMzM5NSAyMzAuMjY5IDU5LjkzMzYgMjI4LjM1NSA2MS4xMTYxQzIyNi40MzcgNjIuMzAxNCAyMjQuOTUyIDYzLjk1NDcgMjIzLjg5NyA2Ni4wNzMyQzIyMi44NDEgNjguMTkxNyAyMjIuMzEzIDcwLjY1NDggMjIyLjMxMyA3My40NjU0QzIyMi4zMTMgNzYuMjc2IDIyMi44NDQgNzguNzcyOCAyMjMuOTA4IDgwLjg2ODlDMjI0Ljk3MiA4Mi45NjQ5IDIyNi40OTMgODQuNTgxOCAyMjguNDc1IDg1LjcyNzlDMjMwLjQ1NyA4Ni44NzEyIDIzMi44MSA4Ny40NDU2IDIzNS41MzggODcuNDQ1NkMyMzcuNjQ5IDg3LjQ0NTYgMjM5LjUxOSA4Ny4xMjYyIDI0MS4xNTMgODYuNDg0NUMyNDIuNzg0IDg1Ljg0MjggMjQ0LjEyMyA4NC45MzQ5IDI0NS4xNyA4My43NTc5QzI0Ni4yMTcgODIuNTgxIDI0Ni45MzYgODEuMjA1MSAyNDcuMzI2IDc5LjYzMDNMMjQxLjMzNSA3OC45MjQxQzI0MS4wNDMgNzkuNzAzMSAyNDAuNjI1IDgwLjM1ODkgMjQwLjA4IDgwLjg4NTdDMjM5LjUzNiA4MS40MTI1IDIzOC44ODcgODEuODA3NiAyMzguMTMyIDgyLjA2NTRDMjM3LjM3NyA4Mi4zMjYgMjM2LjU0NiA4Mi40NTQ5IDIzNS42MzcgODIuNDU0OUMyMzQuMjM5IDgyLjQ1NDkgMjMzLjAxNyA4Mi4xNDY3IDIzMS45NyA4MS41MzAyQzIzMC45MjMgODAuOTEzNyAyMzAuMTEyIDgwLjAxNyAyMjkuNTM0IDc4Ljg0MDFDMjI5LjAxNCA3Ny43ODA4IDIyOC43MzEgNzYuNTI1NCAyMjguNjggNzUuMDc2N0gyNDcuNjE4VjczLjA3ODdDMjQ3LjYxOCA3MC42OTEyIDI0Ny4yODQgNjguNjM0NCAyNDYuNjE5IDY2LjkwNTVDMjQ1Ljk1MyA2NS4xNzY1IDI0NS4wMzggNjMuNzUzIDI0My44NzkgNjIuNjMyMUwyNDMuODgxIDYyLjYyNjVaTTIzMS42NDIgNjUuMzA1NEMyMzIuNjE2IDY0LjY1NTMgMjMzLjc5MiA2NC4zMzAyIDIzNS4xNzMgNjQuMzMwMkMyMzYuNTU1IDY0LjMzMDIgMjM3LjcwNiA2NC42NTUzIDIzOC42MzIgNjUuMzA1NEMyMzkuNTU4IDY1Ljk1NTUgMjQwLjI1NSA2Ni44NTIyIDI0MC43MjYgNjcuOTk1NUMyNDEuMDYzIDY4LjgxMzggMjQxLjI3NiA2OS43MzU3IDI0MS4zNzIgNzAuNzU4NUgyMjguNzA2QzIyOC43OSA2OS43MzU3IDIyOS4wMjYgNjguNzg4NSAyMjkuNDI0IDY3LjkyMjdDMjI5LjkyNyA2Ni44MjcgMjMwLjY2OCA2NS45NTU1IDIzMS42MzkgNjUuMzA1NEgyMzEuNjQyWiIgZmlsbD0iIzAzMDMwQSIvPgo8cGF0aCBkPSJNMjcxLjI0NCA3NC4wMjMxQzI2OS45NzggNzIuODA0MSAyNjguMDY5IDcxLjkyOTggMjY1LjUyIDcxLjM5NDZMMjYwLjg2OCA3MC40MTk0QzI1OS40ODcgNzAuMTExMiAyNTguNTAyIDY5LjcwMjEgMjU3LjkwOSA2OS4xODkzQzI1Ny4zMTcgNjguNjc5MyAyNTcuMDE5IDY4LjAyMzUgMjU3LjAxOSA2Ny4yMjc3QzI1Ny4wMTkgNjYuMzE5OCAyNTcuNDY5IDY1LjU3MTYgMjU4LjM3MiA2NC45ODg4QzI1OS4yNzQgNjQuNDAzMSAyNjAuMzkxIDY0LjExMTcgMjYxLjcyMSA2NC4xMTE3QzI2My4xOTggNjQuMTExNyAyNjQuMzQzIDY0LjQ1NjMgMjY1LjE1NSA2NS4xNDU3QzI2NS45NjYgNjUuODM1IDI2Ni40OTQgNjYuNjI4IDI2Ni43MzggNjcuNTE5MUwyNzIuNTYgNjYuOTExMUMyNzIuMTIyIDY0LjYwNDkgMjcwLjk4OCA2Mi43NjY2IDI2OS4xNjMgNjEuMzk2M0MyNjcuMzM2IDYwLjAyMzIgMjY0LjgyMyA1OS4zMzk1IDI2MS42MjYgNTkuMzM5NUMyNTkuNDUgNTkuMzM5NSAyNTcuNTMzIDU5LjY4MTQgMjU1Ljg3NyA2MC4zNjIzQzI1NC4yMjEgNjEuMDQzMyAyNTIuOTI5IDYyLjAwMTYgMjUyLjAwNiA2My4yMzc0QzI1MS4wNzkgNjQuNDcwMyAyNTAuNjE5IDY1LjkzMzEgMjUwLjYxOSA2Ny42MkMyNTAuNjE5IDY5LjYwMTIgMjUxLjI0NSA3MS4yMjkzIDI1Mi40OTQgNzIuNTA0M0MyNTMuNzQzIDczLjc3OTMgMjU1LjY3OCA3NC43MDEyIDI1OC4yOTEgNzUuMjY3M0wyNjIuOTQzIDc2LjI0MjRDMjY1LjM3OSA3Ni43OTQ0IDI2Ni41OTUgNzcuODM0MSAyNjYuNTk1IDc5LjM1ODVDMjY2LjU5NSA4MC4yNjkyIDI2Ni4xMzIgODEuMDM0MiAyNjUuMjA4IDgxLjY1OTFDMjY0LjI4MiA4Mi4yODQgMjYzLjA1OCA4Mi41OTc4IDI2MS41MzEgODIuNTk3OEMyNjAuMDAzIDgyLjU5NzggMjU4Ljg3MiA4Mi4yODY4IDI1Ny45MzcgODEuNjU5MUMyNTcuMDAzIDgxLjAzNDIgMjU2LjM5OSA4MC4xMTIzIDI1Ni4xMjQgNzguODk2MUwyNDkuODY0IDc5LjQ4MThDMjUwLjI3MSA4MS45ODEzIDI1MS40ODMgODMuOTM0NSAyNTMuNTA1IDg1LjMzODRDMjU1LjUyNiA4Ni43NDIzIDI1OC4yMDEgODcuNDQ1NiAyNjEuNTMxIDg3LjQ0NTZDMjYzLjgwNCA4Ny40NDU2IDI2NS44MTIgODcuMDgxMyAyNjcuNTU4IDg2LjM1QzI2OS4zMDQgODUuNjE4NiAyNzAuNjcxIDg0LjU5NTggMjcxLjY2MiA4My4yODE2QzI3Mi42NTMgODEuOTY3MyAyNzMuMTQ3IDgwLjQ1NjkgMjczLjE0NyA3OC43NTMyQzI3My4xNDcgNzYuODE5NyAyNzIuNTEyIDc1LjI0NzYgMjcxLjI0NiA3NC4wMjg3TDI3MS4yNDQgNzQuMDIzMVoiIGZpbGw9IiMwMzAzMEEiLz4KPHBhdGggZD0iTTI1LjE5MjEgMTcuOTgxOEMxMy44NzkgMTcuOTgxOCA0LjcwNzczIDI3LjEzNjYgNC43MDc3MyAzOC40Mjk0SDM5LjAyMDZMNDUuNjc2NSAxNy45ODE4SDI1LjE5MjFaIiBmaWxsPSIjMDA3M0ZGIi8+CjxwYXRoIGQ9Ik02Ny41NDIxIDE4Ljk4MjFDNjQuMDQ3MSA4LjI0MTI5IDUyLjQ4OTcgMi4zNjUwNiA0MS43Mjk2IDUuODUzODFMNTIuMzMyNSAzOC40Mjk1SDczLjg3MjRMNjcuNTQyMSAxOC45ODIxWiIgZmlsbD0iIzAwNzNGRiIvPgo8cGF0aCBkPSJNNzkuNjc1IDU5LjQ5NjRDODguODI2NiA1Mi44NTggOTAuODU2MiA0MC4wNzE1IDg0LjIwNTkgMzAuOTMzNUw1Ni40NDUxIDUxLjA2NzRMNjMuMTAxMSA3MS41MTUxTDc5LjY3MjIgNTkuNDk2NEg3OS42NzVaIiBmaWxsPSIjMDA3M0ZGIi8+CjxwYXRoIGQ9Ik00NC44MjMxIDgzLjUzMzhDNTMuOTc0NyA5MC4xNzIyIDY2Ljc4NjkgODguMTQ2MiA3My40MzczIDc5LjAxMUw0NS42NzY1IDU4Ljg3NzJMMjguMjUyIDcxLjUxNTFMNDQuODIzMSA4My41MzM4WiIgZmlsbD0iIzAwNzNGRiIvPgo8cGF0aCBkPSJNMTEuMTUzMSA1Ny44NzY4QzcuNjU4MTMgNjguNjE3NiAxMy41NDQ5IDgwLjE1NDMgMjQuMzA1IDgzLjY0M0wzNC45MDggNTEuMDY3NEwxNy40ODM1IDM4LjQyOTVMMTEuMTUzMSA1Ny44NzY4WiIgZmlsbD0iIzAwNzNGRiIvPgo8L3N2Zz4K
+                - generic [ref=e286]:
+                  - paragraph [ref=e287]: Basé sur 89 avis soumis à un contrôle
+                  - button "Plus d’informations sur ces avis" [ref=e290] [cursor=pointer]
+                - link "Voir tous les avis sur ce site" [ref=e291] [cursor=pointer]:
+                  - /url: https://www.avis-verifies.com/avis-clients/carter-cash.com
+            - list "Filtres des avis par nombre d’étoiles" [ref=e293]:
+              - listitem [ref=e294]:
+                - generic [ref=e295]:
+                  - text: "5"
+                  - generic [ref=e296]: étoiles
+                - radio "5 étoiles" [ref=e297] [cursor=pointer]
+                - generic [ref=e300]: "54"
+              - listitem [ref=e301]:
+                - generic [ref=e302]:
+                  - text: "4"
+                  - generic [ref=e303]: étoiles
+                - radio "4 étoiles" [ref=e304] [cursor=pointer]
+                - generic [ref=e307]: "27"
+              - listitem [ref=e308]:
+                - generic [ref=e309]:
+                  - text: "3"
+                  - generic [ref=e310]: étoiles
+                - radio "3 étoiles" [ref=e311] [cursor=pointer]
+                - generic [ref=e314]: "6"
+              - listitem [ref=e315]:
+                - generic [ref=e316]:
+                  - text: "2"
+                  - generic [ref=e317]: étoiles
+                - radio "2 étoiles" [ref=e318] [cursor=pointer]
+                - generic [ref=e320]: "0"
+              - listitem [ref=e321]:
+                - generic [ref=e322]:
+                  - text: "1"
+                  - generic [ref=e323]: étoile
+                - radio "1 étoile" [ref=e324] [cursor=pointer]
+                - generic [ref=e327]: "2"
+            - generic [ref=e328]:
+              - generic [ref=e329]:
+                - paragraph [ref=e330]: Trier les avis
+                - combobox "Trier les avis (mise à jour automatique après sélection)" [ref=e332] [cursor=pointer]:
+                  - option "Les plus récents" [selected]
+                  - option "Les plus anciens"
+                  - option "Notes les plus élevées"
+                  - option "Notes les plus basses"
+                  - option "Les plus utiles"
+              - generic [ref=e333]:
+                - textbox "Rechercher des avis par mot-clé" [ref=e334]:
+                  - /placeholder: Rechercher
+                - button "Lancer la recherche d’avis par mot-clé" [ref=e335]:
+                  - img [ref=e336]
+          - list [ref=e338]:
+            - listitem [ref=e339]:
+              - generic [ref=e340]:
+                - generic [ref=e341]:
+                  - img [ref=e343]
+                  - img [ref=e346]
+                  - img [ref=e349]
+                  - img [ref=e352]
+                  - img [ref=e355]
+                - generic [ref=e357]: 5/5
+                - generic [ref=e359]:
+                  - generic [ref=e360]: Vérifié
+                  - button "Plus d’informations sur l'origine de cet avis" [ref=e363] [cursor=pointer]
+              - generic [ref=e364]:
+                - paragraph [ref=e365]: Pneumatique pas encore monté à tester Semble de bonne facture
+                - paragraph [ref=e366]:
+                  - text: Avis du
+                  - time [ref=e367]: 15/01/2026
+                  - text: ", suite à une expérience du"
+                  - time [ref=e368]: 12/01/2026
+                  - text: par Jean Claude L
+                - generic [ref=e369]:
+                  - button "Utile (0)" [ref=e371]:
+                    - generic [ref=e373] [cursor=pointer]:
+                      - text: Utile
+                      - generic [ref=e374]: (0)
+                  - link "Signaler" [ref=e375] [cursor=pointer]:
+                    - /url: https://feedback.cxr.skeepers.io/Ou?d%3Awebsite_id=9e89c0e4-f240-dfb4-915a-e8b92b379a9d&d%3Aproduct_review_id=d47d6591-2e71-47f6-bce4-53731eff11ee&lang=fr
+                    - generic [ref=e376]: Signaler
+                    - img [ref=e377]
+            - listitem [ref=e379]:
+              - generic [ref=e380]:
+                - generic [ref=e381]:
+                  - img [ref=e383]
+                  - img [ref=e386]
+                  - img [ref=e389]
+                  - img [ref=e392]
+                  - img [ref=e395]
+                - generic [ref=e397]: 5/5
+                - generic [ref=e399]:
+                  - generic [ref=e400]: Vérifié
+                  - button "Plus d’informations sur l'origine de cet avis" [ref=e403] [cursor=pointer]
+              - generic [ref=e404]:
+                - paragraph [ref=e405]: Commande et livraison impeccable
+                - paragraph [ref=e406]:
+                  - text: Avis du
+                  - time [ref=e407]: 26/12/2025
+                  - text: ", suite à une expérience du"
+                  - time [ref=e408]: 23/12/2025
+                  - text: par Claudi B
+                - generic [ref=e409]:
+                  - button "Utile (0)" [ref=e411]:
+                    - generic [ref=e413] [cursor=pointer]:
+                      - text: Utile
+                      - generic [ref=e414]: (0)
+                  - link "Signaler" [ref=e415] [cursor=pointer]:
+                    - /url: https://feedback.cxr.skeepers.io/Ou?d%3Awebsite_id=9e89c0e4-f240-dfb4-915a-e8b92b379a9d&d%3Aproduct_review_id=99e59094-8b33-4e4d-8301-2da765e697a3&lang=fr
+                    - generic [ref=e416]: Signaler
+                    - img [ref=e417]
+            - listitem [ref=e419]:
+              - generic [ref=e420]:
+                - generic [ref=e421]:
+                  - img [ref=e423]
+                  - img [ref=e426]
+                  - img [ref=e429]
+                  - img [ref=e432]
+                  - img [ref=e435]
+                - generic [ref=e437]: 3/5
+                - generic [ref=e439]:
+                  - generic [ref=e440]: Vérifié
+                  - button "Plus d’informations sur l'origine de cet avis" [ref=e443] [cursor=pointer]
+              - generic [ref=e444]:
+                - paragraph [ref=e445]: Pas assez roulé mais non bruyant tient bien
+                - paragraph [ref=e446]:
+                  - text: Avis du
+                  - time [ref=e447]: 25/12/2025
+                  - text: ", suite à une expérience du"
+                  - time [ref=e448]: 17/12/2025
+                  - text: par claude G
+                - generic [ref=e449]:
+                  - button "Utile (0)" [ref=e451]:
+                    - generic [ref=e453] [cursor=pointer]:
+                      - text: Utile
+                      - generic [ref=e454]: (0)
+                  - link "Signaler" [ref=e455] [cursor=pointer]:
+                    - /url: https://feedback.cxr.skeepers.io/Ou?d%3Awebsite_id=9e89c0e4-f240-dfb4-915a-e8b92b379a9d&d%3Aproduct_review_id=bb76b9f8-8d93-4a01-ba0f-a04e6dd455fa&lang=fr
+                    - generic [ref=e456]: Signaler
+                    - img [ref=e457]
+            - listitem [ref=e459]:
+              - generic [ref=e460]:
+                - generic [ref=e461]:
+                  - img [ref=e463]
+                  - img [ref=e466]
+                  - img [ref=e469]
+                  - img [ref=e472]
+                  - img [ref=e475]
+                - generic [ref=e477]: 5/5
+                - generic [ref=e479]:
+                  - generic [ref=e480]: Vérifié
+                  - button "Plus d’informations sur l'origine de cet avis" [ref=e483] [cursor=pointer]
+              - generic [ref=e484]:
+                - paragraph [ref=e485]: trop tôt pour avoir un avis sur les performances de ces pneus.
+                - paragraph [ref=e486]:
+                  - text: Avis du
+                  - time [ref=e487]: 06/12/2025
+                  - text: ", suite à une expérience du"
+                  - time [ref=e488]: 26/11/2025
+                  - text: par alexis T
+                - generic [ref=e489]:
+                  - button "Utile (0)" [ref=e491]:
+                    - generic [ref=e493] [cursor=pointer]:
+                      - text: Utile
+                      - generic [ref=e494]: (0)
+                  - link "Signaler" [ref=e495] [cursor=pointer]:
+                    - /url: https://feedback.cxr.skeepers.io/Ou?d%3Awebsite_id=9e89c0e4-f240-dfb4-915a-e8b92b379a9d&d%3Aproduct_review_id=9676c7d3-7344-46a7-bd8a-e37c1d2ad5df&lang=fr
+                    - generic [ref=e496]: Signaler
+                    - img [ref=e497]
+            - listitem [ref=e499]:
+              - generic [ref=e500]:
+                - generic [ref=e501]:
+                  - img [ref=e503]
+                  - img [ref=e506]
+                  - img [ref=e509]
+                  - img [ref=e512]
+                  - img [ref=e515]
+                - generic [ref=e517]: 3/5
+                - generic [ref=e519]:
+                  - generic [ref=e520]: Vérifié
+                  - button "Plus d’informations sur l'origine de cet avis" [ref=e523] [cursor=pointer]
+              - generic [ref=e524]:
+                - paragraph [ref=e525]: J ai choisi ce pneus pour ton tarifs
+                - paragraph [ref=e526]:
+                  - text: Avis du
+                  - time [ref=e527]: 06/11/2025
+                  - text: ", suite à une expérience du"
+                  - time [ref=e528]: 04/11/2025
+                  - text: par J.D
+                - generic [ref=e529]:
+                  - button "Utile (0)" [ref=e531]:
+                    - generic [ref=e533] [cursor=pointer]:
+                      - text: Utile
+                      - generic [ref=e534]: (0)
+                  - link "Signaler" [ref=e535] [cursor=pointer]:
+                    - /url: https://feedback.cxr.skeepers.io/Ou?d%3Awebsite_id=9e89c0e4-f240-dfb4-915a-e8b92b379a9d&d%3Aproduct_review_id=73d19789-3cb0-409c-9d9d-855329f0227f&lang=fr
+                    - generic [ref=e536]: Signaler
+                    - img [ref=e537]
+          - generic [ref=e539]: "*Donnée pseudonymisée à la demande de l'auteur."
+          - generic [ref=e541]:
+            - button "Avis précédents" [disabled] [ref=e542]:
+              - img [ref=e543]
+            - list [ref=e545]:
+              - listitem [ref=e546]:
+                - button "Liste d'avis 1" [ref=e547] [cursor=pointer]: "1"
+              - listitem [ref=e548]:
+                - button "Liste d'avis 2" [ref=e549] [cursor=pointer]: "2"
+              - listitem [ref=e550]:
+                - button "Liste d'avis 3" [ref=e551] [cursor=pointer]: "3"
+              - listitem [ref=e552]:
+                - button "Liste d'avis 4" [ref=e553] [cursor=pointer]: "4"
+              - listitem [ref=e554]:
+                - button "Liste d'avis 5" [ref=e555] [cursor=pointer]: "5"
+              - listitem [ref=e556]:
+                - button "Liste d'avis 6" [ref=e557] [cursor=pointer]: "6"
+              - listitem [ref=e558]
+              - listitem [ref=e559]:
+                - button "Liste d'avis 18" [ref=e560] [cursor=pointer]: "18"
+            - button "Avis suivants" [ref=e561] [cursor=pointer]:
+              - img [ref=e562]
+    - generic [ref=e565]:
+      - generic [ref=e567]:
+        - generic [ref=e568]:
+          - text: Pneu APLUS A609
+          - generic [ref=e569]:
+            - text: 145/70 R13 71T
+            - img "Pneu été" [ref=e570]
+            - img "Véhicule tourisme" [ref=e571]
+        - link "4.5 / 5 - 89 avis" [ref=e574] [cursor=pointer]:
+          - /url: "#skeepers_product_widget"
+          - generic [ref=e575]:
+            - img [ref=e577]
+            - img [ref=e580]
+            - img [ref=e583]
+            - img [ref=e586]
+            - img [ref=e589]
+          - generic [ref=e591]: 4.5 / 5 - 89 avis
+      - generic [ref=e592]:
+        - generic [ref=e593]:
+          - generic [ref=e596]:
+            - text: "29"
+            - generic [ref=e597]:
+              - text: ",90"
+              - generic [ref=e598]: €
+          - generic [ref=e599]:
+            - generic [ref=e600]: Qté
+            - combobox [ref=e601]:
+              - option "1"
+              - option "2" [selected]
+              - option "3"
+              - option "4"
+              - option "5"
+              - option "6"
+              - option "7"
+              - option "8"
+              - option "9"
+              - option "10"
+        - text: Prix unitaire dont eco participation incluse
+      - button "Ajouter au panier" [ref=e603] [cursor=pointer]
+  - contentinfo [ref=e604]:
+    - generic [ref=e607]:
+      - generic [ref=e609]:
+        - generic [ref=e610]:
+          - paragraph [ref=e611]:
+            - strong [ref=e612]:
+              - text: 01 80 88 42 42
+              - text: (prix d'un appel local)
+              - text: Lun-Ven 9h-19h00
+              - text: Samedi 9h-17h
+          - list [ref=e613]:
+            - listitem [ref=e614]:
+              - link "Suivi de commande" [ref=e615] [cursor=pointer]:
+                - /url: /page/suivi-commande
+            - listitem [ref=e616]:
+              - link "Livraison" [ref=e617] [cursor=pointer]:
+                - /url: /page/livraison
+            - listitem [ref=e618]:
+              - link "Modes de paiement" [ref=e619] [cursor=pointer]:
+                - /url: /page/modes-de-paiement
+            - listitem [ref=e620]:
+              - link "Retour commande" [ref=e621] [cursor=pointer]:
+                - /url: /page/retour-commande
+            - listitem [ref=e622]:
+              - link "Retrait Magasin" [ref=e623] [cursor=pointer]:
+                - /url: /page/retrait-magasin
+            - listitem [ref=e624]:
+              - link "FAQ" [ref=e625] [cursor=pointer]:
+                - /url: https://carter-cashsupport.zendesk.com/hc/fr/
+          - paragraph [ref=e626]:
+            - 'link "Accessibilité : non conforme" [ref=e628] [cursor=pointer]':
+              - /url: /page/accessibilite
+          - paragraph [ref=e629]:
+            - button "FACIL'iti" [ref=e630] [cursor=pointer]:
+              - img "Gérer les options d’affichage" [ref=e631]
+          - paragraph [ref=e632]
+        - generic [ref=e633]:
+          - heading "La newsletter" [level=4] [ref=e634]
+          - text: Recevez nos actualités et bon plans.
+          - button "S'abonner" [ref=e635] [cursor=pointer]
+          - paragraph [ref=e636]:
+            - text: Votre adresse de messagerie est recueillie par CARTER-CASH pour vous envoyer ses actualités, offres et nouveautés. Vous pouvez à tout moment utiliser le lien de désabonnement intégré dans la Newsletter. Pour en savoir plus sur la gestion de vos données et vos droits, cliquez
+            - link "ici" [ref=e637] [cursor=pointer]:
+              - /url: https://www.carter-cash.com/page/donnees-personnelles
+          - generic [ref=e638]:
+            - text: Ce site est protégé par reCAPTCHA. Les
+            - link "règles de confidentialité" [ref=e639] [cursor=pointer]:
+              - /url: https://policies.google.com/privacy
+            - text: et
+            - link "conditions d'utilisation" [ref=e640] [cursor=pointer]:
+              - /url: https://policies.google.com/terms
+            - text: de Google s'appliquent.
+      - generic [ref=e641]:
+        - list [ref=e642]:
+          - listitem [ref=e643]:
+            - link "Contactez-nous" [ref=e644] [cursor=pointer]:
+              - /url: https://carter-cashsupport.zendesk.com/hc/fr
+          - listitem [ref=e645]:
+            - link "CGV Carter-Cash.com" [ref=e646] [cursor=pointer]:
+              - /url: /page/conditions-generales-de-ventes
+          - listitem [ref=e647]:
+            - link "CGU Carter-Cash.com" [ref=e648] [cursor=pointer]:
+              - /url: /page/cgu
+          - listitem [ref=e649]:
+            - link "CG Magasins" [ref=e650] [cursor=pointer]:
+              - /url: /page/conditions-generales-de-ventes-magasin
+          - listitem [ref=e651]:
+            - link "Mentions légales" [ref=e652] [cursor=pointer]:
+              - /url: /page/mentions-legales
+          - listitem [ref=e653]:
+            - link "Cookies" [ref=e654] [cursor=pointer]:
+              - /url: /page/cookies
+          - listitem [ref=e655]:
+            - link "Paramétrer mes cookies" [ref=e656] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e657]:
+            - link "Notifications Push" [ref=e658] [cursor=pointer]:
+              - /url: /page/charte-notifications-push
+          - listitem [ref=e659]:
+            - link "Données Personnelles" [ref=e660] [cursor=pointer]:
+              - /url: /page/donnees-personnelles
+          - listitem [ref=e661]:
+            - link "Offres emplois" [ref=e662] [cursor=pointer]:
+              - /url: https://recrutement.carter-cash.com/
+          - listitem [ref=e663]:
+            - link "Postulez sans CV !" [ref=e664] [cursor=pointer]:
+              - /url: https://www.carter-cash.com/emplois/candidature-sans-cv
+        - list [ref=e665]:
+          - listitem [ref=e666]:
+            - link [ref=e667] [cursor=pointer]:
+              - /url: https://www.carter-cash.es
+              - img [ref=e668]
+          - listitem [ref=e669]:
+            - link [ref=e670] [cursor=pointer]:
+              - /url: https://www.carter-cash.it
+              - img [ref=e671]
+      - generic [ref=e672]:
+        - list [ref=e673]:
+          - listitem [ref=e674]:
+            - link "Catalogue" [ref=e675] [cursor=pointer]:
+              - /url: https://view.publitas.com/cartercash/catalogue-hiver-2025/page/1
+          - listitem [ref=e676]:
+            - link "Blog Auto" [ref=e677] [cursor=pointer]:
+              - /url: https://www.carter-cash.com/blog/
+          - listitem [ref=e678]:
+            - link "Pneus pas chers" [ref=e679] [cursor=pointer]:
+              - /url: https://www.carter-cash.com/pneus
+          - listitem [ref=e680]:
+            - link "Dimensions pneus" [ref=e681] [cursor=pointer]:
+              - /url: https://www.carter-cash.com/pneus/dimensions-de-pneus
+          - listitem [ref=e682]:
+            - link "Pneus constructeurs" [ref=e683] [cursor=pointer]:
+              - /url: /pneus/tops-pneus-voiture
+          - listitem [ref=e684]:
+            - link "Pneus marques" [ref=e685] [cursor=pointer]:
+              - /url: /pneus/tops-pneus-marques
+          - listitem [ref=e686]:
+            - link "Pneus autour de moi" [ref=e687] [cursor=pointer]:
+              - /url: " /page/pneus-autour-de-moi"
+          - listitem [ref=e688]:
+            - link "Tops pneus" [ref=e689] [cursor=pointer]:
+              - /url: https://www.carter-cash.com/pneus/top-pneus
+          - listitem [ref=e690]:
+            - link "Les marques" [ref=e691] [cursor=pointer]:
+              - /url: https://www.carter-cash.com/page/marque
+          - listitem [ref=e692]:
+            - link "Opération MICHELIN" [ref=e693] [cursor=pointer]:
+              - /url: https://www.carter-cash.com/page/operation-michelin
+          - listitem [ref=e694]:
+            - link "Règlements jeux" [ref=e695] [cursor=pointer]:
+              - /url: /page/reglements
+          - listitem [ref=e696]:
+            - link "Rouler durable" [ref=e697] [cursor=pointer]:
+              - /url: /page/rouler-durable
+        - list [ref=e698]:
+          - listitem [ref=e699]:
+            - link [ref=e700] [cursor=pointer]:
+              - /url: https://www.facebook.com/CarterCashAuto/
+              - img [ref=e701]
+          - listitem [ref=e702]:
+            - link [ref=e703] [cursor=pointer]:
+              - /url: https://www.instagram.com/cartercashauto/
+              - img [ref=e704]
+          - listitem [ref=e705]:
+            - link [ref=e706] [cursor=pointer]:
+              - /url: https://www.youtube.com/c/cartercash
+              - img [ref=e707]
+  - dialog [ref=e709]:
+    - generic [ref=e714]:
+      - generic [ref=e715]: Bienvenue sur Carter-Cash.com !
+      - paragraph [ref=e716]: Lors de votre visite sur notre site Carter-Cash, des cookies (petits fichiers texte) sont déposés sur votre appareil. Ils permettent d'assurer le bon fonctionnement du site et une navigation sécurisée, de vous proposer des communications et publicités personnalisées, ainsi que d’analyser les visites dans le but d'améliorer le site.
+      - paragraph [ref=e717]: A l’exception des cookies strictement nécessaires, vous pouvez choisir d’accepter et de continuer, de continuer sans accepter ou de paramétrer les cookies en cliquant sur l’un des boutons ci-dessous.
+      - paragraph [ref=e718]: Vous pourrez mettre à jour votre choix à tout moment en cliquant sur "Paramétrez mes cookies" en bas de notre site.
+    - list [ref=e719]:
+      - listitem "Paramétrer les cookies" [ref=e720] [cursor=pointer]
+      - listitem "Continuer sans accepter" [ref=e721] [cursor=pointer]
+      - listitem "Accepter et continuer" [ref=e722] [cursor=pointer]
+```

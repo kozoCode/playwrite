@@ -1,0 +1,14 @@
+{
+  "testName": "NORAUTO ES AID RETRIEVAL",
+  "totalIterations": 1,
+  "passedIterations": 0,
+  "failedIterations": 1,
+  "results": [
+    {
+      "iteration": 16,
+      "passed": false,
+      "loadTime": 47258,
+      "browser": "chromium-slow3g"
+    }
+  ]
+}

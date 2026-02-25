@@ -1,0 +1,1635 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - link [ref=e7]:
+      - /url: https://www.carter-cash.com/pieces-auto?zac=TROTR149045FR
+      - paragraph [ref=e9]: Dès 99€ d'achats, profitez de la livraison OFFERTE* à domicile ou en point relais >
+    - link "Indépendamment de notre volonté, les délais de livraison peuvent être rallongés en raison des récentes conditions climatiques." [ref=e12]:
+      - /url: https://carter-cashsupport.zendesk.com/hc/fr/
+      - paragraph [ref=e14]: Indépendamment de notre volonté, les délais de livraison peuvent être rallongés en raison des récentes conditions climatiques.
+    - link [ref=e17]:
+      - /url: https://www.carter-cash.com/pieces-auto?zac=TROTR149045FR
+      - paragraph [ref=e19]: Dès 99€ d'achats, profitez de la livraison OFFERTE* à domicile ou en point relais >
+    - link [ref=e22]:
+      - /url: https://carter-cashsupport.zendesk.com/hc/fr/
+      - paragraph [ref=e24]: Indépendamment de notre volonté, les délais de livraison peuvent être rallongés en raison des récentes conditions climatiques.
+    - link [ref=e27]:
+      - /url: https://www.carter-cash.com/pieces-auto?zac=TROTR149045FR
+      - paragraph [ref=e29]: Dès 99€ d'achats, profitez de la livraison OFFERTE* à domicile ou en point relais >
+  - banner [ref=e30]:
+    - generic [ref=e33]:
+      - link "Carter-Cash" [ref=e35]:
+        - /url: /
+        - img "Carter-Cash" [ref=e36]
+      - generic [ref=e37]:
+        - link "Mon magasin" [ref=e39]:
+          - /url: " /magasins/ "
+          - generic [ref=e40]: Mon magasin
+        - button "Ma voiture" [ref=e43] [cursor=pointer]:
+          - generic [ref=e44]: Ma voiture
+        - link "Mon compte" [ref=e45]:
+          - /url: /compte/
+          - generic [ref=e46]: Mon compte
+        - button "Mon panier" [ref=e47] [cursor=pointer]:
+          - generic [ref=e48]: Mon panier
+      - generic [ref=e50]:
+        - textbox "Rechercher un produit, une référence..." [ref=e52] [cursor=pointer]
+        - button [ref=e53] [cursor=pointer]:
+          - generic [ref=e54]: 
+    - list [ref=e58]:
+      - listitem [ref=e59]:
+        - link "PNEUS" [ref=e60]:
+          - /url: /pneus?zac=MENB0177047FR
+      - listitem [ref=e61]:
+        - link "PIECES AUTO" [ref=e62]:
+          - /url: /pieces-auto?zac=MENB0212908FR
+      - listitem [ref=e63]:
+        - link "HUILES" [ref=e64]:
+          - /url: /pieces-auto/c/huiles-lubrifiants/huile-moteur?zac=MENB0307691FR
+      - listitem [ref=e65]:
+        - link "FREINAGE" [ref=e66]:
+          - /url: /pieces-auto/c/freinage?zac=MENB0468669FR
+      - listitem [ref=e67]:
+        - link "BATTERIE" [ref=e68]:
+          - /url: /pieces-auto/c/demarrage-charge/batterie?zac=MENB0565955FR
+      - listitem [ref=e69]:
+        - link "ACCESSOIRES - OUTILLAGE" [ref=e70]:
+          - /url: /accessoires?zac=MENB0627979FR
+      - listitem [ref=e71]:
+        - link "CHAÎNES - CHAUSSETTES NEIGE" [ref=e72]:
+          - /url: https://www.carter-cash.com/accessoires/accessoires-roue-pneu
+      - listitem [ref=e73]:
+        - link "NOS SERVICES" [ref=e74]:
+          - /url: /services-ateliers?zac=MENB0800066FR
+  - generic [ref=e75]:
+    - list [ref=e77]:
+      - listitem [ref=e78]:
+        - link "Accueil" [ref=e79]:
+          - /url: https://www.carter-cash.com/
+      - listitem [ref=e81]:
+        - link "Pneus" [ref=e82]:
+          - /url: https://www.carter-cash.com/pneus/
+      - listitem [ref=e84]:
+        - generic [ref=e85]: aplus
+    - generic [ref=e86]:
+      - generic [ref=e87]:
+        - heading "Pneus Aplus" [level=1] [ref=e88]: Pneus Aplus
+        - generic [ref=e93]:
+          - button "tire Choisir ma taille de pneus Modifier" [expanded] [ref=e95] [cursor=pointer]:
+            - generic [ref=e96]:
+              - img "tire" [ref=e97]
+              - text: Choisir ma taille de pneus
+            - generic [ref=e98]: Modifier
+          - generic [ref=e100]:
+            - generic [ref=e102]:
+              - generic [ref=e103]:
+                - generic [ref=e104] [cursor=pointer]: Largeur
+                - combobox "Largeur" [ref=e105]:
+                  - option
+                  - option "Toutes" [selected]
+                  - option "145"
+                  - option "155"
+                  - option "165"
+                  - option "175"
+                  - option "185"
+                  - option "195"
+                  - option "205"
+                  - option "215"
+                  - option "225"
+                  - option "235"
+                  - option "245"
+              - generic [ref=e106]:
+                - generic [ref=e107] [cursor=pointer]: Hauteur
+                - combobox "Hauteur" [ref=e108]:
+                  - option "Toutes" [selected]
+              - generic [ref=e109]:
+                - generic [ref=e110] [cursor=pointer]: Diamètre
+                - combobox "Diamètre" [ref=e111]:
+                  - option "Toutes" [selected]
+            - generic [ref=e113]:
+              - generic [ref=e114]:
+                - generic [ref=e115] [cursor=pointer]: Charge
+                - combobox "Charge" [ref=e116]:
+                  - option "Toutes" [selected]
+              - generic [ref=e117]:
+                - generic [ref=e118] [cursor=pointer]: Vitesse
+                - combobox "Vitesse" [ref=e119]:
+                  - option "Toutes" [selected]
+            - generic [ref=e121]:
+              - generic [ref=e122]:
+                - generic [ref=e123] [cursor=pointer]: Type de pneu
+                - combobox "Type de pneu" [ref=e124]:
+                  - option "Tous" [selected]
+                  - option "Tourisme"
+                  - option "4x4 / SUV"
+                  - option "Utilitaire"
+              - generic [ref=e125]:
+                - generic [ref=e126] [cursor=pointer]: Saison
+                - combobox "Saison" [ref=e127]:
+                  - option "Toutes" [selected]
+                  - option "Été"
+                  - option "4 Saisons"
+                  - option "Hiver"
+              - generic [ref=e128]:
+                - generic [ref=e129] [cursor=pointer]: Marque
+                - combobox "Marque" [ref=e130]:
+                  - option "Toutes"
+                  - option "Aplus" [selected]
+                  - option "Barum"
+                  - option "Bfgoodrich"
+                  - option "Black-star"
+                  - option "Bridgestone"
+                  - option "Continental"
+                  - option "Cooper"
+                  - option "Debica"
+                  - option "Delinte"
+                  - option "Delmax"
+                  - option "Double coin"
+                  - option "Dunlop"
+                  - option "Falken"
+                  - option "Firestone"
+                  - option "Fortuna"
+                  - option "Fulda"
+                  - option "Fullrun"
+                  - option "Gajah tunggal"
+                  - option "General tire"
+                  - option "Goodyear"
+                  - option "Hankook"
+                  - option "Headway"
+                  - option "Kleber"
+                  - option "Kumho"
+                  - option "Landsail"
+                  - option "Leonard"
+                  - option "Linglong"
+                  - option "Mastersteel"
+                  - option "Michelin"
+                  - option "Milestone"
+                  - option "Minerva"
+                  - option "Nankang"
+                  - option "Nexen"
+                  - option "Nokian"
+                  - option "Petlas"
+                  - option "Pirelli"
+                  - option "Reconditionné"
+                  - option "Roadhog"
+                  - option "Roadrider"
+                  - option "Semperit"
+                  - option "Sentury"
+                  - option "Sunny"
+                  - option "Toyo"
+                  - option "Trazano"
+                  - option "Unigrip"
+                  - option "Uniroyal"
+                  - option "Viking"
+                  - option "Vredestein"
+                  - option "Winrun"
+                  - option "Yokohama"
+            - generic [ref=e134]:
+              - checkbox "RunFlat" [ref=e135] [cursor=pointer]
+              - generic [ref=e136] [cursor=pointer]: RunFlat
+            - generic [ref=e137]:
+              - button "Rechercher" [ref=e138] [cursor=pointer]
+              - link "Comment lire un pneu ?" [ref=e139]:
+                - /url: "#"
+          - text: "!"
+        - generic [ref=e141]:
+          - link "ete Pneus Aplus été" [ref=e143]:
+            - /url: /pneus/aplus/ete
+            - img "ete" [ref=e144]
+            - heading "Pneus Aplus été" [level=2] [ref=e145]
+          - link "4-saisons Pneus Aplus 4 saisons" [ref=e147]:
+            - /url: /pneus/aplus/4-saisons
+            - img "4-saisons" [ref=e148]
+            - heading "Pneus Aplus 4 saisons" [level=2] [ref=e149]
+          - link "hiver Pneus Aplus hiver" [ref=e151]:
+            - /url: /pneus/aplus/hiver
+            - img "hiver" [ref=e152]
+            - heading "Pneus Aplus hiver" [level=2] [ref=e153]
+        - text: "!"
+      - generic [ref=e154]:
+        - generic [ref=e155]:
+          - generic [ref=e156]:
+            - generic [ref=e157]:
+              - strong [ref=e158]: "47"
+              - text: résultat(s)
+            - generic [ref=e160]:
+              - generic [ref=e161] [cursor=pointer]: Trier par
+              - combobox "Trier par" [ref=e162]:
+                - option "-- Trier --" [selected]
+                - option "Prix croissants"
+                - option "Prix décroissants"
+          - generic [ref=e163]:
+            - generic [ref=e164]: 
+            - text: Filtrer et trier
+        - generic [ref=e165]:
+          - generic [ref=e166]:
+            - text: 
+            - generic [ref=e167]:
+              - text: 
+              - generic [ref=e169]:
+                - generic [ref=e170]:
+                  - generic [ref=e171] [cursor=pointer]:
+                    - generic [ref=e172]: Vos filtres
+                    - button "Tout effacer" [ref=e174]
+                  - generic:
+                    - generic:
+                      - list
+                - generic [ref=e175]:
+                  - generic [ref=e177] [cursor=pointer]: Budget
+                  - generic [ref=e178]:
+                    - generic [ref=e181]:
+                      - generic [ref=e183]:
+                        - spinbutton [ref=e184] [cursor=pointer]: "29"
+                        - text: €
+                      - generic [ref=e186]:
+                        - spinbutton [ref=e187] [cursor=pointer]: "71"
+                        - text: €
+                    - textbox [ref=e194] [cursor=pointer]: 29;71
+                - generic [ref=e195]:
+                  - generic [ref=e197] [cursor=pointer]: Saison
+                  - list [ref=e200]:
+                    - listitem [ref=e201]:
+                      - checkbox "4 Saisons (17)" [ref=e202] [cursor=pointer]
+                      - generic [ref=e203] [cursor=pointer]: 4 Saisons (17)
+                    - listitem [ref=e204]:
+                      - checkbox "Eté (28)" [ref=e205] [cursor=pointer]
+                      - generic [ref=e206] [cursor=pointer]: Eté (28)
+                    - listitem [ref=e207]:
+                      - checkbox "Hiver (2)" [ref=e208] [cursor=pointer]
+                      - generic [ref=e209] [cursor=pointer]: Hiver (2)
+                - generic [ref=e210]:
+                  - generic [ref=e212] [cursor=pointer]: Marque
+                  - generic [ref=e214]:
+                    - generic [ref=e215]:
+                      - generic [ref=e216]: 
+                      - searchbox "Rechercher..." [ref=e217] [cursor=pointer]
+                    - list [ref=e218]:
+                      - listitem [ref=e219]:
+                        - checkbox "APLUS (47)" [ref=e220] [cursor=pointer]
+                        - generic [ref=e221] [cursor=pointer]: APLUS (47)
+                - generic [ref=e222]:
+                  - generic [ref=e224] [cursor=pointer]: Disponibilité
+                  - list [ref=e227]:
+                    - listitem [ref=e228]:
+                      - checkbox "Retrait en magasin (47)" [ref=e229] [cursor=pointer]
+                      - generic [ref=e230] [cursor=pointer]: Retrait en magasin (47)
+                    - listitem [ref=e231]:
+                      - checkbox "Livraison (47)" [ref=e232] [cursor=pointer]
+                      - generic [ref=e233] [cursor=pointer]: Livraison (47)
+                - generic [ref=e234]:
+                  - generic [ref=e236] [cursor=pointer]: Notes des clients
+                  - list [ref=e239]:
+                    - listitem [ref=e240]:
+                      - radio "Tout" [checked] [ref=e241] [cursor=pointer]
+                      - generic [ref=e242] [cursor=pointer]: Tout
+                    - listitem [ref=e243]:
+                      - radio "(2)" [ref=e244] [cursor=pointer]
+                      - generic [ref=e249] [cursor=pointer]: (2)
+                    - listitem [ref=e250]:
+                      - radio "(39)" [ref=e251] [cursor=pointer]
+                      - generic [ref=e256] [cursor=pointer]: (39)
+                    - listitem [ref=e257]:
+                      - radio "(1)" [ref=e258] [cursor=pointer]
+                      - generic [ref=e263] [cursor=pointer]: (1)
+          - generic [ref=e264]:
+            - generic [ref=e265]:
+              - generic [ref=e266]:
+                - generic [ref=e267]:
+                  - generic [ref=e271] [cursor=pointer]:
+                    - link "Pneu APLUS A609" [ref=e272]:
+                      - /url: https://www.carter-cash.com/pneus/p/145-70-r13-71T-AP1950H1-APL05
+                      - heading "Pneu APLUS A609" [level=2] [ref=e273]
+                    - generic [ref=e274]: pneu 145/70 R13 71T
+                    - button "4.5/5 - 88 avis" [ref=e279]
+                    - list [ref=e281]:
+                      - listitem [ref=e282]:
+                        - generic [ref=e284]: D
+                        - generic [ref=e286]: C
+                        - generic [ref=e289]: B 70 db
+                      - listitem [ref=e290]:
+                        - generic [ref=e292]: pneu Eté
+                      - listitem [ref=e293]:
+                        - generic [ref=e295]: Tourisme
+                  - generic [ref=e296]:
+                    - generic [ref=e299]:
+                      - text: "29"
+                      - generic [ref=e300]:
+                        - text: ",90"
+                        - generic [ref=e301]: €
+                    - generic [ref=e302]: Prix unitaire dont eco participation incluse
+                    - generic [ref=e303]:
+                      - generic [ref=e305]:
+                        - generic [ref=e306]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e308] [cursor=pointer]
+                      - generic [ref=e309]:
+                        - generic [ref=e310]: Disponible en livraison
+                        - generic [ref=e311]:
+                          - text: Dès le
+                          - strong [ref=e312]: 19/01/2026
+                    - link "Ajouter au panier" [ref=e314] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e315]
+              - generic [ref=e316]:
+                - generic [ref=e317]:
+                  - generic [ref=e321] [cursor=pointer]:
+                    - link "Pneu APLUS A609" [ref=e322]:
+                      - /url: https://www.carter-cash.com/pneus/p/155-65-r14-75H-4112070-APL05
+                      - heading "Pneu APLUS A609" [level=2] [ref=e323]
+                    - generic [ref=e324]: pneu 155/65 R14 75H
+                    - button "4.6/5 - 53 avis" [ref=e329]
+                    - list [ref=e331]:
+                      - listitem [ref=e332]:
+                        - generic [ref=e334]: D
+                        - generic [ref=e336]: C
+                        - generic [ref=e339]: B 70 db
+                      - listitem [ref=e340]:
+                        - generic [ref=e342]: pneu Eté
+                      - listitem [ref=e343]:
+                        - generic [ref=e345]: Tourisme
+                  - generic [ref=e346]:
+                    - generic [ref=e349]:
+                      - text: "35"
+                      - generic [ref=e350]:
+                        - text: ",50"
+                        - generic [ref=e351]: €
+                    - generic [ref=e352]: Prix unitaire dont eco participation incluse
+                    - generic [ref=e353]:
+                      - generic [ref=e355]:
+                        - generic [ref=e356]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e358] [cursor=pointer]
+                      - generic [ref=e359]:
+                        - generic [ref=e360]: Disponible en livraison
+                        - generic [ref=e361]:
+                          - text: Dès le
+                          - strong [ref=e362]: 19/01/2026
+                    - link "Ajouter au panier" [ref=e364] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e365]
+              - generic [ref=e366]:
+                - generic [ref=e367]:
+                  - generic [ref=e371] [cursor=pointer]:
+                    - link "Pneu APLUS A609" [ref=e372]:
+                      - /url: https://www.carter-cash.com/pneus/p/145-80-r13-75T-4108653-APL05
+                      - heading "Pneu APLUS A609" [level=2] [ref=e373]
+                    - generic [ref=e374]: pneu 145/80 R13 75T
+                    - button "4.6/5 - 55 avis" [ref=e379]
+                    - list [ref=e381]:
+                      - listitem [ref=e382]:
+                        - generic [ref=e384]: D
+                        - generic [ref=e386]: C
+                        - generic [ref=e389]: B 70 db
+                      - listitem [ref=e390]:
+                        - generic [ref=e392]: pneu Eté
+                      - listitem [ref=e393]:
+                        - generic [ref=e395]: Tourisme
+                  - generic [ref=e396]:
+                    - generic [ref=e399]:
+                      - text: "36"
+                      - generic [ref=e400]:
+                        - text: ",50"
+                        - generic [ref=e401]: €
+                    - generic [ref=e402]: Prix unitaire dont eco participation incluse
+                    - generic [ref=e403]:
+                      - generic [ref=e405]:
+                        - generic [ref=e406]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e408] [cursor=pointer]
+                      - generic [ref=e409]:
+                        - generic [ref=e410]: Disponible en livraison
+                        - generic [ref=e411]:
+                          - text: Dès le
+                          - strong [ref=e412]: 19/01/2026
+                    - link "Ajouter au panier" [ref=e414] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e415]
+              - generic [ref=e416]:
+                - generic [ref=e417]:
+                  - generic [ref=e421] [cursor=pointer]:
+                    - link "Pneu APLUS A609" [ref=e422]:
+                      - /url: https://www.carter-cash.com/pneus/p/155-70-r13-75T-4108240-APL05
+                      - heading "Pneu APLUS A609" [level=2] [ref=e423]
+                    - generic [ref=e424]: pneu 155/70 R13 75T
+                    - button "4.5/5 - 95 avis" [ref=e429]
+                    - list [ref=e431]:
+                      - listitem [ref=e432]:
+                        - generic [ref=e434]: D
+                        - generic [ref=e436]: C
+                        - generic [ref=e439]: B 70 db
+                      - listitem [ref=e440]:
+                        - generic [ref=e442]: pneu Eté
+                      - listitem [ref=e443]:
+                        - generic [ref=e445]: Tourisme
+                  - generic [ref=e446]:
+                    - generic [ref=e449]:
+                      - text: "36"
+                      - generic [ref=e450]:
+                        - text: ",90"
+                        - generic [ref=e451]: €
+                    - generic [ref=e452]: Prix unitaire dont eco participation incluse
+                    - generic [ref=e453]:
+                      - generic [ref=e455]:
+                        - generic [ref=e456]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e458] [cursor=pointer]
+                      - generic [ref=e459]:
+                        - generic [ref=e460]: Disponible en livraison
+                        - generic [ref=e461]:
+                          - text: Dès le
+                          - strong [ref=e462]: 19/01/2026
+                    - link "Ajouter au panier" [ref=e464] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e465]
+              - generic [ref=e466]:
+                - generic [ref=e467]:
+                  - generic [ref=e471] [cursor=pointer]:
+                    - link "Pneu 4 saisons APLUS ALL SEASON 3PMSF" [ref=e472]:
+                      - /url: https://www.carter-cash.com/pneus/p/165-70-r14-81H-AP968H1-APL05
+                      - heading "Pneu 4 saisons APLUS ALL SEASON 3PMSF" [level=2] [ref=e473]
+                    - generic [ref=e474]: pneu 165/70 R14 81H
+                    - button "4.6/5 - 18 avis" [ref=e479]
+                    - list [ref=e481]:
+                      - listitem [ref=e482]:
+                        - generic [ref=e484]: D
+                        - generic [ref=e486]: C
+                        - generic [ref=e489]: B 71 db
+                      - listitem [ref=e490]:
+                        - generic [ref=e492]: pneu 4 Saisons
+                      - listitem [ref=e493]:
+                        - generic [ref=e495]: Tourisme
+                  - generic [ref=e496]:
+                    - generic [ref=e499]:
+                      - text: "37"
+                      - generic [ref=e500]:
+                        - text: ",90"
+                        - generic [ref=e501]: €
+                    - generic [ref=e502]: Prix unitaire dont eco participation incluse
+                    - generic [ref=e503]:
+                      - generic [ref=e505]:
+                        - generic [ref=e506]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e508] [cursor=pointer]
+                      - generic [ref=e509]:
+                        - generic [ref=e510]: Disponible en livraison
+                        - generic [ref=e511]:
+                          - text: Dès le
+                          - strong [ref=e512]: 19/01/2026
+                    - link "Ajouter au panier" [ref=e514] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e515]
+              - generic [ref=e516]:
+                - generic [ref=e517]:
+                  - generic [ref=e521] [cursor=pointer]:
+                    - link "Pneu APLUS A609" [ref=e522]:
+                      - /url: https://www.carter-cash.com/pneus/p/165-70-r13-79T-4110458-APL05
+                      - heading "Pneu APLUS A609" [level=2] [ref=e523]
+                    - generic [ref=e524]: pneu 165/70 R13 79T
+                    - button "4.5/5 - 66 avis" [ref=e529]
+                    - list [ref=e531]:
+                      - listitem [ref=e532]:
+                        - generic [ref=e534]: D
+                        - generic [ref=e536]: C
+                        - generic [ref=e539]: B 70 db
+                      - listitem [ref=e540]:
+                        - generic [ref=e542]: pneu Eté
+                      - listitem [ref=e543]:
+                        - generic [ref=e545]: Tourisme
+                  - generic [ref=e546]:
+                    - generic [ref=e549]:
+                      - text: "37"
+                      - generic [ref=e550]:
+                        - text: ",90"
+                        - generic [ref=e551]: €
+                    - generic [ref=e552]: Prix unitaire dont eco participation incluse
+                    - generic [ref=e553]:
+                      - generic [ref=e555]:
+                        - generic [ref=e556]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e558] [cursor=pointer]
+                      - generic [ref=e559]:
+                        - generic [ref=e560]: Disponible en livraison
+                        - generic [ref=e561]:
+                          - text: Dès le
+                          - strong [ref=e562]: 19/01/2026
+                    - link "Ajouter au panier" [ref=e564] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e565]
+              - generic [ref=e566]:
+                - generic [ref=e567]:
+                  - generic [ref=e571] [cursor=pointer]:
+                    - link "Pneu APLUS A609" [ref=e572]:
+                      - /url: https://www.carter-cash.com/pneus/p/165-60-r14-75H-4112254-APL05
+                      - heading "Pneu APLUS A609" [level=2] [ref=e573]
+                    - generic [ref=e574]: pneu 165/60 R14 75H
+                    - button "4.6/5 - 30 avis" [ref=e579]
+                    - list [ref=e581]:
+                      - listitem [ref=e582]:
+                        - generic [ref=e584]: D
+                        - generic [ref=e586]: C
+                        - generic [ref=e589]: B 70 db
+                      - listitem [ref=e590]:
+                        - generic [ref=e592]: pneu Eté
+                      - listitem [ref=e593]:
+                        - generic [ref=e595]: Tourisme
+                  - generic [ref=e596]:
+                    - generic [ref=e599]:
+                      - text: "41"
+                      - generic [ref=e600]:
+                        - text: ",90"
+                        - generic [ref=e601]: €
+                    - generic [ref=e602]: Prix unitaire dont eco participation incluse
+                    - generic [ref=e603]:
+                      - generic [ref=e605]:
+                        - generic [ref=e606]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e608] [cursor=pointer]
+                      - generic [ref=e609]:
+                        - generic [ref=e610]: Disponible en livraison
+                        - generic [ref=e611]:
+                          - text: Dès le
+                          - strong [ref=e612]: 19/01/2026
+                    - link "Ajouter au panier" [ref=e614] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e615]
+              - generic [ref=e616]:
+                - generic [ref=e617]:
+                  - generic [ref=e621] [cursor=pointer]:
+                    - link "Pneu APLUS A609" [ref=e622]:
+                      - /url: https://www.carter-cash.com/pneus/p/185-65-r15-88H-4123700-APL05
+                      - heading "Pneu APLUS A609" [level=2] [ref=e623]
+                    - generic [ref=e624]: pneu 185/65 R15 88H
+                    - button "4.5/5 - 205 avis" [ref=e629]
+                    - list [ref=e631]:
+                      - listitem [ref=e632]:
+                        - generic [ref=e634]: D
+                        - generic [ref=e636]: C
+                        - generic [ref=e639]: B 70 db
+                      - listitem [ref=e640]:
+                        - generic [ref=e642]: pneu Eté
+                      - listitem [ref=e643]:
+                        - generic [ref=e645]: Tourisme
+                  - generic [ref=e646]:
+                    - generic [ref=e649]:
+                      - text: "42"
+                      - generic [ref=e650]:
+                        - text: ",50"
+                        - generic [ref=e651]: €
+                    - generic [ref=e652]: Prix unitaire dont eco participation incluse
+                    - generic [ref=e653]:
+                      - generic [ref=e655]:
+                        - generic [ref=e656]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e658] [cursor=pointer]
+                      - generic [ref=e659]:
+                        - generic [ref=e660]: Disponible en livraison
+                        - generic [ref=e661]:
+                          - text: Dès le
+                          - strong [ref=e662]: 19/01/2026
+                    - link "Ajouter au panier" [ref=e664] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e665]
+              - generic [ref=e666]:
+                - generic [ref=e667]:
+                  - generic [ref=e671] [cursor=pointer]:
+                    - link "Pneu APLUS A609" [ref=e672]:
+                      - /url: https://www.carter-cash.com/pneus/p/175-70-r13-82T-4111967-APL05
+                      - heading "Pneu APLUS A609" [level=2] [ref=e673]
+                    - generic [ref=e674]: pneu 175/70 R13 82T
+                    - button "4.7/5 - 3 avis" [ref=e679]
+                    - list [ref=e681]:
+                      - listitem [ref=e682]:
+                        - generic [ref=e684]: D
+                        - generic [ref=e686]: C
+                        - generic [ref=e689]: B 70 db
+                      - listitem [ref=e690]:
+                        - generic [ref=e692]: pneu Eté
+                      - listitem [ref=e693]:
+                        - generic [ref=e695]: Tourisme
+                  - generic [ref=e696]:
+                    - generic [ref=e699]:
+                      - text: "42"
+                      - generic [ref=e700]:
+                        - text: ",90"
+                        - generic [ref=e701]: €
+                    - generic [ref=e702]: Prix unitaire dont eco participation incluse
+                    - generic [ref=e703]:
+                      - generic [ref=e705]:
+                        - generic [ref=e706]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e708] [cursor=pointer]
+                      - generic [ref=e709]:
+                        - generic [ref=e710]: Disponible en livraison
+                        - generic [ref=e711]:
+                          - text: Dès le
+                          - strong [ref=e712]: 19/01/2026
+                    - link "Ajouter au panier" [ref=e714] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e715]
+              - generic [ref=e716]:
+                - generic [ref=e717]:
+                  - generic [ref=e721] [cursor=pointer]:
+                    - link "Pneu 4 saisons APLUS ALL SEASON 3PMSF" [ref=e722]:
+                      - /url: https://www.carter-cash.com/pneus/p/155-65-r14-75H-AP965H1-APL05
+                      - heading "Pneu 4 saisons APLUS ALL SEASON 3PMSF" [level=2] [ref=e723]
+                    - generic [ref=e724]: pneu 155/65 R14 75H
+                    - button "4.7/5 - 42 avis" [ref=e729]
+                    - list [ref=e731]:
+                      - listitem [ref=e732]:
+                        - generic [ref=e734]: D
+                        - generic [ref=e736]: C
+                        - generic [ref=e739]: B 71 db
+                      - listitem [ref=e740]:
+                        - generic [ref=e742]: pneu 4 Saisons
+                      - listitem [ref=e743]:
+                        - generic [ref=e745]: Tourisme
+                  - generic [ref=e746]:
+                    - generic [ref=e749]:
+                      - text: "43"
+                      - generic [ref=e750]:
+                        - text: ",50"
+                        - generic [ref=e751]: €
+                    - generic [ref=e752]: Prix unitaire dont eco participation incluse
+                    - generic [ref=e753]:
+                      - generic [ref=e755]:
+                        - generic [ref=e756]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e758] [cursor=pointer]
+                      - generic [ref=e759]:
+                        - generic [ref=e760]: Disponible en livraison
+                        - generic [ref=e761]:
+                          - text: Dès le
+                          - strong [ref=e762]: 19/01/2026
+                    - link "Ajouter au panier" [ref=e764] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e765]
+              - generic [ref=e766]:
+                - generic [ref=e767]:
+                  - generic [ref=e771] [cursor=pointer]:
+                    - link "Pneu APLUS A609" [ref=e772]:
+                      - /url: https://www.carter-cash.com/pneus/p/195-65-r15-91V-4123724-APL05
+                      - heading "Pneu APLUS A609" [level=2] [ref=e773]
+                    - generic [ref=e774]: pneu 195/65 R15 91V
+                    - button "4.5/5 - 50 avis" [ref=e779]
+                    - list [ref=e781]:
+                      - listitem [ref=e782]:
+                        - generic [ref=e784]: D
+                        - generic [ref=e786]: C
+                        - generic [ref=e789]: B 71 db
+                      - listitem [ref=e790]:
+                        - generic [ref=e792]: pneu Eté
+                      - listitem [ref=e793]:
+                        - generic [ref=e795]: Tourisme
+                  - generic [ref=e796]:
+                    - generic [ref=e799]:
+                      - text: "43"
+                      - generic [ref=e800]:
+                        - text: ",50"
+                        - generic [ref=e801]: €
+                    - generic [ref=e802]: Prix unitaire dont eco participation incluse
+                    - generic [ref=e803]:
+                      - generic [ref=e805]:
+                        - generic [ref=e806]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e808] [cursor=pointer]
+                      - generic [ref=e809]:
+                        - generic [ref=e810]: Disponible en livraison
+                        - generic [ref=e811]:
+                          - text: Dès le
+                          - strong [ref=e812]: 19/01/2026
+                    - link "Ajouter au panier" [ref=e814] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e815]
+              - generic [ref=e816]:
+                - generic [ref=e817]:
+                  - generic [ref=e821] [cursor=pointer]:
+                    - link "Pneu APLUS A609 XL" [ref=e822]:
+                      - /url: https://www.carter-cash.com/pneus/p/175-70-r14-88T-4124295-APL05
+                      - heading "Pneu APLUS A609 XL" [level=2] [ref=e823]
+                    - generic [ref=e824]: pneu 175/70 R14 88T
+                    - button "4.5/5 - 22 avis" [ref=e829]
+                    - list [ref=e831]:
+                      - listitem [ref=e832]:
+                        - generic [ref=e834]: D
+                        - generic [ref=e836]: C
+                        - generic [ref=e839]: B 71 db
+                      - listitem [ref=e840]:
+                        - generic [ref=e842]: pneu Eté
+                      - listitem [ref=e843]:
+                        - generic [ref=e845]: Tourisme
+                  - generic [ref=e846]:
+                    - generic [ref=e849]:
+                      - text: "44"
+                      - generic [ref=e850]:
+                        - text: ",50"
+                        - generic [ref=e851]: €
+                    - generic [ref=e852]: Prix unitaire dont eco participation incluse
+                    - generic [ref=e853]:
+                      - generic [ref=e855]:
+                        - generic [ref=e856]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e858] [cursor=pointer]
+                      - generic [ref=e859]:
+                        - generic [ref=e860]: Disponible en livraison
+                        - generic [ref=e861]:
+                          - text: Dès le
+                          - strong [ref=e862]: 19/01/2026
+                    - link "Ajouter au panier" [ref=e864] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e865]
+              - generic [ref=e866]:
+                - generic [ref=e867]:
+                  - generic [ref=e871] [cursor=pointer]:
+                    - link "Pneu 4 saisons APLUS AS909 XL 3PMSF" [ref=e872]:
+                      - /url: https://www.carter-cash.com/pneus/p/175-65-r14-86T-38806-APL05
+                      - heading "Pneu 4 saisons APLUS AS909 XL 3PMSF" [level=2] [ref=e873]
+                    - generic [ref=e874]: pneu 175/65 R14 86T
+                    - button "4.7/5 - 40 avis" [ref=e879]
+                    - list [ref=e881]:
+                      - listitem [ref=e882]:
+                        - generic [ref=e884]: C
+                        - generic [ref=e886]: D
+                        - generic [ref=e889]: B 70 db
+                      - listitem [ref=e890]:
+                        - generic [ref=e892]: pneu 4 Saisons
+                      - listitem [ref=e893]:
+                        - generic [ref=e895]: Tourisme
+                  - generic [ref=e896]:
+                    - generic [ref=e899]:
+                      - text: "44"
+                      - generic [ref=e900]:
+                        - text: ",90"
+                        - generic [ref=e901]: €
+                    - generic [ref=e902]: Prix unitaire dont eco participation incluse
+                    - generic [ref=e903]:
+                      - generic [ref=e905]:
+                        - generic [ref=e906]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e908] [cursor=pointer]
+                      - generic [ref=e909]:
+                        - generic [ref=e910]: Disponible en livraison
+                        - generic [ref=e911]:
+                          - text: Dès le
+                          - strong [ref=e912]: 19/01/2026
+                    - link "Ajouter au panier" [ref=e914] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e915]
+              - generic [ref=e916]:
+                - generic [ref=e917]:
+                  - generic [ref=e921] [cursor=pointer]:
+                    - link "Pneu APLUS A609" [ref=e922]:
+                      - /url: https://www.carter-cash.com/pneus/p/165-60-r15-77H-4120426-APL05
+                      - heading "Pneu APLUS A609" [level=2] [ref=e923]
+                    - generic [ref=e924]: pneu 165/60 R15 77H
+                    - button "4.7/5 - 20 avis" [ref=e929]
+                    - list [ref=e931]:
+                      - listitem [ref=e932]:
+                        - generic [ref=e934]: D
+                        - generic [ref=e936]: C
+                        - generic [ref=e939]: B 70 db
+                      - listitem [ref=e940]:
+                        - generic [ref=e942]: pneu Eté
+                      - listitem [ref=e943]:
+                        - generic [ref=e945]: Tourisme
+                  - generic [ref=e946]:
+                    - generic [ref=e949]:
+                      - text: "44"
+                      - generic [ref=e950]:
+                        - text: ",90"
+                        - generic [ref=e951]: €
+                    - generic [ref=e952]: Prix unitaire dont eco participation incluse
+                    - generic [ref=e953]:
+                      - generic [ref=e955]:
+                        - generic [ref=e956]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e958] [cursor=pointer]
+                      - generic [ref=e959]:
+                        - generic [ref=e960]: Disponible en livraison
+                        - generic [ref=e961]:
+                          - text: Dès le
+                          - strong [ref=e962]: 19/01/2026
+                    - link "Ajouter au panier" [ref=e964] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e965]
+              - generic [ref=e966]:
+                - generic [ref=e967]:
+                  - generic [ref=e971] [cursor=pointer]:
+                    - link "Pneu APLUS A609 ECE/R117" [ref=e972]:
+                      - /url: https://www.carter-cash.com/pneus/p/175-60-r15-81H-31782-APL05
+                      - heading "Pneu APLUS A609 ECE/R117" [level=2] [ref=e973]
+                    - generic [ref=e974]: pneu 175/60 R15 81H
+                    - button "4.1/5 - 12 avis" [ref=e979]
+                    - list [ref=e981]:
+                      - listitem [ref=e982]:
+                        - generic [ref=e984]: D
+                        - generic [ref=e986]: C
+                        - generic [ref=e989]: B 70 db
+                      - listitem [ref=e990]:
+                        - generic [ref=e992]: pneu Eté
+                      - listitem [ref=e993]:
+                        - generic [ref=e995]: 4X4
+                  - generic [ref=e996]:
+                    - generic [ref=e999]:
+                      - text: "45"
+                      - generic [ref=e1000]:
+                        - text: ",90"
+                        - generic [ref=e1001]: €
+                    - generic [ref=e1002]: Prix unitaire dont eco participation incluse
+                    - generic [ref=e1003]:
+                      - generic [ref=e1005]:
+                        - generic [ref=e1006]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e1008] [cursor=pointer]
+                      - generic [ref=e1009]:
+                        - generic [ref=e1010]: Disponible en livraison
+                        - generic [ref=e1011]:
+                          - text: Dès le
+                          - strong [ref=e1012]: 19/01/2026
+                    - link "Ajouter au panier" [ref=e1014] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e1015]
+              - generic [ref=e1016]:
+                - generic [ref=e1017]:
+                  - generic [ref=e1021] [cursor=pointer]:
+                    - link "Pneu APLUS A609" [ref=e1022]:
+                      - /url: https://www.carter-cash.com/pneus/p/185-70-r14-88H-4112469-APL05
+                      - heading "Pneu APLUS A609" [level=2] [ref=e1023]
+                    - generic [ref=e1024]: pneu 185/70 R14 88H
+                    - button "4.6/5 - 7 avis" [ref=e1029]
+                    - list [ref=e1031]:
+                      - listitem [ref=e1032]:
+                        - generic [ref=e1034]: D
+                        - generic [ref=e1036]: C
+                        - generic [ref=e1039]: B 70 db
+                      - listitem [ref=e1040]:
+                        - generic [ref=e1042]: pneu Eté
+                      - listitem [ref=e1043]:
+                        - generic [ref=e1045]: Tourisme
+                  - generic [ref=e1046]:
+                    - generic [ref=e1049]:
+                      - text: "46"
+                      - generic [ref=e1050]:
+                        - text: ",50"
+                        - generic [ref=e1051]: €
+                    - generic [ref=e1052]: Prix unitaire dont eco participation incluse
+                    - generic [ref=e1053]:
+                      - generic [ref=e1055]:
+                        - generic [ref=e1056]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e1058] [cursor=pointer]
+                      - generic [ref=e1059]:
+                        - generic [ref=e1060]: Disponible en livraison
+                        - generic [ref=e1061]:
+                          - text: Dès le
+                          - strong [ref=e1062]: 19/01/2026
+                    - link "Ajouter au panier" [ref=e1064] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e1065]
+              - generic [ref=e1066]:
+                - generic [ref=e1067]:
+                  - generic [ref=e1071] [cursor=pointer]:
+                    - link "Pneu 4 saisons APLUS AS909 3PMSF" [ref=e1072]:
+                      - /url: https://www.carter-cash.com/pneus/p/185-55-r15-82V-38808-APL05
+                      - heading "Pneu 4 saisons APLUS AS909 3PMSF" [level=2] [ref=e1073]
+                    - generic [ref=e1074]: pneu 185/55 R15 82V
+                    - button "5/5 - 8 avis" [ref=e1079]
+                    - list [ref=e1081]:
+                      - listitem [ref=e1082]:
+                        - generic [ref=e1084]: C
+                        - generic [ref=e1086]: D
+                        - generic [ref=e1089]: B 70 db
+                      - listitem [ref=e1090]:
+                        - generic [ref=e1092]: pneu 4 Saisons
+                      - listitem [ref=e1093]:
+                        - generic [ref=e1095]: Tourisme
+                  - generic [ref=e1096]:
+                    - generic [ref=e1099]:
+                      - text: "46"
+                      - generic [ref=e1100]:
+                        - text: ",90"
+                        - generic [ref=e1101]: €
+                    - generic [ref=e1102]: Prix unitaire dont eco participation incluse
+                    - generic [ref=e1103]:
+                      - generic [ref=e1105]:
+                        - generic [ref=e1106]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e1108] [cursor=pointer]
+                      - generic [ref=e1109]:
+                        - generic [ref=e1110]: Disponible en livraison
+                        - generic [ref=e1111]:
+                          - text: Dès le
+                          - strong [ref=e1112]: 19/01/2026
+                    - link "Ajouter au panier" [ref=e1114] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e1115]
+              - generic [ref=e1116]:
+                - generic [ref=e1117]:
+                  - generic [ref=e1121] [cursor=pointer]:
+                    - link "Pneu APLUS A609" [ref=e1122]:
+                      - /url: https://www.carter-cash.com/pneus/p/195-70-r14-91H-4112520-APL05
+                      - heading "Pneu APLUS A609" [level=2] [ref=e1123]
+                    - generic [ref=e1124]: pneu 195/70 R14 91H
+                    - button "4.7/5 - 10 avis" [ref=e1129]
+                    - list [ref=e1131]:
+                      - listitem [ref=e1132]:
+                        - generic [ref=e1134]: D
+                        - generic [ref=e1136]: C
+                        - generic [ref=e1139]: B 71 db
+                      - listitem [ref=e1140]:
+                        - generic [ref=e1142]: pneu Eté
+                      - listitem [ref=e1143]:
+                        - generic [ref=e1145]: Tourisme
+                  - generic [ref=e1146]:
+                    - generic [ref=e1149]:
+                      - text: "46"
+                      - generic [ref=e1150]:
+                        - text: ",90"
+                        - generic [ref=e1151]: €
+                    - generic [ref=e1152]: Prix unitaire dont eco participation incluse
+                    - generic [ref=e1153]:
+                      - generic [ref=e1155]:
+                        - generic [ref=e1156]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e1158] [cursor=pointer]
+                      - generic [ref=e1159]:
+                        - generic [ref=e1160]: Disponible en livraison
+                        - generic [ref=e1161]:
+                          - text: Dès le
+                          - strong [ref=e1162]: 19/01/2026
+                    - link "Ajouter au panier" [ref=e1164] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e1165]
+              - generic [ref=e1166]:
+                - generic [ref=e1167]:
+                  - generic [ref=e1171] [cursor=pointer]:
+                    - link "Pneu APLUS A609" [ref=e1172]:
+                      - /url: https://www.carter-cash.com/pneus/p/185-55-r14-80H-4112407-APL05
+                      - heading "Pneu APLUS A609" [level=2] [ref=e1173]
+                    - generic [ref=e1174]: pneu 185/55 R14 80H
+                    - button "4.4/5 - 21 avis" [ref=e1179]
+                    - list [ref=e1181]:
+                      - listitem [ref=e1182]:
+                        - generic [ref=e1184]: D
+                        - generic [ref=e1186]: C
+                        - generic [ref=e1189]: B 70 db
+                      - listitem [ref=e1190]:
+                        - generic [ref=e1192]: pneu Eté
+                      - listitem [ref=e1193]:
+                        - generic [ref=e1195]: Tourisme
+                  - generic [ref=e1196]:
+                    - generic [ref=e1199]:
+                      - text: "47"
+                      - generic [ref=e1200]:
+                        - text: ",50"
+                        - generic [ref=e1201]: €
+                    - generic [ref=e1202]: Prix unitaire dont eco participation incluse
+                    - generic [ref=e1203]:
+                      - generic [ref=e1205]:
+                        - generic [ref=e1206]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e1208] [cursor=pointer]
+                      - generic [ref=e1209]:
+                        - generic [ref=e1210]: Disponible en livraison
+                        - generic [ref=e1211]:
+                          - text: Dès le
+                          - strong [ref=e1212]: 19/01/2026
+                    - link "Ajouter au panier" [ref=e1214] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e1215]
+              - generic [ref=e1216]:
+                - generic [ref=e1217]:
+                  - generic [ref=e1221] [cursor=pointer]:
+                    - link "Pneu APLUS A609" [ref=e1222]:
+                      - /url: https://www.carter-cash.com/pneus/p/205-60-r15-91V-AP1984H1-APL05
+                      - heading "Pneu APLUS A609" [level=2] [ref=e1223]
+                    - generic [ref=e1224]: pneu 205/60 R15 91V
+                    - button "4.7/5 - 15 avis" [ref=e1229]
+                    - list [ref=e1231]:
+                      - listitem [ref=e1232]:
+                        - generic [ref=e1234]: D
+                        - generic [ref=e1236]: C
+                        - generic [ref=e1239]: B 71 db
+                      - listitem [ref=e1240]:
+                        - generic [ref=e1242]: pneu Eté
+                      - listitem [ref=e1243]:
+                        - generic [ref=e1245]: Tourisme
+                  - generic [ref=e1246]:
+                    - generic [ref=e1249]:
+                      - text: "47"
+                      - generic [ref=e1250]:
+                        - text: ",50"
+                        - generic [ref=e1251]: €
+                    - generic [ref=e1252]: Prix unitaire dont eco participation incluse
+                    - generic [ref=e1253]:
+                      - generic [ref=e1255]:
+                        - generic [ref=e1256]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e1258] [cursor=pointer]
+                      - generic [ref=e1259]:
+                        - generic [ref=e1260]: Disponible en livraison
+                        - generic [ref=e1261]:
+                          - text: Dès le
+                          - strong [ref=e1262]: 19/01/2026
+                    - link "Ajouter au panier" [ref=e1264] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e1265]
+              - generic [ref=e1266]:
+                - generic [ref=e1267]:
+                  - generic [ref=e1271] [cursor=pointer]:
+                    - link "Pneu 4 saisons APLUS ALL SEASON 3PMSF" [ref=e1272]:
+                      - /url: https://www.carter-cash.com/pneus/p/195-55-r15-85V-AP980H1-APL05
+                      - heading "Pneu 4 saisons APLUS ALL SEASON 3PMSF" [level=2] [ref=e1273]
+                    - generic [ref=e1274]: pneu 195/55 R15 85V
+                    - button "4.7/5 - 32 avis" [ref=e1279]
+                    - list [ref=e1281]:
+                      - listitem [ref=e1282]:
+                        - generic [ref=e1284]: D
+                        - generic [ref=e1286]: C
+                        - generic [ref=e1289]: B 72 db
+                      - listitem [ref=e1290]:
+                        - generic [ref=e1292]: pneu 4 Saisons
+                      - listitem [ref=e1293]:
+                        - generic [ref=e1295]: 4X4
+                  - generic [ref=e1296]:
+                    - generic [ref=e1299]:
+                      - text: "49"
+                      - generic [ref=e1300]:
+                        - text: ",90"
+                        - generic [ref=e1301]: €
+                    - generic [ref=e1302]: Prix unitaire dont eco participation incluse
+                    - generic [ref=e1303]:
+                      - generic [ref=e1305]:
+                        - generic [ref=e1306]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e1308] [cursor=pointer]
+                      - generic [ref=e1309]:
+                        - generic [ref=e1310]: Disponible en livraison
+                        - generic [ref=e1311]:
+                          - text: Dès le
+                          - strong [ref=e1312]: 19/01/2026
+                    - link "Ajouter au panier" [ref=e1314] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e1315]
+              - generic [ref=e1316]:
+                - generic [ref=e1317]:
+                  - generic [ref=e1321] [cursor=pointer]:
+                    - link "Pneu 4 saisons APLUS AS909" [ref=e1322]:
+                      - /url: https://www.carter-cash.com/pneus/p/205-45-r17-88W-38814-APL05
+                      - heading "Pneu 4 saisons APLUS AS909" [level=2] [ref=e1323]
+                    - generic [ref=e1324]: pneu 205/45 R17 88W
+                    - button "4/5 - 1 avis" [ref=e1329]
+                    - list [ref=e1331]:
+                      - listitem [ref=e1332]:
+                        - generic [ref=e1334]: C
+                        - generic [ref=e1336]: C
+                        - generic [ref=e1339]: B 71 db
+                      - listitem [ref=e1340]:
+                        - generic [ref=e1342]: pneu 4 Saisons
+                      - listitem [ref=e1343]:
+                        - generic [ref=e1345]: Tourisme
+                  - generic [ref=e1346]:
+                    - generic [ref=e1349]:
+                      - text: "50"
+                      - generic [ref=e1350]:
+                        - text: ",90"
+                        - generic [ref=e1351]: €
+                    - generic [ref=e1352]: Prix unitaire dont eco participation incluse
+                    - generic [ref=e1353]:
+                      - generic [ref=e1355]:
+                        - generic [ref=e1356]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e1358] [cursor=pointer]
+                      - generic [ref=e1359]:
+                        - generic [ref=e1360]: Disponible en livraison
+                        - generic [ref=e1361]:
+                          - text: Dès le
+                          - strong [ref=e1362]: 19/01/2026
+                    - link "Ajouter au panier" [ref=e1364] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e1365]
+              - generic [ref=e1366]:
+                - generic [ref=e1367]:
+                  - generic [ref=e1371] [cursor=pointer]:
+                    - link "Pneu APLUS A609 XL" [ref=e1372]:
+                      - /url: https://www.carter-cash.com/pneus/p/195-50-r16-88V-4123892-APL05
+                      - heading "Pneu APLUS A609 XL" [level=2] [ref=e1373]
+                    - generic [ref=e1374]: pneu 195/50 R16 88V
+                    - button "4.6/5 - 38 avis" [ref=e1379]
+                    - list [ref=e1381]:
+                      - listitem [ref=e1382]:
+                        - generic [ref=e1384]: D
+                        - generic [ref=e1386]: C
+                        - generic [ref=e1389]: B 72 db
+                      - listitem [ref=e1390]:
+                        - generic [ref=e1392]: pneu Eté
+                      - listitem [ref=e1393]:
+                        - generic [ref=e1395]: Tourisme
+                  - generic [ref=e1396]:
+                    - generic [ref=e1399]:
+                      - text: "51"
+                      - generic [ref=e1400]:
+                        - text: ",50"
+                        - generic [ref=e1401]: €
+                    - generic [ref=e1402]: Prix unitaire dont eco participation incluse
+                    - generic [ref=e1403]:
+                      - generic [ref=e1405]:
+                        - generic [ref=e1406]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e1408] [cursor=pointer]
+                      - generic [ref=e1409]:
+                        - generic [ref=e1410]: Disponible en livraison
+                        - generic [ref=e1411]:
+                          - text: Dès le
+                          - strong [ref=e1412]: 19/01/2026
+                    - link "Ajouter au panier" [ref=e1414] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e1415]
+              - generic [ref=e1416]:
+                - generic [ref=e1417]:
+                  - generic [ref=e1421] [cursor=pointer]:
+                    - link "Pneu 4 saisons APLUS ALL SEASON" [ref=e1422]:
+                      - /url: https://www.carter-cash.com/pneus/p/195-50-r16-88V-AP1368H1-APL05
+                      - heading "Pneu 4 saisons APLUS ALL SEASON" [level=2] [ref=e1423]
+                    - generic [ref=e1424]: pneu 195/50 R16 88V
+                    - button "4.5/5 - 2 avis" [ref=e1429]
+                    - list [ref=e1431]:
+                      - listitem [ref=e1432]:
+                        - generic [ref=e1434]: D
+                        - generic [ref=e1436]: C
+                        - generic [ref=e1439]: B 72 db
+                      - listitem [ref=e1440]:
+                        - generic [ref=e1442]: pneu 4 Saisons
+                      - listitem [ref=e1443]:
+                        - generic [ref=e1445]: 4X4
+                  - generic [ref=e1446]:
+                    - generic [ref=e1449]:
+                      - text: "52"
+                      - generic [ref=e1450]:
+                        - text: ",90"
+                        - generic [ref=e1451]: €
+                    - generic [ref=e1452]: Prix unitaire dont eco participation incluse
+                    - generic [ref=e1453]:
+                      - generic [ref=e1455]:
+                        - generic [ref=e1456]: Retrait gratuit en magasin
+                        - button "Choisir un magasin pour vérifier la disponibilité" [ref=e1458] [cursor=pointer]
+                      - generic [ref=e1459]:
+                        - generic [ref=e1460]: Disponible en livraison
+                        - generic [ref=e1461]:
+                          - text: Dès le
+                          - strong [ref=e1462]: 19/01/2026
+                    - link "Ajouter au panier" [ref=e1464] [cursor=pointer]:
+                      - /url: "#"
+                - separator [ref=e1465]
+            - generic [ref=e1466]:
+              - combobox [ref=e1467] [cursor=pointer]:
+                - option "1 sur 2" [selected]
+                - option "2 sur 2"
+              - link [ref=e1468] [cursor=pointer]:
+                - /url: "#"
+    - generic [ref=e1471]:
+      - heading "Qui fabrique les pneus Aplus ?" [level=2] [ref=e1472]
+      - paragraph [ref=e1473]:
+        - text: Aplus est une entreprise chinoise créée en 2011. Elle est basée à Haohua. Elle possède aujourd’hui une très grosse capacité de production de tous types de pneumatiques destinés aux voitures de tourisme et aux SUV. Développé aujourd’hui partout dans le monde, la marque chinoise Aplus propose des pneus durables à l’excellent rapport qualité prix et répond aux besoins des conducteurs. Pneu été, hiver et 4 saisons, plusieurs modèles sont à découvrir chez
+        - emphasis [ref=e1474]:
+          - strong [ref=e1475]: Carter-Cash.
+      - heading "Quelles sont les qualités des pneus chinois A plus ?" [level=2] [ref=e1476]
+      - paragraph [ref=e1477]: Les pneus de l'entreprise Aplus sont des modèles pas chers mais rien n’empêche, ils ont reçu de nombreux avis clients positifs. Les qualités principales de ces pneumatiques sont leur adhérence sur route et terrain mouille, leur durabilité grâce à une bande de roulement bien étudiée et leur disponibilité. En effet, les pneus auto Aplus sont souvent en stock disponible immédiatement. Petit prix et stock, le combo parfait pour changer ses pneus.
+      - heading "Quels sont les modèles de pneus été, 4 saisons et hiver du fabricant Aplus ?" [level=2] [ref=e1478]
+      - paragraph [ref=e1479]: Durant votre recherche de pneus pour votre voiture, vous avez choisi de vous arrêter sur les produits de l'entreprise Aplus. Nous vous proposons un petit tour d’horizon sur les modèles de la marque. On commence avec les pneus été A606, A607, A608 et A609. Disponibles dans plusieurs dimensions, donc pour toutes les jantes, ce modèle décliné est compatible avec un véhicule de tourisme, un SUV de petite taille et mêmes avec un utilitaire moyen. Un bonne adhérence qui renforce la qualité du freinage et un confort sur sol mouille, ces pneumatiques sont de qualité. Ils sont vendus à petits prix ce qui est un plus.
+      - heading "Focus sur le pneu été A609" [level=3] [ref=e1480]
+      - paragraph [ref=e1481]: "Le pneu été A609 est très apprécié pour de nombreuses raisons : faible consommation en carburant, excellente tenue de route et bon niveau d'adhérence sur sol mouillé. Sa bande de roulement à double lamelles permet une plus grande stabilité et un meilleur contrôle de direction. C'est un choix qui apporte satisfaction pour son rapport qualité/prix."
+      - heading "Pneus All season A909" [level=3] [ref=e1482]
+      - paragraph [ref=e1483]: On continue avec les pneus Aplus 4 saisons et le A909 allseason. Rockstar des pneumatiques 4 saisons petit prix, le A909 allseason se donne les moyens de concurrencer les plus grands. On le retrouve aussi dans plusieurs dimensions. Il affronte parfaitement toutes les saisons, hiver, été mais aussi les variations de température (neige, verglas,...)
+      - heading "Caractéristiques pneus neige A502" [level=3] [ref=e1484]
+      - paragraph [ref=e1485]: "Vient ensuite les pneus hiver Aplus. Le pneu neige A502 est conçu pour offrir une excellente tenue de route et maniabilité dans des conditions hivernales difficiles. Ils offrent une excellente adhérence et une plus grande stabilité sur la neige et la glace grâce à leur profil en « V ». Ils sont également dotés de rainures latérales profondes pour une meilleure traction et d'un mélange de caoutchouc spécial pour une plus grande durabilité. D'autres profils existent : le A501, A505, A701 et A702. Tous certifiés Loi Montagne 3PMSF, ils sont un choix pratique pour les gros rouleurs qui résident en région montagneuse où les hivers sont rudes. En ville, ils feront aussi l’affaire et sauront faire face aux routes enneigées. Ils pourront être chaînés pour encore plus de sécurité."
+      - heading "Quels avis à propos des pneus auto Aplus ?" [level=2] [ref=e1486]
+      - paragraph [ref=e1487]: On peut parfois considérer les pneus voiture pas chers comme des produits de moins bonne qualité. Les pneus auto Aplus sont reconnus pour leur qualité et leur durabilité. Les utilisateurs affirment qu'ils offrent une excellente adhérence sur les routes mouillées, une bonne absorption des chocs et une excellente tenue de route. De plus, leur prix est très abordable et ils sont également très résistants à l'usure.
+      - heading "Quelle est la marque de pneu qui s'use le moins ?" [level=2] [ref=e1488]
+      - paragraph [ref=e1489]: En matière de durabilité, la marque Yokohama se distingue depuis plusieurs années. Reconnue pour la longévité exceptionnelle de ses pneus, elle est très appréciée des utilisateurs.
+      - paragraph [ref=e1490]: Cependant, les pneus Aplus offrent également une bonne résistance à l'usure. Fabriqués avec des matériaux de haute qualité, leur durée de vie est optimisée, ce qui représente un excellent investissement. En particulier, le modèle A909 est conçu pour une durabilité supérieure sans compromettre la sécurité et les performances. Il utilise des ceintures d'acier à haute résistance à la traction et un capuchon de mélange de nylon pour maximiser la surface de contact avec la route.
+      - paragraph [ref=e1491]: Il est néanmoins à noter que la durabilité d'un pneu dépend aussi de facteurs externes et des conditions d'utilisation.
+      - heading "Où acheter des pneus Aplus à prix bas ?" [level=2] [ref=e1492]
+      - paragraph [ref=e1493]:
+        - text: Vous êtes au bon endroit pour votre auto. Chez
+        - emphasis [ref=e1494]:
+          - strong [ref=e1495]: Carter-Cash
+        - text: ", nous proposons tous les produits de cette marque, en stock permanent ou via des offres d'arrivage. Du pneu été au pneu allseason et dans toutes les tailles de jantes. Vous pouvez effectuer une livraison gratuite en magasin ou une livraison gratuite à domicile si vous passez par notre site internet. Si vous vous rendez en magasin directement, les pneus auto seront peut-être en stock et votre modèle disponible, sinon, là encore, une livraison sous quelques jours est possible en magasin. Sachez que les offres pneus Aplus pas chers c’est toute l’année chez"
+        - emphasis [ref=e1496]:
+          - strong [ref=e1497]: Carter-Cash
+        - text: . Nos prix sont imbattables et cela depuis plus de 20 ans.
+      - heading "Les principales dimensions de pneus auto" [level=2] [ref=e1498]
+      - generic [ref=e1499]:
+        - generic [ref=e1500]:
+          - heading "Les pneus 13 et 14 pouces" [level=3] [ref=e1501]
+          - list [ref=e1502]:
+            - listitem [ref=e1503]:
+              - link "Pneus 135 80 R13" [ref=e1504]:
+                - /url: https://www.carter-cash.com/pneus/135-80-r13
+            - listitem [ref=e1505]:
+              - link "Pneus 145 60 R13" [ref=e1506]:
+                - /url: https://www.carter-cash.com/pneus/145-60-r13
+            - listitem [ref=e1507]:
+              - link "Pneus 145 70 R13" [ref=e1508]:
+                - /url: https://www.carter-cash.com/pneus/145-70-r13
+            - listitem [ref=e1509]:
+              - link "Pneus 145 80 R13" [ref=e1510]:
+                - /url: https://www.carter-cash.com/pneus/145-80-r13
+            - listitem [ref=e1511]:
+              - link "Pneus 155 70 R13" [ref=e1512]:
+                - /url: https://www.carter-cash.com/pneus/155-70-r13
+            - listitem [ref=e1513]:
+              - link "Pneus 155 80 R13" [ref=e1514]:
+                - /url: https://www.carter-cash.com/pneus/155-80-r13
+            - listitem [ref=e1515]:
+              - link "Pneus 165 65 R13" [ref=e1516]:
+                - /url: https://www.carter-cash.com/pneus/165-65-r13
+            - listitem [ref=e1517]:
+              - link "Pneus 165 70 R13" [ref=e1518]:
+                - /url: https://www.carter-cash.com/pneus/165-70-r13
+            - listitem [ref=e1519]:
+              - link "Pneus 175 70 R13" [ref=e1520]:
+                - /url: https://www.carter-cash.com/pneus/175-70-r13
+            - listitem [ref=e1521]:
+              - link "Pneus 185 70 R13" [ref=e1522]:
+                - /url: https://www.carter-cash.com/pneus/185-70-r13
+            - listitem [ref=e1523]:
+              - link "Pneus 155 65 R14" [ref=e1524]:
+                - /url: https://www.carter-cash.com/pneus/155-65-r14
+            - listitem [ref=e1525]:
+              - link "Pneus 165 65 R14" [ref=e1526]:
+                - /url: https://www.carter-cash.com/pneus/165-65-r14
+            - listitem [ref=e1527]:
+              - link "Pneus 165 70 R14" [ref=e1528]:
+                - /url: https://www.carter-cash.com/pneus/165-70-r14
+            - listitem [ref=e1529]:
+              - link "Pneus 175 65 R14" [ref=e1530]:
+                - /url: https://www.carter-cash.com/pneus/175-65-r14
+            - listitem [ref=e1531]:
+              - link "Pneus 175 70 R14" [ref=e1532]:
+                - /url: https://www.carter-cash.com/pneus/175-70-r14
+            - listitem [ref=e1533]:
+              - link "Pneus 185 55 R14" [ref=e1534]:
+                - /url: https://www.carter-cash.com/pneus/185-55-r14
+            - listitem [ref=e1535]:
+              - link "Pneus 185 60 R14" [ref=e1536]:
+                - /url: https://www.carter-cash.com/pneus/185-60-r14
+            - listitem [ref=e1537]:
+              - link "Pneus 185 65 R14" [ref=e1538]:
+                - /url: https://www.carter-cash.com/pneus/185-65-r14
+            - listitem [ref=e1539]:
+              - link "Pneus 195 70 R14" [ref=e1540]:
+                - /url: https://www.carter-cash.com/pneus/195-70-r14
+        - generic [ref=e1541]:
+          - heading "Les pneus 15 et 16 pouces" [level=3] [ref=e1542]
+          - list [ref=e1543]:
+            - listitem [ref=e1544]:
+              - link "Pneus 165 65 R15" [ref=e1545]:
+                - /url: https://www.carter-cash.com/pneus/165-65-r15
+            - listitem [ref=e1546]:
+              - link "Pneus 175 65 R15" [ref=e1547]:
+                - /url: https://www.carter-cash.com/pneus/175-65-r15
+            - listitem [ref=e1548]:
+              - link "Pneus 185 55 R15" [ref=e1549]:
+                - /url: https://www.carter-cash.com/pneus/185-55-r15
+            - listitem [ref=e1550]:
+              - link "Pneus 185 60 R15" [ref=e1551]:
+                - /url: https://www.carter-cash.com/pneus/185-60-r15
+            - listitem [ref=e1552]:
+              - link "Pneus 185 65 R15" [ref=e1553]:
+                - /url: https://www.carter-cash.com/pneus/185-65-r15
+            - listitem [ref=e1554]:
+              - link "Pneus 195 50 R15" [ref=e1555]:
+                - /url: https://www.carter-cash.com/pneus/195-50-r15
+            - listitem [ref=e1556]:
+              - link "Pneus 195 55 R15" [ref=e1557]:
+                - /url: https://www.carter-cash.com/pneus/195-55-r15
+            - listitem [ref=e1558]:
+              - link "Pneus 195 65 R15" [ref=e1559]:
+                - /url: https://www.carter-cash.com/pneus/195-65-r15
+            - listitem [ref=e1560]:
+              - link "Pneus 205 65 R15" [ref=e1561]:
+                - /url: https://www.carter-cash.com/pneus/205-65-r15
+            - listitem [ref=e1562]:
+              - link "Pneus 195 50 R16" [ref=e1563]:
+                - /url: https://www.carter-cash.com/pneus/195-50-r16
+            - listitem [ref=e1564]:
+              - link "Pneus 195 55 R16" [ref=e1565]:
+                - /url: https://www.carter-cash.com/pneus/195-55-r16
+            - listitem [ref=e1566]:
+              - link "Pneus 205 45 R16" [ref=e1567]:
+                - /url: https://www.carter-cash.com/pneus/205-45-r16
+            - listitem [ref=e1568]:
+              - link "Pneus 205 55 R16" [ref=e1569]:
+                - /url: https://www.carter-cash.com/pneus/205-55-r16
+            - listitem [ref=e1570]:
+              - link "Pneus 205 60 R16" [ref=e1571]:
+                - /url: https://www.carter-cash.com/pneus/205-60-r16
+            - listitem [ref=e1572]:
+              - link "Pneus 215 45 R16" [ref=e1573]:
+                - /url: https://www.carter-cash.com/pneus/215-45-r16
+            - listitem [ref=e1574]:
+              - link "Pneus 215 55 R16" [ref=e1575]:
+                - /url: https://www.carter-cash.com/pneus/215-55-r16
+            - listitem [ref=e1576]:
+              - link "Pneus 215 60 R16" [ref=e1577]:
+                - /url: https://www.carter-cash.com/pneus/215-60-r16
+            - listitem [ref=e1578]:
+              - link "Pneus 215 65 R16" [ref=e1579]:
+                - /url: https://www.carter-cash.com/pneus/215-65-r16
+            - listitem [ref=e1580]:
+              - link "Pneus 265 70 R16" [ref=e1581]:
+                - /url: https://www.carter-cash.com/pneus/265-70-r16
+        - generic [ref=e1582]:
+          - heading "Les pneus 17, 18 et 19 pouces" [level=3] [ref=e1583]
+          - list [ref=e1584]:
+            - listitem [ref=e1585]:
+              - link "Pneus 205 45 R17" [ref=e1586]:
+                - /url: https://www.carter-cash.com/pneus/205-45-r17
+            - listitem [ref=e1587]:
+              - link "Pneus 205 50 R17" [ref=e1588]:
+                - /url: https://www.carter-cash.com/pneus/205-50-r17
+            - listitem [ref=e1589]:
+              - link "Pneus 205 55 R17" [ref=e1590]:
+                - /url: https://www.carter-cash.com/pneus/205-55-r17
+            - listitem [ref=e1591]:
+              - link "Pneus 215 50 R17" [ref=e1592]:
+                - /url: https://www.carter-cash.com/pneus/215-50-r17
+            - listitem [ref=e1593]:
+              - link "Pneus 215 55 R17" [ref=e1594]:
+                - /url: https://www.carter-cash.com/pneus/215-55-r17
+            - listitem [ref=e1595]:
+              - link "Pneus 215 60 R17" [ref=e1596]:
+                - /url: https://www.carter-cash.com/pneus/215-60-r17
+            - listitem [ref=e1597]:
+              - link "Pneus 225 45 R17" [ref=e1598]:
+                - /url: https://www.carter-cash.com/pneus/225-45-r17
+            - listitem [ref=e1599]:
+              - link "Pneus 225 50 R17" [ref=e1600]:
+                - /url: https://www.carter-cash.com/pneus/225-50-r17
+            - listitem [ref=e1601]:
+              - link "Pneus 225 55 R17" [ref=e1602]:
+                - /url: https://www.carter-cash.com/pneus/225-55-r17
+            - listitem [ref=e1603]:
+              - link "Pneus 235 55 R17" [ref=e1604]:
+                - /url: https://www.carter-cash.com/pneus/235-55-r17
+            - listitem [ref=e1605]:
+              - link "Pneus 265 65 R17" [ref=e1606]:
+                - /url: https://www.carter-cash.com/pneus/265-65-r17
+            - listitem [ref=e1607]:
+              - link "Pneus 215 55 R18" [ref=e1608]:
+                - /url: https://www.carter-cash.com/pneus/215-55-r18
+            - listitem [ref=e1609]:
+              - link "Pneus 225 40 R18" [ref=e1610]:
+                - /url: https://www.carter-cash.com/pneus/225-40-r18
+            - listitem [ref=e1611]:
+              - link "Pneus 225 45 R18" [ref=e1612]:
+                - /url: https://www.carter-cash.com/pneus/225-45-r18
+            - listitem [ref=e1613]:
+              - link "Pneus 225 55 R18" [ref=e1614]:
+                - /url: https://www.carter-cash.com/pneus/225-55-r18
+            - listitem [ref=e1615]:
+              - link "Pneus 235 45 R18" [ref=e1616]:
+                - /url: https://www.carter-cash.com/pneus/235-45-r18
+            - listitem [ref=e1617]:
+              - link "Pneus 245 45 R18" [ref=e1618]:
+                - /url: https://www.carter-cash.com/pneus/245-45-r18
+            - listitem [ref=e1619]:
+              - link "Pneus 225 45 R19" [ref=e1620]:
+                - /url: https://www.carter-cash.com/pneus/225-45-r19
+      - heading "Nos autres marques de pneus" [level=2] [ref=e1621]
+      - generic [ref=e1622]:
+        - list [ref=e1624]:
+          - listitem [ref=e1625]:
+            - link "Pneus Alliance" [ref=e1626]:
+              - /url: https://www.carter-cash.com/pneus/alliance
+          - listitem [ref=e1627]:
+            - link "Pneus Bfgoodrich" [ref=e1628]:
+              - /url: https://www.carter-cash.com/pneus/bfgoodrich
+          - listitem [ref=e1629]:
+            - link "Pneus Black Star" [ref=e1630]:
+              - /url: https://www.carter-cash.com/pneus/black-star
+          - listitem [ref=e1631]:
+            - link "Pneus Bridgestone" [ref=e1632]:
+              - /url: https://www.carter-cash.com/pneus/bridgestone
+          - listitem [ref=e1633]:
+            - link "Pneus Continental" [ref=e1634]:
+              - /url: https://www.carter-cash.com/pneus/continental
+          - listitem [ref=e1635]:
+            - link "Pneus Cooper" [ref=e1636]:
+              - /url: https://www.carter-cash.com/pneus/cooper
+          - listitem [ref=e1637]:
+            - link "Pneus Debica" [ref=e1638]:
+              - /url: https://www.carter-cash.com/pneus/debica
+          - listitem [ref=e1639]:
+            - link "Pneus Dunlop" [ref=e1640]:
+              - /url: https://www.carter-cash.com/pneus/dunlop
+          - listitem [ref=e1641]:
+            - link "Pneus Falken" [ref=e1642]:
+              - /url: https://www.carter-cash.com/pneus/falken
+          - listitem [ref=e1643]:
+            - link "Pneus Firestone" [ref=e1644]:
+              - /url: https://www.carter-cash.com/pneus/firestone
+          - listitem [ref=e1645]:
+            - link "Pneus Fortuna" [ref=e1646]:
+              - /url: https://www.carter-cash.com/pneus/fortuna
+          - listitem [ref=e1647]:
+            - link "Pneus Fulda" [ref=e1648]:
+              - /url: https://www.carter-cash.com/pneus/fulda
+          - listitem [ref=e1649]:
+            - link "Pneus Goodyear" [ref=e1650]:
+              - /url: https://www.carter-cash.com/pneus/goodyear
+          - listitem [ref=e1651]:
+            - link "Pneus Hankook" [ref=e1652]:
+              - /url: https://www.carter-cash.com/pneus/hankook
+          - listitem [ref=e1653]:
+            - link "Pneus Kleber" [ref=e1654]:
+              - /url: https://www.carter-cash.com/pneus/kleber
+        - list [ref=e1656]:
+          - listitem [ref=e1657]:
+            - link "Pneus Kumho" [ref=e1658]:
+              - /url: https://www.carter-cash.com/pneus/kumho
+          - listitem [ref=e1659]:
+            - link "Pneus Landsail" [ref=e1660]:
+              - /url: https://www.carter-cash.com/pneus/landsail
+          - listitem [ref=e1661]:
+            - link "Pneus Linglong" [ref=e1662]:
+              - /url: https://www.carter-cash.com/pneus/linglong
+          - listitem [ref=e1663]:
+            - link "Pneus Michelin" [ref=e1664]:
+              - /url: https://www.carter-cash.com/pneus/michelin
+          - listitem [ref=e1665]:
+            - link "Pneus Milestone" [ref=e1666]:
+              - /url: https://www.carter-cash.com/pneus/milestone
+          - listitem [ref=e1667]:
+            - link "Pneus Nankang" [ref=e1668]:
+              - /url: https://www.carter-cash.com/pneus/nankang
+          - listitem [ref=e1669]:
+            - link "Pneus Nexen" [ref=e1670]:
+              - /url: https://www.carter-cash.com/pneus/nexen
+          - listitem [ref=e1671]:
+            - link "Pneus Nokian" [ref=e1672]:
+              - /url: https://www.carter-cash.com/pneus/nokian
+          - listitem [ref=e1673]:
+            - link "Pneus Petlas" [ref=e1674]:
+              - /url: https://www.carter-cash.com/pneus/petlas
+          - listitem [ref=e1675]:
+            - link "Pneus Pirelli" [ref=e1676]:
+              - /url: https://www.carter-cash.com/pneus/pirelli
+          - listitem [ref=e1677]:
+            - link "Pneus Premier prix" [ref=e1678]:
+              - /url: https://www.carter-cash.com/pneus/premier-prix
+          - listitem [ref=e1679]:
+            - link "Pneus Reconditionne" [ref=e1680]:
+              - /url: https://www.carter-cash.com/pneus/reconditionne
+          - listitem [ref=e1681]:
+            - link "Pneus Toyo" [ref=e1682]:
+              - /url: https://www.carter-cash.com/pneus/toyo
+          - listitem [ref=e1683]:
+            - link "Pneus Tracmax" [ref=e1684]:
+              - /url: https://www.carter-cash.com/pneus/tracmax
+          - listitem [ref=e1685]:
+            - link "Pneus Uniroyal" [ref=e1686]:
+              - /url: https://www.carter-cash.com/pneus/uniroyal
+          - listitem [ref=e1687]:
+            - link "Pneus Vredestein" [ref=e1688]:
+              - /url: https://www.carter-cash.com/pneus/vredestein
+          - listitem [ref=e1689]:
+            - link "Pneus Yokohama" [ref=e1690]:
+              - /url: https://www.carter-cash.com/pneus/yokohama
+  - contentinfo [ref=e1691]:
+    - generic [ref=e1694]:
+      - generic [ref=e1696]:
+        - generic [ref=e1697]:
+          - paragraph [ref=e1698]:
+            - strong [ref=e1699]:
+              - text: 01 80 88 42 42
+              - text: (prix d'un appel local)
+              - text: Lun-Ven 9h-19h00
+              - text: Samedi 9h-17h
+          - list [ref=e1700]:
+            - listitem [ref=e1701]:
+              - link "Suivi de commande" [ref=e1702]:
+                - /url: /page/suivi-commande
+            - listitem [ref=e1703]:
+              - link "Livraison" [ref=e1704]:
+                - /url: /page/livraison
+            - listitem [ref=e1705]:
+              - link "Modes de paiement" [ref=e1706]:
+                - /url: /page/modes-de-paiement
+            - listitem [ref=e1707]:
+              - link "Retour commande" [ref=e1708]:
+                - /url: /page/retour-commande
+            - listitem [ref=e1709]:
+              - link "Retrait Magasin" [ref=e1710]:
+                - /url: /page/retrait-magasin
+            - listitem [ref=e1711]:
+              - link "FAQ" [ref=e1712]:
+                - /url: https://carter-cashsupport.zendesk.com/hc/fr/
+          - paragraph [ref=e1713]:
+            - 'link "Accessibilité : non conforme" [ref=e1715]':
+              - /url: /page/accessibilite
+          - paragraph [ref=e1716]:
+            - button "FACIL'iti" [ref=e1717] [cursor=pointer]:
+              - img "Gérer les options d’affichage" [ref=e1718]
+          - paragraph [ref=e1719]
+        - generic [ref=e1720]:
+          - heading "La newsletter" [level=4] [ref=e1721]
+          - text: Recevez nos actualités et bon plans.
+          - button "S'abonner" [ref=e1722] [cursor=pointer]
+          - paragraph [ref=e1723]:
+            - text: Votre adresse de messagerie est recueillie par CARTER-CASH pour vous envoyer ses actualités, offres et nouveautés. Vous pouvez à tout moment utiliser le lien de désabonnement intégré dans la Newsletter. Pour en savoir plus sur la gestion de vos données et vos droits, cliquez
+            - link "ici" [ref=e1724]:
+              - /url: https://www.carter-cash.com/page/donnees-personnelles
+          - generic [ref=e1725]:
+            - text: Ce site est protégé par reCAPTCHA. Les
+            - link "règles de confidentialité" [ref=e1726]:
+              - /url: https://policies.google.com/privacy
+            - text: et
+            - link "conditions d'utilisation" [ref=e1727]:
+              - /url: https://policies.google.com/terms
+            - text: de Google s'appliquent.
+      - generic [ref=e1728]:
+        - list [ref=e1729]:
+          - listitem [ref=e1730]:
+            - link "Contactez-nous" [ref=e1731]:
+              - /url: https://carter-cashsupport.zendesk.com/hc/fr
+          - listitem [ref=e1732]:
+            - link "CGV Carter-Cash.com" [ref=e1733]:
+              - /url: /page/conditions-generales-de-ventes
+          - listitem [ref=e1734]:
+            - link "CGU Carter-Cash.com" [ref=e1735]:
+              - /url: /page/cgu
+          - listitem [ref=e1736]:
+            - link "CG Magasins" [ref=e1737]:
+              - /url: /page/conditions-generales-de-ventes-magasin
+          - listitem [ref=e1738]:
+            - link "Mentions légales" [ref=e1739]:
+              - /url: /page/mentions-legales
+          - listitem [ref=e1740]:
+            - link "Cookies" [ref=e1741]:
+              - /url: /page/cookies
+          - listitem [ref=e1742]:
+            - link "Paramétrer mes cookies" [ref=e1743]:
+              - /url: "#"
+          - listitem [ref=e1744]:
+            - link "Notifications Push" [ref=e1745]:
+              - /url: /page/charte-notifications-push
+          - listitem [ref=e1746]:
+            - link "Données Personnelles" [ref=e1747]:
+              - /url: /page/donnees-personnelles
+          - listitem [ref=e1748]:
+            - link "Offres emplois" [ref=e1749]:
+              - /url: https://recrutement.carter-cash.com/
+          - listitem [ref=e1750]:
+            - link "Postulez sans CV !" [ref=e1751]:
+              - /url: https://www.carter-cash.com/emplois/candidature-sans-cv
+        - list [ref=e1752]:
+          - listitem [ref=e1753]:
+            - link [ref=e1754]:
+              - /url: https://www.carter-cash.es
+              - img [ref=e1755]
+          - listitem [ref=e1756]:
+            - link [ref=e1757]:
+              - /url: https://www.carter-cash.it
+              - img [ref=e1758]
+      - generic [ref=e1759]:
+        - list [ref=e1760]:
+          - listitem [ref=e1761]:
+            - link "Catalogue" [ref=e1762]:
+              - /url: https://view.publitas.com/cartercash/catalogue-hiver-2025/page/1
+          - listitem [ref=e1763]:
+            - link "Blog Auto" [ref=e1764]:
+              - /url: https://www.carter-cash.com/blog/
+          - listitem [ref=e1765]:
+            - link "Pneus pas chers" [ref=e1766]:
+              - /url: https://www.carter-cash.com/pneus
+          - listitem [ref=e1767]:
+            - link "Dimensions pneus" [ref=e1768]:
+              - /url: https://www.carter-cash.com/pneus/dimensions-de-pneus
+          - listitem [ref=e1769]:
+            - link "Pneus constructeurs" [ref=e1770]:
+              - /url: /pneus/tops-pneus-voiture
+          - listitem [ref=e1771]:
+            - link "Pneus marques" [ref=e1772]:
+              - /url: /pneus/tops-pneus-marques
+          - listitem [ref=e1773]:
+            - link "Pneus autour de moi" [ref=e1774]:
+              - /url: " /page/pneus-autour-de-moi"
+          - listitem [ref=e1775]:
+            - link "Tops pneus" [ref=e1776]:
+              - /url: https://www.carter-cash.com/pneus/top-pneus
+          - listitem [ref=e1777]:
+            - link "Les marques" [ref=e1778]:
+              - /url: https://www.carter-cash.com/page/marque
+          - listitem [ref=e1779]:
+            - link "Opération MICHELIN" [ref=e1780]:
+              - /url: https://www.carter-cash.com/page/operation-michelin
+          - listitem [ref=e1781]:
+            - link "Règlements jeux" [ref=e1782]:
+              - /url: /page/reglements
+          - listitem [ref=e1783]:
+            - link "Rouler durable" [ref=e1784]:
+              - /url: /page/rouler-durable
+        - list [ref=e1785]:
+          - listitem [ref=e1786]:
+            - link [ref=e1787]:
+              - /url: https://www.facebook.com/CarterCashAuto/
+              - img [ref=e1788]
+          - listitem [ref=e1789]:
+            - link [ref=e1790]:
+              - /url: https://www.instagram.com/cartercashauto/
+              - img [ref=e1791]
+          - listitem [ref=e1792]:
+            - link [ref=e1793]:
+              - /url: https://www.youtube.com/c/cartercash
+              - img [ref=e1794]
+  - dialog [ref=e1795]:
+    - generic [ref=e1800]:
+      - generic [ref=e1801]: Bienvenue sur Carter-Cash.com !
+      - paragraph [ref=e1802]: Lors de votre visite sur notre site Carter-Cash, des cookies (petits fichiers texte) sont déposés sur votre appareil. Ils permettent d'assurer le bon fonctionnement du site et une navigation sécurisée, de vous proposer des communications et publicités personnalisées, ainsi que d’analyser les visites dans le but d'améliorer le site.
+      - paragraph [ref=e1803]: A l’exception des cookies strictement nécessaires, vous pouvez choisir d’accepter et de continuer, de continuer sans accepter ou de paramétrer les cookies en cliquant sur l’un des boutons ci-dessous.
+      - paragraph [ref=e1804]: Vous pourrez mettre à jour votre choix à tout moment en cliquant sur "Paramétrez mes cookies" en bas de notre site.
+    - list [ref=e1805]:
+      - listitem "Paramétrer les cookies" [ref=e1806] [cursor=pointer]
+      - listitem "Continuer sans accepter" [ref=e1807] [cursor=pointer]
+      - listitem "Accepter et continuer" [ref=e1808] [cursor=pointer]
+```

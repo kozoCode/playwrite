@@ -1,0 +1,248 @@
+{
+  "testName": "NORAUTO ES AID RETRIEVAL",
+  "totalIterations": 30,
+  "passedIterations": 30,
+  "failedIterations": 0,
+  "results": [
+    {
+      "iteration": 1,
+      "passed": true,
+      "aid": "f8bfe261-1fd3-40aa-ace2-35c8e0b7a3d2",
+      "loadTime": 22187,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=13c68257-3c6e-46b9-b58f-bef9672082b5",
+      "browser": "chromium-3g"
+    },
+    {
+      "iteration": 2,
+      "passed": true,
+      "aid": "b3dfe293-7a1f-48b8-8775-f342a2b5a6b5",
+      "loadTime": 22051,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=2329fc7d-4941-4fc0-af14-4fc4b2355ea3",
+      "browser": "chromium-3g"
+    },
+    {
+      "iteration": 3,
+      "passed": true,
+      "aid": "5b921427-d3b4-4f07-97be-88c7af3c08db",
+      "loadTime": 22294,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=a98283e5-221f-40e4-bd87-4d5f3aedd6c3",
+      "browser": "chromium-3g"
+    },
+    {
+      "iteration": 4,
+      "passed": true,
+      "aid": "797482a3-30d0-4174-8d73-251bcbbf96a0",
+      "loadTime": 22172,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=72e2e45f-46e4-4d26-b54a-476b40aba732",
+      "browser": "chromium-3g"
+    },
+    {
+      "iteration": 5,
+      "passed": true,
+      "aid": "5af37f5b-6037-4fe1-89d5-4de4f59af181",
+      "loadTime": 22538,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=62aecf85-e82a-4ccb-9d01-d75e6439adb4",
+      "browser": "chromium-3g"
+    },
+    {
+      "iteration": 6,
+      "passed": true,
+      "aid": "965802bf-e780-4013-a90e-149face9154a",
+      "loadTime": 22075,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=809117a3-b40f-4959-ad3a-26609ad439c9",
+      "browser": "chromium-3g"
+    },
+    {
+      "iteration": 7,
+      "passed": true,
+      "aid": "064d8e5c-0170-4571-ae88-58b541b599ce",
+      "loadTime": 24230,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=66831729-b825-4ec1-80d5-95d1cada01fc",
+      "browser": "chromium-3g"
+    },
+    {
+      "iteration": 8,
+      "passed": true,
+      "aid": "80de3d7a-e959-4526-b08a-556d37ecf76f",
+      "loadTime": 22617,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=099b0ec4-97f5-44ad-89ec-6a3f5998be98",
+      "browser": "chromium-3g"
+    },
+    {
+      "iteration": 9,
+      "passed": true,
+      "aid": "77775f7b-61c8-44dd-845e-f46e30e22878",
+      "loadTime": 22136,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=9a027011-1e98-4500-99de-0a585fdd1b85",
+      "browser": "chromium-3g"
+    },
+    {
+      "iteration": 10,
+      "passed": true,
+      "aid": "3b887fa1-68ff-4f72-8f1b-c366c95e440a",
+      "loadTime": 22149,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=053a58f3-a13e-4052-99cd-8bbe24331a3e",
+      "browser": "chromium-3g"
+    },
+    {
+      "iteration": 11,
+      "passed": true,
+      "aid": "7dc36e01-2b94-4643-bf94-6ce9af807d6d",
+      "loadTime": 22224,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=8304f6a6-1397-44bb-b5c9-a3e553cca179",
+      "browser": "chromium-3g"
+    },
+    {
+      "iteration": 12,
+      "passed": true,
+      "aid": "6fd68114-15fa-4eee-abb3-e602f39cdac2",
+      "loadTime": 22129,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=d2d21840-563c-4d73-ae03-51e257cce882",
+      "browser": "chromium-3g"
+    },
+    {
+      "iteration": 13,
+      "passed": true,
+      "aid": "e642cc72-d90e-4353-8ef8-ad45be3e15af",
+      "loadTime": 22743,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=dac337d9-0e14-47c2-86cc-d2bfdd2bba76",
+      "browser": "chromium-3g"
+    },
+    {
+      "iteration": 14,
+      "passed": true,
+      "aid": "8cae9d81-d0b8-43fd-b276-bca07e303afc",
+      "loadTime": 22114,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=2a355361-0b89-4175-b7f5-84b3e8d64c36",
+      "browser": "chromium-3g"
+    },
+    {
+      "iteration": 15,
+      "passed": true,
+      "aid": "4707cfa5-e4e9-4c0a-bd25-4792c603541d",
+      "loadTime": 22240,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=edffeb40-cc85-4cc0-8763-7cc40c123530",
+      "browser": "chromium-3g"
+    },
+    {
+      "iteration": 16,
+      "passed": true,
+      "aid": "08100f7c-1e71-466f-9559-0b2fcfc3d047",
+      "loadTime": 22174,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=c545b4f7-7973-4ef9-9d75-1f164eb916e3",
+      "browser": "chromium-3g"
+    },
+    {
+      "iteration": 17,
+      "passed": true,
+      "aid": "45c6d9e3-ee1b-4b8b-b4f4-90edd1979bd2",
+      "loadTime": 21980,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=0b4f8d2a-0d73-4fd1-9660-218936f82dea",
+      "browser": "chromium-3g"
+    },
+    {
+      "iteration": 18,
+      "passed": true,
+      "aid": "5929825b-b6b0-45ab-bc45-cc018c787237",
+      "loadTime": 22302,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=894c0efe-5c3a-46fc-b530-2e1434788401",
+      "browser": "chromium-3g"
+    },
+    {
+      "iteration": 19,
+      "passed": true,
+      "aid": "5370b651-45b5-4203-a88a-a63f595f6629",
+      "loadTime": 22424,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=1853ee78-5e58-4f30-aff0-e00bf2aa2467",
+      "browser": "chromium-3g"
+    },
+    {
+      "iteration": 20,
+      "passed": true,
+      "aid": "64b3b19b-0618-4d2c-8a4a-949c92ef4ab2",
+      "loadTime": 22054,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=d0f045a0-12f5-4c3c-8fec-4793f6a39521",
+      "browser": "chromium-3g"
+    },
+    {
+      "iteration": 21,
+      "passed": true,
+      "aid": "18023b5c-deb0-47b1-be53-406693b5bb72",
+      "loadTime": 22664,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=db8560aa-7d3a-416c-9eea-eb82f065400a",
+      "browser": "chromium-3g"
+    },
+    {
+      "iteration": 22,
+      "passed": true,
+      "aid": "e37834c3-1c1d-4da3-a7c9-08b594e8b720",
+      "loadTime": 22185,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=ebd3d772-7efc-4356-b24d-0ff5a911d956",
+      "browser": "chromium-3g"
+    },
+    {
+      "iteration": 23,
+      "passed": true,
+      "aid": "eb8ff56a-3ee5-4e8f-84c8-2056daacb3ae",
+      "loadTime": 22504,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=1c6cc9aa-b3fb-4f1f-b109-499f6ce11b76",
+      "browser": "chromium-3g"
+    },
+    {
+      "iteration": 24,
+      "passed": true,
+      "aid": "d3f3154a-ba2a-496e-9a8e-74794354cf12",
+      "loadTime": 23317,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=b3cf3340-5b84-41f0-ae3e-ac046c2a4955",
+      "browser": "chromium-3g"
+    },
+    {
+      "iteration": 25,
+      "passed": true,
+      "aid": "d72fd18f-a267-4ee9-b5f1-1ad4b5748897",
+      "loadTime": 22511,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=f06a1e20-b1a8-4e2d-878a-4c26e5cfd277",
+      "browser": "chromium-3g"
+    },
+    {
+      "iteration": 26,
+      "passed": true,
+      "aid": "c272bcd6-7abe-4af1-9607-e006b4fbeee4",
+      "loadTime": 22051,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=1f2b37ed-c8e0-4d5c-80bb-95e38a520fbc",
+      "browser": "chromium-3g"
+    },
+    {
+      "iteration": 27,
+      "passed": true,
+      "aid": "c95399a1-2a1c-4d11-bc8b-a49db29d1161",
+      "loadTime": 22166,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=c3a996db-b8b5-413b-99c9-c405c96a9a58",
+      "browser": "chromium-3g"
+    },
+    {
+      "iteration": 28,
+      "passed": true,
+      "aid": "2894d030-29b8-45d2-9216-bfb577f500b2",
+      "loadTime": 22017,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=ddd2bc1b-05e9-4d06-8fd1-e27132216028",
+      "browser": "chromium-3g"
+    },
+    {
+      "iteration": 29,
+      "passed": true,
+      "aid": "51570181-6576-48eb-a129-d35b029a04b3",
+      "loadTime": 22993,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=a273f844-9fdf-4728-86c7-63d60ff54e80",
+      "browser": "chromium-3g"
+    },
+    {
+      "iteration": 30,
+      "passed": true,
+      "aid": "bd6d6d5b-61d8-41cc-b076-8ccace86a05c",
+      "loadTime": 22431,
+      "hitUrl": "https://sstats.norauto.es/ee/irl1/v1/interact?configId=ad0197df-45ed-4c06-b4cf-88c985b39175&requestId=b43ead93-23a7-4aff-af54-c2f287586e0a",
+      "browser": "chromium-3g"
+    }
+  ]
+}

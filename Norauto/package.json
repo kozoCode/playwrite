@@ -1,0 +1,13 @@
+{
+  "name": "norauto-es-aid-test",
+  "version": "1.0.0",
+  "description": "Test AID Retrieval for Norauto ES",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
