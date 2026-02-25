@@ -2,11 +2,11 @@ import { IterationResult } from './results-reporter';
 
 export interface ABTestStats {
   totalIterations: number;
-  lpCount: number;
-  wwwCount: number;
+  oriCount: number;
+  lpoCount: number;
   unknownCount: number;
-  lpPercentage: number;
-  wwwPercentage: number;
+  oriPercentage: number;
+  lpoPercentage: number;
   expectedSplit: number;
   chiSquareStatistic: number;
   pValue: number;
@@ -19,18 +19,18 @@ export interface ABTestStats {
 export class ABTestReporter {
 
   analyze(results: IterationResult[], expectedSplit: number = 0.5): ABTestStats {
-    const lpCount = results.filter(r => r.variant === 'lp').length;
-    const wwwCount = results.filter(r => r.variant === 'www').length;
+    const oriCount = results.filter(r => r.variant === 'ori').length;
+    const lpoCount = results.filter(r => r.variant === 'lpo').length;
     const unknownCount = results.filter(r => r.variant === 'unknown' || !r.variant).length;
-    const validCount = lpCount + wwwCount;
+    const validCount = oriCount + lpoCount;
 
-    const lpPercentage = validCount > 0 ? lpCount / validCount : 0;
-    const wwwPercentage = validCount > 0 ? wwwCount / validCount : 0;
+    const oriPercentage = validCount > 0 ? oriCount / validCount : 0;
+    const lpoPercentage = validCount > 0 ? lpoCount / validCount : 0;
 
-    const chiSquare = this.chiSquareTest(lpCount, wwwCount, expectedSplit);
+    const chiSquare = this.chiSquareTest(oriCount, lpoCount, expectedSplit);
     const pValue = this.chiSquarePValue(chiSquare);
 
-    const ci = this.wilsonConfidenceInterval(lpCount, validCount);
+    const ci = this.wilsonConfidenceInterval(oriCount, validCount);
 
     const evar157Dist: Record<string, number> = {};
     let evar157Present = 0;
@@ -43,11 +43,11 @@ export class ABTestReporter {
 
     return {
       totalIterations: results.length,
-      lpCount,
-      wwwCount,
+      oriCount,
+      lpoCount,
       unknownCount,
-      lpPercentage,
-      wwwPercentage,
+      oriPercentage,
+      lpoPercentage,
       expectedSplit,
       chiSquareStatistic: chiSquare,
       pValue,
@@ -122,16 +122,16 @@ export class ABTestReporter {
     console.log('RAPPORT A/B TEST - VERIFICATION DU SPLIT');
     console.log('================================================================================');
     console.log(`Itérations totales: ${stats.totalIterations}`);
-    console.log(`  lp.norauto.es:  ${stats.lpCount} (${(stats.lpPercentage * 100).toFixed(1)}%)`);
-    console.log(`  www.norauto.es: ${stats.wwwCount} (${(stats.wwwPercentage * 100).toFixed(1)}%)`);
-    console.log(`  Indéterminé:    ${stats.unknownCount}`);
+    console.log(`  ori (originale):  ${stats.oriCount} (${(stats.oriPercentage * 100).toFixed(1)}%)`);
+    console.log(`  lpo (landing):    ${stats.lpoCount} (${(stats.lpoPercentage * 100).toFixed(1)}%)`);
+    console.log(`  Indéterminé:      ${stats.unknownCount}`);
     console.log('');
     console.log('--- ANALYSE STATISTIQUE ---');
     console.log(`Split attendu: ${(stats.expectedSplit * 100).toFixed(0)}/${((1 - stats.expectedSplit) * 100).toFixed(0)}`);
     console.log(`Statistique chi-carré: ${stats.chiSquareStatistic.toFixed(4)}`);
     console.log(`P-value: ${stats.pValue.toFixed(4)}`);
     console.log(`Déviation significative: ${stats.isSignificant ? 'OUI ⚠' : 'NON ✓'}`);
-    console.log(`IC 95% proportion LP: [${(stats.confidenceInterval.lower * 100).toFixed(1)}%, ${(stats.confidenceInterval.upper * 100).toFixed(1)}%]`);
+    console.log(`IC 95% proportion ORI: [${(stats.confidenceInterval.lower * 100).toFixed(1)}%, ${(stats.confidenceInterval.upper * 100).toFixed(1)}%]`);
     console.log('');
     console.log('--- ANALYSE eVar157 ---');
     console.log(`Taux de capture: ${(stats.evar157CaptureRate * 100).toFixed(1)}%`);

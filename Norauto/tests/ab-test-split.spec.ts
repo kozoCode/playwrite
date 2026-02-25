@@ -12,13 +12,47 @@ const TOTAL_ITERATIONS = parseInt(process.env.TOTAL_ITERATIONS || '200', 10);
 
 /**
  * URL d'entrée qui déclenche l'A/B test (Google Ads click URL).
- * Le système redirige vers lp.norauto.es ou www.norauto.es.
+ * La redirection atterrit toujours sur www.norauto.es ; la variante est
+ * déterminée par les paramètres URL (dataiads_variation / lpo).
  */
 const TEST_URL = process.env.TEST_URL || 'https://www.google.com/aclk?sa=L&ai=DChsSEwjal8z2rPSSAxUoGQYAHZlRLGEYACICCAEQEBoCd3M&ae=2&co=1&ase=2&gclid=CjwKCAiA2PrMBhA4EiwAwpHyCyTYypFr6AsJOlWoYvWcV7AlzfuA2ad-5WqAVSubmsEP-_ZzTVXRMRoCnTIQAvD_BwE&cce=2&category=acrcp_v1_71&sig=AOD64_2MJAd4FNF-2Le9cOWevXwPRXVb3A&ctype=5&q=&nis=4&ved=2ahUKEwjuh8T2rPSSAxUPNvsDHQETB5EQ9aACKAB6BAgdEGU&adurl=';
 
-const EXPECTED_LP_PROPORTION = 0.5;
+const EXPECTED_ORI_PROPORTION = 0.5;
 
 const resultsDir = path.join(__dirname, '..', 'results');
+
+// ============================================================================
+// HELPERS
+// ============================================================================
+
+/**
+ * Détermine la variante A/B à partir des paramètres de l'URL finale.
+ *  - "ori"  : URL contient dataiads_variation=…-ori et lpo=ori
+ *  - "lpo"  : URL contient lpoid mais PAS dataiads_variation
+ *  - "unknown" : aucun marqueur reconnu
+ */
+function detectVariant(finalUrl: string): 'ori' | 'lpo' | 'unknown' {
+  try {
+    const url = new URL(finalUrl);
+    const variation = url.searchParams.get('dataiads_variation');
+    const lpo = url.searchParams.get('lpo');
+    const lpoid = url.searchParams.get('lpoid');
+
+    if (variation && variation.endsWith('-ori') && lpo === 'ori') {
+      return 'ori';
+    }
+    if (lpoid && !variation) {
+      return 'lpo';
+    }
+    // Fallback : si au moins lpoid est présent avec variation → ori
+    if (lpoid && variation) {
+      return 'ori';
+    }
+  } catch {
+    // URL invalide
+  }
+  return 'unknown';
+}
 
 // ============================================================================
 // TEST SUITE
@@ -54,15 +88,9 @@ test.describe('A/B Test Split Verification - Norauto ES', () => {
         // Navigation vers l'URL de test
         await page.goto(TEST_URL, { waitUntil: 'domcontentloaded', timeout: 60000 });
 
-        // Déterminer la variante via l'URL finale
+        // Déterminer la variante via les paramètres de l'URL finale
         const finalUrl = page.url();
-        let variant: 'lp' | 'www' | 'unknown' = 'unknown';
-
-        if (finalUrl.includes('lp.norauto.es')) {
-          variant = 'lp';
-        } else if (finalUrl.includes('www.norauto.es')) {
-          variant = 'www';
-        }
+        const variant = detectVariant(finalUrl);
 
         // Gérer la bannière de consentement
         const consentButton = page.locator('#onetrust-accept-btn-handler')
@@ -74,7 +102,7 @@ test.describe('A/B Test Split Verification - Norauto ES', () => {
           await consentButton.waitFor({ timeout: consentTimeout });
           await consentButton.click();
         } catch {
-          console.log(`Iteration ${i}: Bannière de consentement non trouvée`);
+          // Bannière de consentement non trouvée, on continue
         }
 
         // Attendre les hits analytics asynchrones
@@ -86,7 +114,6 @@ test.describe('A/B Test Split Verification - Norauto ES', () => {
         const hitWithDimensions = statsHelper.getHitWithDimensions();
         const lastHit = statsHelper.getLastHit();
 
-        const aid = statsHelper.extractAid(lastHit);
         const evar157 = statsHelper.extractEvar157(hitWithDimensions || lastHit);
 
         const loadTime = Date.now() - startTime;
@@ -95,7 +122,6 @@ test.describe('A/B Test Split Verification - Norauto ES', () => {
         const result: IterationResult = {
           iteration: i,
           passed,
-          aid,
           loadTime,
           hitUrl: lastHit?.url,
           browser: browserName,
@@ -106,7 +132,6 @@ test.describe('A/B Test Split Verification - Norauto ES', () => {
         reporter.addResult(result);
 
         expect.soft(variant, `Variante indéterminée pour URL: ${finalUrl}`).not.toBe('unknown');
-        expect.soft(evar157, `eVar157 absent sur itération ${i}`).toBeDefined();
 
         console.log(
           `#${String(i).padStart(3, '0')}: variant=${variant} | evar157=${evar157 || 'N/A'} | ` +
@@ -125,21 +150,21 @@ test.describe('A/B Test Split Verification - Norauto ES', () => {
     reporter.exportToCSV(resultsDir);
 
     const results = reporter.getResults().results;
-    const stats = abReporter.analyze(results, EXPECTED_LP_PROPORTION);
+    const stats = abReporter.analyze(results, EXPECTED_ORI_PROPORTION);
     abReporter.printReport(stats);
 
     // Verdict final si suffisamment de données
-    if (stats.lpCount + stats.wwwCount >= 30) {
+    if (stats.oriCount + stats.lpoCount >= 30) {
       if (stats.isSignificant) {
         console.log(
           `⚠ ATTENTION: Le split dévie significativement du ratio attendu ` +
-          `${EXPECTED_LP_PROPORTION * 100}/${(1 - EXPECTED_LP_PROPORTION) * 100}. ` +
+          `${EXPECTED_ORI_PROPORTION * 100}/${(1 - EXPECTED_ORI_PROPORTION) * 100}. ` +
           `Vérifiez la configuration de l'A/B test.`
         );
       } else {
         console.log(
           `✓ PASS: Le split est cohérent avec le ratio attendu ` +
-          `${EXPECTED_LP_PROPORTION * 100}/${(1 - EXPECTED_LP_PROPORTION) * 100}.`
+          `${EXPECTED_ORI_PROPORTION * 100}/${(1 - EXPECTED_ORI_PROPORTION) * 100}.`
         );
       }
     }

@@ -4,11 +4,11 @@ import * as path from 'path';
 export interface IterationResult {
   iteration: number;
   passed: boolean;
-  aid: string | undefined;
+  aid?: string;
   loadTime: number;
   hitUrl?: string;
   browser?: string;
-  variant?: 'lp' | 'www' | 'unknown';
+  variant?: 'ori' | 'lpo' | 'unknown';
   finalUrl?: string;
   evar157?: string;
 }
@@ -50,15 +50,15 @@ export class ResultsReporter {
     console.log('\n================================================================================');
     console.log(`RESULTATS - ${stats.testName} (${stats.totalIterations} itérations)`);
     console.log('================================================================================');
-    console.log(`Tests passants (AID présent): ${stats.passedIterations}/${stats.totalIterations}`);
-    console.log(`Tests échoués (AID absent): ${stats.failedIterations}/${stats.totalIterations}`);
+    console.log(`Variante détectée: ${stats.passedIterations}/${stats.totalIterations}`);
+    console.log(`Variante indéterminée: ${stats.failedIterations}/${stats.totalIterations}`);
     console.log('\n--- DETAIL PAR ITERATION ---');
 
     for (const result of stats.results) {
       const status = result.passed ? 'PASS' : 'FAIL';
-      const aidDisplay = result.aid || 'undefined';
+      const variantDisplay = result.variant || 'unknown';
       const browserDisplay = result.browser ? ` | browser=${result.browser}` : '';
-      console.log(`#${String(result.iteration).padStart(2, '0')}: ${status} | aid=${aidDisplay} | loadTime=${result.loadTime}ms${browserDisplay}`);
+      console.log(`#${String(result.iteration).padStart(2, '0')}: ${status} | variant=${variantDisplay} | loadTime=${result.loadTime}ms${browserDisplay}`);
     }
 
     console.log('================================================================================\n');
@@ -83,9 +83,9 @@ export class ResultsReporter {
     const filename = `norauto-es-aid-${timestamp}.csv`;
     const filepath = path.join(resultsDir, filename);
 
-    const header = 'iteration,passed,aid,loadTime,browser,variant,finalUrl,evar157';
+    const header = 'iteration,passed,loadTime,browser,variant,finalUrl,evar157';
     const rows = stats.results.map(r =>
-      `${r.iteration},${r.passed},${r.aid || ''},${r.loadTime},${r.browser || ''},${r.variant || ''},${r.finalUrl || ''},${r.evar157 || ''}`
+      `${r.iteration},${r.passed},${r.loadTime},${r.browser || ''},${r.variant || ''},${r.finalUrl || ''},${r.evar157 || ''}`
     );
     const csvContent = [header, ...rows].join('\n');
 
