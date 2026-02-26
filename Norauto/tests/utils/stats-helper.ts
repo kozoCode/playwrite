@@ -8,7 +8,14 @@ export interface StatsHit {
 
 export class StatsHelper {
   private hits: StatsHit[] = [];
-  private static readonly STATS_PATTERN = /sstats\.norauto\.es\/ee\/irl1\/v1\/interact/;
+
+  // Patterns d'endpoints analytics Adobe (Edge + collect classique)
+  private static readonly PATTERNS = [
+    /sstats\.norauto\.es\/ee\/irl1\/v1\/interact/,
+    /norauto\.es\/ee\/.*\/v1\/interact/,
+    /edge\.adobedc\.net/,
+    /norauto\.sc\.omtrdc\.net/,
+  ];
 
   constructor() {
     this.hits = [];
@@ -16,15 +23,17 @@ export class StatsHelper {
 
   setupInterception(page: Page): void {
     page.on('request', (request) => {
-      if (StatsHelper.STATS_PATTERN.test(request.url()) && request.method() === 'POST') {
+      const url = request.url();
+      const isAnalytics = StatsHelper.PATTERNS.some(p => p.test(url));
+      if (isAnalytics && request.method() === 'POST') {
         try {
           const hit: StatsHit = {
-            url: request.url(),
+            url,
             timestamp: Date.now(),
-            body: JSON.parse(request.postData() || '{}')
+            body: JSON.parse(request.postData() || '{}'),
           };
           this.hits.push(hit);
-        } catch (e) {
+        } catch {
           // Ignore parsing errors
         }
       }
@@ -39,13 +48,21 @@ export class StatsHelper {
     return this.hits[this.hits.length - 1];
   }
 
+  /**
+   * Parcourt TOUS les events de TOUS les hits pour extraire l'AID RtbHouse.
+   */
   extractAid(hit: StatsHit | undefined): string | undefined {
+    if (!hit) return undefined;
     try {
-      const aid = hit?.body?.events?.[0]?.xdm?._norauto?.BrowserInformation?.Providers?.RtbHouse?.aid;
-      return aid;
+      const events = hit.body?.events || [];
+      for (const event of events) {
+        const aid = event?.xdm?._norauto?.BrowserInformation?.Providers?.RtbHouse?.aid;
+        if (aid) return aid;
+      }
     } catch {
-      return undefined;
+      // ignore
     }
+    return undefined;
   }
 
   validateAid(hit: StatsHit | undefined): boolean {
@@ -53,27 +70,74 @@ export class StatsHelper {
     return aid !== undefined && aid !== null && aid !== '';
   }
 
-  extractEvar157(hit: StatsHit | undefined): string | undefined {
+  /**
+   * Parcourt TOUS les events d'un hit pour extraire eVar157.
+   */
+  extractEvar157FromHit(hit: StatsHit | undefined): string | undefined {
+    if (!hit) return undefined;
     try {
-      return hit?.body?.events?.[0]?.xdm?._experience?.analytics?.customDimensions?.eVars?.eVar157;
+      const events = hit.body?.events || [];
+      for (const event of events) {
+        const val = event?.xdm?._experience?.analytics?.customDimensions?.eVars?.eVar157;
+        if (val) return val;
+      }
     } catch {
-      return undefined;
+      // ignore
     }
+    return undefined;
+  }
+
+  /**
+   * Alias rétro-compatible : cherche eVar157 dans un hit donné.
+   */
+  extractEvar157(hit: StatsHit | undefined): string | undefined {
+    return this.extractEvar157FromHit(hit);
+  }
+
+  /**
+   * Parcourt TOUS les hits et TOUS les events pour trouver eVar157.
+   * Retourne la première valeur trouvée.
+   */
+  findEvar157(): string | undefined {
+    for (const hit of this.hits) {
+      const val = this.extractEvar157FromHit(hit);
+      if (val) return val;
+    }
+    return undefined;
+  }
+
+  /**
+   * Parcourt TOUS les hits et TOUS les events pour trouver l'AID.
+   * Retourne la première valeur trouvée.
+   */
+  findAid(): string | undefined {
+    for (const hit of this.hits) {
+      const aid = this.extractAid(hit);
+      if (aid) return aid;
+    }
+    return undefined;
   }
 
   extractCustomDimensions(hit: StatsHit | undefined): { eVars?: Record<string, string>; props?: Record<string, string> } {
     try {
-      const dims = hit?.body?.events?.[0]?.xdm?._experience?.analytics?.customDimensions;
-      return { eVars: dims?.eVars, props: dims?.props };
+      const events = hit?.body?.events || [];
+      for (const event of events) {
+        const dims = event?.xdm?._experience?.analytics?.customDimensions;
+        if (dims) return { eVars: dims?.eVars, props: dims?.props };
+      }
     } catch {
-      return { eVars: undefined, props: undefined };
+      // ignore
     }
+    return { eVars: undefined, props: undefined };
   }
 
   getHitWithDimensions(): StatsHit | undefined {
-    return this.hits.find(
-      (hit) => hit.body?.events?.[0]?.xdm?._experience?.analytics?.customDimensions
-    );
+    return this.hits.find((hit) => {
+      const events = hit.body?.events || [];
+      return events.some(
+        (event: any) => event?.xdm?._experience?.analytics?.customDimensions
+      );
+    });
   }
 
   clearHits(): void {

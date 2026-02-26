@@ -109,12 +109,9 @@ test.describe('A/B Test Split Verification - Norauto ES', () => {
         const waitTime = throttle === '3g' ? 10000 : 5000;
         await page.waitForTimeout(waitTime);
 
-        // Extraire les données des hits interceptés
+        // Extraire eVar157 en parcourant TOUS les hits et TOUS les events
         const allHits = statsHelper.getHits();
-        const hitWithDimensions = statsHelper.getHitWithDimensions();
-        const lastHit = statsHelper.getLastHit();
-
-        const evar157 = statsHelper.extractEvar157(hitWithDimensions || lastHit);
+        const evar157 = statsHelper.findEvar157();
 
         const loadTime = Date.now() - startTime;
 
@@ -123,7 +120,6 @@ test.describe('A/B Test Split Verification - Norauto ES', () => {
           iteration: i,
           passed,
           loadTime,
-          hitUrl: lastHit?.url,
           browser: browserName,
           variant,
           finalUrl,

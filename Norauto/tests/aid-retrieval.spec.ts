@@ -51,10 +51,9 @@ test.describe('AID Retrieval - Norauto ES', () => {
         const waitTime = throttle === '3g' ? 10000 : 5000;
         await page.waitForTimeout(waitTime);
 
-        // Récupérer le dernier hit capturé
-        const lastHit = statsHelper.getLastHit();
-        const aid = statsHelper.extractAid(lastHit);
-        const passed = statsHelper.validateAid(lastHit);
+        // Parcourir TOUS les hits pour trouver l'AID
+        const aid = statsHelper.findAid();
+        const passed = aid !== undefined && aid !== null && aid !== '';
 
         const loadTime = Date.now() - startTime;
 
