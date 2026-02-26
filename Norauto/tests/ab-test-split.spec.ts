@@ -111,6 +111,7 @@ test.describe('A/B Test Split Verification - Norauto ES', () => {
 
         // Extraire eVar157 en parcourant TOUS les hits et TOUS les events
         const allHits = statsHelper.getHits();
+        const allEvar157 = statsHelper.findAllEvar157();
         const evar157 = statsHelper.findEvar157();
 
         const loadTime = Date.now() - startTime;
@@ -129,9 +130,13 @@ test.describe('A/B Test Split Verification - Norauto ES', () => {
 
         expect.soft(variant, `Variante indéterminée pour URL: ${finalUrl}`).not.toBe('unknown');
 
+        const evarDisplay = allEvar157.length > 1
+          ? `${evar157} (${allEvar157.length} valeurs: ${allEvar157.join(' | ')})`
+          : (evar157 || 'N/A');
+
         console.log(
-          `#${String(i).padStart(3, '0')}: variant=${variant} | evar157=${evar157 || 'N/A'} | ` +
-          `url=${finalUrl} | hits=${allHits.length} | ${loadTime}ms`
+          `#${String(i).padStart(3, '0')}: variant=${variant} | evar157=${evarDisplay} | ` +
+          `hits=${allHits.length} | ${loadTime}ms`
         );
 
       } finally {

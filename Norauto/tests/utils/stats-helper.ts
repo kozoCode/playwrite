@@ -95,27 +95,67 @@ export class StatsHelper {
   }
 
   /**
+   * Collecte TOUTES les valeurs distinctes d'eVar157 à travers tous les hits/events.
+   */
+  findAllEvar157(): string[] {
+    const values = new Set<string>();
+    for (const hit of this.hits) {
+      try {
+        const events = hit.body?.events || [];
+        for (const event of events) {
+          const val = event?.xdm?._experience?.analytics?.customDimensions?.eVars?.eVar157;
+          if (val) values.add(val);
+        }
+      } catch {
+        // ignore
+      }
+    }
+    return [...values];
+  }
+
+  /**
    * Parcourt TOUS les hits et TOUS les events pour trouver eVar157.
-   * Retourne la première valeur trouvée.
+   * Si plusieurs valeurs distinctes sont trouvées, log un warning et retourne la dernière.
    */
   findEvar157(): string | undefined {
-    for (const hit of this.hits) {
-      const val = this.extractEvar157FromHit(hit);
-      if (val) return val;
+    const all = this.findAllEvar157();
+    if (all.length === 0) return undefined;
+    if (all.length > 1) {
+      console.warn(`[StatsHelper] ${all.length} valeurs distinctes d'eVar157 trouvées: ${all.join(' | ')}`);
     }
-    return undefined;
+    return all[all.length - 1];
+  }
+
+  /**
+   * Collecte TOUTES les valeurs distinctes d'AID à travers tous les hits/events.
+   */
+  findAllAids(): string[] {
+    const values = new Set<string>();
+    for (const hit of this.hits) {
+      try {
+        const events = hit.body?.events || [];
+        for (const event of events) {
+          const aid = event?.xdm?._norauto?.BrowserInformation?.Providers?.RtbHouse?.aid;
+          if (aid) values.add(aid);
+        }
+      } catch {
+        // ignore
+      }
+    }
+    return [...values];
   }
 
   /**
    * Parcourt TOUS les hits et TOUS les events pour trouver l'AID.
-   * Retourne la première valeur trouvée.
+   * Si plusieurs valeurs distinctes sont trouvées, log un warning et retourne la dernière.
    */
   findAid(): string | undefined {
-    for (const hit of this.hits) {
-      const aid = this.extractAid(hit);
-      if (aid) return aid;
+    const all = this.findAllAids();
+    if (all.length === 0) return undefined;
+    if (all.length > 1) {
+      console.warn(`[StatsHelper] ${all.length} AIDs distincts trouvés: ${all.join(' | ')}`);
     }
-    return undefined;
+    return all[all.length - 1];
   }
 
   extractCustomDimensions(hit: StatsHit | undefined): { eVars?: Record<string, string>; props?: Record<string, string> } {
