@@ -3,7 +3,7 @@ import { StatsHelper } from './utils/stats-helper';
 import { ResultsReporter, IterationResult } from './utils/results-reporter';
 import * as path from 'path';
 
-const TOTAL_ITERATIONS = 30;
+const TOTAL_ITERATIONS = parseInt(process.env.TOTAL_ITERATIONS || '30', 10);
 const resultsDir = path.join(__dirname, '..', 'results');
 
 test.describe('AID Retrieval - Norauto ES', () => {
@@ -63,7 +63,7 @@ test.describe('AID Retrieval - Norauto ES', () => {
           passed,
           aid,
           loadTime,
-          hitUrl: lastHit?.url,
+          hitUrl: statsHelper.getHits().at(-1)?.url,
           browser: browserName
         };
         reporter.addResult(result);
