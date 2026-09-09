@@ -5,6 +5,7 @@
   "scripts": {
     "test": "npx playwright test",
     "test:headed": "npx playwright test --headed",
+    "test:ab": "npx playwright test ab-test-split --project=chromium",
     "report": "npx playwright show-report"
   },
   "devDependencies": {

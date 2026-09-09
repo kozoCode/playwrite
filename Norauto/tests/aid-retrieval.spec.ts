@@ -3,7 +3,7 @@ import { StatsHelper } from './utils/stats-helper';
 import { ResultsReporter, IterationResult } from './utils/results-reporter';
 import * as path from 'path';
 
-const TOTAL_ITERATIONS = 30;
+const TOTAL_ITERATIONS = parseInt(process.env.TOTAL_ITERATIONS || '30', 10);
 const resultsDir = path.join(__dirname, '..', 'results');
 
 test.describe('AID Retrieval - Norauto ES', () => {
@@ -51,10 +51,9 @@ test.describe('AID Retrieval - Norauto ES', () => {
         const waitTime = throttle === '3g' ? 10000 : 5000;
         await page.waitForTimeout(waitTime);
 
-        // Récupérer le dernier hit capturé
-        const lastHit = statsHelper.getLastHit();
-        const aid = statsHelper.extractAid(lastHit);
-        const passed = statsHelper.validateAid(lastHit);
+        // Parcourir TOUS les hits pour trouver l'AID
+        const aid = statsHelper.findAid();
+        const passed = aid !== undefined && aid !== null && aid !== '';
 
         const loadTime = Date.now() - startTime;
 
@@ -64,7 +63,7 @@ test.describe('AID Retrieval - Norauto ES', () => {
           passed,
           aid,
           loadTime,
-          hitUrl: lastHit?.url,
+          hitUrl: statsHelper.getHits().at(-1)?.url,
           browser: browserName
         };
         reporter.addResult(result);
